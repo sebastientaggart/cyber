@@ -1,0 +1,61 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Knowledge on Demand`
+  - var bodyClass = 'page-kod'
+  - var pageDescription = 'Knowledge on Demand — free cybersecurity education for the Healthcare and Public Health sector.'
+
+block content
+  section.kod-landing
+    .container-xl
+      .kod-landing__intro.page-intro-box(data-animate)
+        h1 Knowledge on Demand
+        p= pageContents.kod.descr
+
+  section.kod-landing-carousel
+    .container-xl
+      - var imageCodeMap = { FiveThreats: 'carousel-five-threats.png', QuickShots: 'carousel-quick-shots.png', cpr: 'carousel-cpr.png', pfy: 'carousel-pfy.png', aed: 'carousel-aed.png' }
+      #kod-carousel.carousel.slide.brand-carousel(
+        data-bs-ride="carousel"
+        data-bs-interval="120000"
+      )
+        .carousel-indicators
+          each item, idx in pageContents.kod.carouselItems
+            button(
+              type="button"
+              data-bs-target="#kod-carousel"
+              data-bs-slide-to=idx
+              class=(idx === 0 ? 'active' : '')
+              aria-label=`Slide ${idx + 1}`
+              aria-current=(idx === 0 ? 'true' : 'false')
+            )
+        .carousel-inner
+          each item, idx in pageContents.kod.carouselItems
+            .carousel-item(class=(idx === 0 ? 'active' : ''))
+              .brand-carousel__slide-grid
+                .brand-carousel__media
+                  img(src=`images/kod/${imageCodeMap[item.imageCode]}` alt=item.title)
+                div
+                  h3.brand-carousel__title= item.title
+                  if Array.isArray(item.longDescription)
+                    each para in item.longDescription
+                      p.brand-carousel__body= para
+                  else
+                    p.brand-carousel__body= item.longDescription
+                  if item.comingSoon
+                    span.brand-carousel__coming-soon Coming Soon
+                  else if item.link === '/kod/five-threats'
+                    a.brand-carousel__cta(href="kod-five-threats.pug")
+                      | Explore Five Threats
+                      span.material-icons(aria-hidden="true") arrow_forward
+                  else if item.link === '/kod/quick-shots'
+                    a.brand-carousel__cta(href="kod-quick-shots.pug")
+                      | Watch Quick Shots
+                      span.material-icons(aria-hidden="true") play_arrow
+
+        button.carousel-control-prev(type="button" data-bs-target="#kod-carousel" data-bs-slide="prev")
+          span.carousel-control-prev-icon(aria-hidden="true")
+          span.visually-hidden Previous
+        button.carousel-control-next(type="button" data-bs-target="#kod-carousel" data-bs-slide="next")
+          span.carousel-control-next-icon(aria-hidden="true")
+          span.visually-hidden Next

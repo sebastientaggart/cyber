@@ -1,0 +1,111 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | HICP — Health Industry Cybersecurity Practices`
+  - var bodyClass = 'page-hicp'
+  - var pageDescription = 'Health Industry Cybersecurity Practices (HICP): managing threats and protecting patients in the HPH sector.'
+
+block content
+  - var docBase = 'https://405d.hhs.gov/Documents'
+  - var threatsBase = 'https://405d.hhs.gov/threats'
+  - var threatKeys = ['social', 'ransomware', 'theft', 'dataloss', 'attack']
+  - var kodLinkByThreatKey = { social: 'kod-social-engineering.pug', ransomware: 'kod-ransomware.pug', theft: 'kod-equipment-theft.pug', dataloss: 'kod-data-loss.pug', attack: 'kod-attack.pug' }
+
+  section.hicp-hero
+    .container-xl
+      .text-center.page-intro-box(data-animate)
+        h1 Health Industry Cybersecurity Practices
+        each para in pageContents.information.hicp
+          p.hicp-hero__body= para
+        include includes/hicp-document-list.pug
+
+  section.hicp-roadmap-section
+    .container-xl
+      h2.text-center Your Cybersecurity Roadmap
+      p.text-center Click any step to see what to do next.
+      include includes/cybersecurity-roadmap.pug
+
+  section.hicp-threats#threats
+    .container-xl
+      h2.hicp-threats__heading Have you heard about the top 5 threats facing the HPH sector?
+
+      ul.nav.nav-tabs#hicp-threats-tabs(role="tablist")
+        each key, idx in threatKeys
+          - var threat = top5Threats[key]
+          li.nav-item(role="presentation")
+            button.nav-link(
+              type="button"
+              class=(idx === 0 ? 'active' : '')
+              id=`tab-${key}`
+              data-bs-toggle="tab"
+              data-bs-target=`#pane-${key}`
+              role="tab"
+              aria-controls=`pane-${key}`
+              aria-selected=(idx === 0 ? 'true' : 'false')
+            )
+              img(src=`images/threats/${threatIconMap[key]}` alt="" width="48")
+              span.d-none.d-md-inline= threat.title
+
+      .tab-content
+        each key, idx in threatKeys
+          - var threat = top5Threats[key]
+          .tab-pane.fade.hicp-threats__pane(
+            class=(idx === 0 ? 'show active' : '')
+            id=`pane-${key}`
+            role="tabpanel"
+            aria-labelledby=`tab-${key}`
+          )
+            h3.hicp-threats__title= threat.title
+            p= threat.descr
+            span.hicp-threats__scenario-label Real-World Scenario
+            p= threat.realWorldScenarioContent
+
+            .hicp-threats__video
+              video(controls preload="metadata" playsinline)
+                source(src=`${threatsBase}/${threat.video}` type="video/mp4")
+                | Your browser does not support the video tag.
+              div
+                a.hicp-threats__transcript(href=`${threatsBase}/${threat.videoTranscript}` target="_blank" rel="noopener")
+                  span.material-icons(aria-hidden="true") description
+                  | Read video transcript (PDF)
+
+            .hicp-threats__buttons
+              a.hicp-threats__button.hicp-threats__button--accent(href=kodLinkByThreatKey[key])
+                span.material-icons(aria-hidden="true") school
+                | Knowledge on Demand
+              a.hicp-threats__button(href=`${docBase}/${threat.flyer}` target="_blank" rel="noopener")
+                span.material-icons(aria-hidden="true") description
+                | Threat Flyer (PDF)
+              a.hicp-threats__button(href=`${docBase}/${threat.poster}` target="_blank" rel="noopener")
+                span.material-icons(aria-hidden="true") image
+                | Awareness Poster (PDF)
+
+  section.hicp-practices#best-practices
+    .container-xl
+      h2.hicp-practices__heading HICP's 10 Mitigating Practices
+
+      .hicp-practices__grid
+        each practice, idx in practices
+          button.hicp-practices__button(
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target=`#practice-${idx}`
+            aria-expanded="false"
+            aria-controls=`practice-${idx}`
+          )
+            img(src=`images/practices/${practiceIconMap[practice.icon]}` alt="" width="64")
+            span= practice.title
+
+      #hicp-practices-accordion.hicp-practices__panels
+        each practice, idx in practices
+          .collapse(id=`practice-${idx}` data-bs-parent="#hicp-practices-accordion")
+            .hicp-practices__panel
+              h3.hicp-practices__panel-title= practice.title
+              p= practice.descr
+              .hicp-practices__panel-buttons
+                a.hicp-threats__button(href=`${docBase}/${practice.download}` target="_blank" rel="noopener")
+                  span.material-icons(aria-hidden="true") image
+                  | Awareness Poster (PDF)
+                a.hicp-threats__button.hicp-threats__button--accent(href=`${docBase}/${practice.pulse}` target="_blank" rel="noopener")
+                  span.material-icons(aria-hidden="true") favorite
+                  | Check Your Cyber Pulse (PDF)

@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Resource Library — Toolkits`
+  - var bodyClass = 'page-resources'
+  - var pageDescription = 'HHS Cyber Gateway resource library filtered to Toolkits.'
+
+block content
+  - var defaultCategory = 'Toolkits'
+  include includes/resources-template.pug

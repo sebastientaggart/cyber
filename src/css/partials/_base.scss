@@ -1,0 +1,63 @@
+@use 'variables' as *;
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: $body-bg;
+  color: #333;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+// WCAG-AAA: links on white-ish backgrounds use $link-aaa
+a {
+  color: $link-aaa;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: $navy-dark;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+// Material Icons helper — matches Google Fonts ligature font usage
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  vertical-align: middle;
+  font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+
+// Lightweight container helper (Bootstrap loaded too, but this avoids relying on it
+// for chrome which might render before Bootstrap CSS arrives from the CDN)
+.container-xl {
+  width: 100%;
+  max-width: 1320px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+}

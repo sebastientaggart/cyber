@@ -1,0 +1,48 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Quick Shots`
+  - var bodyClass = 'page-kod-quick-shots'
+  - var pageDescription = 'Knowledge on Demand: Quick Shots — short videos covering key cybersecurity terminology for the HPH sector.'
+
+block content
+  - var videoBase = 'https://405d.hhs.gov/video'
+  - var imageBySlug = { typhoon: 'qs-typhoon.png', botnet: 'qs-botnet.png', 'access-management': 'qs-access-management.png', encryption: 'qs-encryption.png', malware: 'qs-malware.png', vpn: 'qs-vpn.png', patching: 'qs-patching.png' }
+
+  section.kod-quick-shots
+    .container-xl
+      .kod-quick-shots__intro.page-intro-box(data-animate)
+        h1 Quick Shots
+        each para in pageContents.kod.quickShots.descr
+          p= para
+
+      .kod-quick-shots__grid
+        each video in pageContents.kod.quickShots.videos
+          - var hasVideo = !!video.videoUrl
+          - var imgFile = imageBySlug[video.link] || 'qs-typhoon.png'
+          button.kod-icon.kod-quick-shots__tile(
+            type="button"
+            class=(!hasVideo ? 'kod-icon--coming-soon' : '')
+            disabled=(!hasVideo ? true : undefined)
+            data-video-slug=video.link
+            data-video-url=(hasVideo ? `${videoBase}/${video.videoUrl}` : '')
+            data-video-title=video.title
+            aria-label=(hasVideo ? `Play ${video.title} video` : `${video.title} — coming soon`)
+          )
+            img(src=`images/kod/${imgFile}` alt="")
+            p.kod-icon__title= video.title
+            if video.overlay === 'New'
+              span.kod-icon__ribbon New
+            if video.overlay === 'Coming Soon'
+              span.kod-icon__ribbon.kod-icon__ribbon--soon Coming Soon
+
+  //- Video modal — single instance, JS sets src on click (kod-quick-shots.js)
+  #kod-video-modal.modal.fade.kod-video-modal(tabindex="-1" aria-labelledby="kod-video-modal-title" aria-hidden="true")
+    .modal-dialog.modal-lg.modal-dialog-centered
+      .modal-content
+        .modal-header
+          h5#kod-video-modal-title.modal-title
+          button.btn-close(type="button" data-bs-dismiss="modal" aria-label="Close")
+        .modal-body.p-0
+          video#kod-video-player(controls preload="metadata" playsinline)
+            | Your browser does not support the video tag.

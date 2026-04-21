@@ -1,0 +1,124 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Hospital Resiliency Landscape Analysis`
+  - var bodyClass = 'page-landscape'
+  - var pageDescription = 'Hospital Cyber Resiliency Landscape Analysis — investigative study of cyber threats to U.S. hospitals.'
+
+block content
+  - var docBase = 'https://405d.hhs.gov/Documents'
+  - var la = pageContents.landscapeAnalysis
+
+  section.landscape-page
+    .container-xl
+      .landscape-page__intro.page-intro-box(data-animate)
+        h1 Hospital Resiliency
+        h2 Landscape Analysis
+        p= la.top
+        a.landscape-page__cta(href=`${docBase}/405d-hospital-resiliency-analysis.pdf` target="_blank" rel="noopener")
+          | Download Landscape Analysis (PDF)
+          span.material-icons(aria-hidden="true") download
+
+      //- Study Objectives + Threats Identified
+      .landscape-page__pair
+        .landscape-page__panel
+          h3 Study Objectives
+          each para in la.studyObjectives.descr
+            p= para
+          ul
+            each obj in la.studyObjectives.objectives
+              li= obj
+
+        .landscape-page__panel
+          h3 Threats Identified
+          p= la.threatsIdentified.contents
+          ol
+            each threat in la.threatsIdentified.threats
+              li= threat
+          h4 Threat Analysis
+          p= la.threatsIdentified.threatAnalysis.descr
+          ol
+            each t in la.threatsIdentified.threatAnalysis.threats
+              li= t
+          h4 Key Take-aways
+          ul
+            each takeaway in la.threatsIdentified.keyTakeAways
+              li= takeaway
+
+      //- Data Sets table
+      h3 Data Sets Reviewed
+      table.landscape-page__table
+        thead
+          tr
+            th Data Source
+            th Details
+        tbody
+          each ds in la.dataSets
+            tr
+              td: strong= ds.title
+              td
+                ul
+                  each item in ds.list
+                    li= item
+
+      //- Key Observations + Graphs
+      .landscape-page__pair.landscape-page__pair--panel
+        .landscape-page__panel
+          h3 Key Observations
+          p= la.keyObservations.descr
+          ol
+            each obs in la.keyObservations.observations
+              if typeof obs === 'string'
+                li= obs
+              else
+                li
+                  = obs.text
+                  if obs.list
+                    ul
+                      each sub in obs.list
+                        li= sub
+          p= la.keyObservations.bottomDescr
+          p
+            small= la.keyObservations.footNotes
+
+        .landscape-page__panel
+          h3 Graphs
+          .landscape-page__graphs
+            img(src="images/landscape/graph-1.png" alt="Correlation of HICP and NIST coverage")
+            img(src="images/landscape/graph-2.png" alt="Quantified association of HICP coverage")
+            img(src="images/landscape/graph-3.png" alt="Industry coverage of HICP")
+
+      //- Practice Adoption table
+      h3 HICP Practice Adoption
+      table.landscape-page__table
+        thead
+          tr
+            each col in la.practiceAdoption
+              th= col.title
+        tbody
+          tr
+            each col in la.practiceAdoption
+              td
+                ul
+                  each item in col.list
+                    li= item
+
+      //- Adoption + Coverage panels
+      .landscape-page__pair
+        .landscape-page__panel
+          h3 Adoption
+          p Hospitals that adopted HICP demonstrated meaningful improvements in their cybersecurity posture. The HICP publications provide actionable practices that organizations can implement at any size.
+          .landscape-page__thumbs
+            a(href=`${docBase}/HICP-Main-508.pdf` target="_blank" rel="noopener")
+              img(src="images/hicp/hicp-main-thumb.png" alt="HICP Main")
+            a(href=`${docBase}/tech-vol1-508.pdf` target="_blank" rel="noopener")
+              img(src="images/hicp/hicp-tech1-thumb.png" alt="HICP Technical Volume 1")
+            a(href=`${docBase}/tech-vol2-508.pdf` target="_blank" rel="noopener")
+              img(src="images/hicp/hicp-tech2-thumb.png" alt="HICP Technical Volume 2")
+            a(href=`${docBase}/405d-hospital-resiliency-analysis.pdf` target="_blank" rel="noopener")
+              img(src="images/hicp/landscape-thumb.png" alt="Landscape Analysis")
+
+        .landscape-page__panel
+          h3 Coverage
+          p A strong correlation was uncovered during analysis between organizations that have adopted HICP and those with robust NIST CSF coverage. Organizations focusing on HICP Practices benefit from improved NIST CSF cybersecurity framework alignment.
+          img(src="images/landscape/graph-3.png" alt="Industry coverage of HICP")

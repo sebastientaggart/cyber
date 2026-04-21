@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Resource Library — Webinars`
+  - var bodyClass = 'page-resources'
+  - var pageDescription = 'HHS Cyber Gateway resource library filtered to Webinars.'
+
+block content
+  - var defaultCategory = 'Webinars'
+  include includes/resources-template.pug

@@ -1,0 +1,74 @@
+{
+  "descr": "The Top 5 threats outlined in HICP include: Social Engineering, Ransomware, Loss or Theft of Equipment, Insider, Accidental, or Intentional Data Loss, and Attacks Against Network Connected Medical Devices. HICP also provides best practices to combat these threats for organizations of all sizes. Below each threat you can find helpful resources, including: threat flyer, webinar slides, and awareness posters that provide information on the threat itself and how to prepare and fight against to protect patients.",
+
+  "social": {
+    "title": "Social Engineering",
+    "link": "social-engineering",
+    "icon": "SEG",
+    "descr": "Social Engineering is an attempt to trick you into giving out personal information or infecting your device by clicking on a link to give hackers access to patient data. A common avenue for hackers is email phishing.",
+    "imageFileName": "EmailPhishing",
+    "imageDescription": "A lady sitting at her desk realizing she has just been the victim of a phishing attack",
+    "realWorldScenarioContent": "Your employees receive a fraudulent email from a cyber-attacker disguised as an IT support person from your patient billing company. The email instructs your employees to click on a link to change their billing software passwords. An employee who clicks the link is directed to a fake login page, which collects that employee's login credentials and transmits this information to the attackers. The attacker then uses the employee's login credentials to access your organization's financial and patient data.",
+    "flyer": "405d-five-threats-social-engineering-flyer.pdf",
+    "slides": "1-Email-Phishing-Attack-Powerpoint-Updated-R.pdf",
+    "poster": "405d-five-threats-email-phishing-poster.pdf",
+    "video": "405d-social-engineering-threat.mp4",
+    "videoTranscript": "405d-social-engineering-threat.pdf"
+  },
+  "ransomware": {
+    "title": "Ransomware",
+    "link": "ransomware",
+    "icon": "RNS",
+    "descr": "An attack that occurs when hackers gain control of data or a computer system and hold it hostage until a ransom is paid. This can put your patients in danger and prevent you from delivering care in a timely fashion.",
+    "imageFileName": "Ransomware",
+    "imageDescription": "A doctor standing next to her patient in bed while holding a laptop that has been attacked by ransomware",
+    "realWorldScenarioContent": "Through an email that appears to have originated from a credit card company, a user is directed to a fake website and tricked into downloading a security update. The so-called security update is actually a malicious program designed to find and encrypt data, rendering them inaccessible. The program then instructs the user to pay a ransom to unlock or unencrypt the data.",
+    "flyer": "405d-five-threats-ransomware-flyer.pdf",
+    "slides": "2-Ransomeware-Attack-Powerpoint-Updated-R.pdf",
+    "poster": "405d-five-threats-ransomware-poster.pdf",
+    "video": "405d-ransomware-threat.mp4",
+    "videoTranscript": "405d-ransomware-threat.pdf"
+  },
+  "theft": {
+    "title": "Loss or Theft of Equipment or Data",
+    "link": "equipment-theft",
+    "icon": "LTE",
+    "descr": "Everyday devices such as laptops, smart phones, and USB/thumb drives are often lost or stolen and could end up in the hands of hackers. Make sure that you: never leave your laptop or computer unattended, always encrypt sensitive data that is on your device as a second line of defense, and notify your supervisor or IT professional immediately if your equipment is lost or stolen.",
+    "imageFileName": "LossTheftEquipment",
+    "imageDescription": "A lady stealing the laptop of someone ordering coffee away from his table",
+    "realWorldScenarioContent": "A physician stops at a coffee shop for a coffee and to use the public Wi-Fi to review radiology reports. As the physician leaves the table momentarily to pick up his coffee, a thief steals the laptop. The doctor return to the table to find the laptop is gone.",
+    "flyer": "405d-five-threats-loss-theft-equipment-flyer.pdf",
+    "slides": "3-Loss-or-Theft-of-Equipment-or-Data-Powerpoint-Updated-R.pdf",
+    "poster": "405d-five-threats-loss-theft-equipment-poster.pdf",
+    "video": "405d-loss-or-theft-threat.mp4",
+    "videoTranscript": "405d-loss-or-theft-threat.pdf"
+  },
+  "dataloss": {
+    "title": "Insider, Accidental or Malicious Data Loss",
+    "link": "data-loss",
+    "icon": "DLX",
+    "descr": "Insider threats exist within every organization where employees, contractors, or other users access the organization's technology infrastructure, network, or databases.",
+    "imageFileName": "DataLoss",
+    "imageDescription": "Patient in a wheelchair being admitted for care by a family member",
+    "realWorldScenarioContent": "An attacker impersonating a staff member of a physical therapy center contacts a hospital employee and asks to verify patient data. Pretending to be hospital staff, the imposter acquires the entire patient health record.",
+    "flyer": "405d-five-threats-insider-accidental-malicious-data-loss-flyer.pdf",
+    "slides": "4-Insider-Accidental-or-Intentional-Data-Loss-Powerpoint-Updated-R.pdf",
+    "poster": "405d-five-threats-insider-accidental-intentional-data-loss-poster.pdf",
+    "video": "405d-malicious-data-loss.mp4",
+    "videoTranscript": "405d-malicious-data-loss.pdf"
+  },
+  "attack": {
+    "title": "Attacks Against Network Connected Medical Devices",
+    "link": "attack",
+    "icon": "CMD",
+    "descr": "Consider this: Your organization is afflicted by a phishing attack that affects a file server that's connected to multiple heart monitors. The attack gives the hacker complete control to power them off and on as they please.",
+    "imageFileName": "AttacksAgainstMedicalDevices",
+    "imageDescription": "Two doctors about to perform surgery on a patient in the operation theater",
+    "realWorldScenarioContent": "A cyber attacker gains access to a care provider's computer network through an email phishing attack and takes command of a file server to which a heart monitor is attached. While scanning the network for devices, the attacker takes control (e.g., power off, continuously reboot) of all heart monitors in the ICU, putting multiple patients at risk.",
+    "flyer": "405d-five-threats-attacks-against-connected-devices-flyer.pdf",
+    "slides": "5-Attacks-Against-Connected-Medical-Devices-Powerpoint-Updated-R.pdf",
+    "poster": "405d-five-threats-attacks-against-connected-devices-poster.pdf",
+    "video": "405d-attack-against-devices.mp4",
+    "videoTranscript": "405d-attack-against-devices.pdf"
+  }
+}

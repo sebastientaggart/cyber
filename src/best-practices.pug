@@ -1,0 +1,16 @@
+//- Legacy URL redirect stub. Direct hits to /best-practices.html forward
+//- to the HICP page's #best-practices anchor.
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Redirecting… | HHS Cyber Gateway
+    meta(http-equiv="refresh" content="0; url=cornerstone-hicp.html#best-practices")
+    link(rel="canonical" href="cornerstone-hicp.pug#best-practices")
+    meta(name="robots" content="noindex")
+  body
+    p
+      | Redirecting to&nbsp;
+      a(href="cornerstone-hicp.pug#best-practices") HICP's 10 Mitigating Practices
+      | …

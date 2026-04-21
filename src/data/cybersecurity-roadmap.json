@@ -1,0 +1,196 @@
+{
+  "map": {
+    "name": "Roadmap",
+    "areas": [
+      {
+        "id": "x1",
+        "shape": "circle",
+        "coords": [153, 110, 32],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 1
+      },
+      {
+        "id": "c1",
+        "shape": "circle",
+        "coords": [153, 239, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 1
+      },
+
+      {
+        "id": "x2",
+        "shape": "circle",
+        "coords": [230, 166, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 2
+      },
+      {
+        "id": "c2",
+        "shape": "circle",
+        "coords": [230, 38, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 2
+      },
+
+      {
+        "id": "x3",
+        "shape": "circle",
+        "coords": [308, 110, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 3
+      },
+      {
+        "id": "c3",
+        "shape": "circle",
+        "coords": [308, 239, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 3
+      },
+
+      {
+        "id": "x4",
+        "shape": "circle",
+        "coords": [384, 166, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 4
+      },
+      {
+        "id": "c4",
+        "shape": "circle",
+        "coords": [384, 38, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 4
+      },
+      {
+        "id": "x5",
+        "shape": "circle",
+        "coords": [462, 110, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 5
+      },
+      {
+        "id": "c5",
+        "shape": "circle",
+        "coords": [462, 239, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 5
+      },
+
+      {
+        "id": "x6",
+        "shape": "circle",
+        "coords": [539, 166, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 6
+      },
+      {
+        "id": "c6",
+        "shape": "circle",
+        "coords": [539, 38, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 6
+      },
+      {
+        "id": "x7",
+        "shape": "circle",
+        "coords": [616, 110, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 7
+      },
+      {
+        "id": "c7",
+        "shape": "circle",
+        "coords": [616, 239, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 7
+      },
+      {
+        "id": "x8",
+        "shape": "circle",
+        "coords": [693, 166, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 8
+      },
+      {
+        "id": "c8",
+        "shape": "circle",
+        "coords": [693, 38, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 8
+      },
+
+      {
+        "id": "x9",
+        "shape": "circle",
+        "coords": [771, 110, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 9
+      },
+      {
+        "id": "c9",
+        "shape": "circle",
+        "coords": [771, 239, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 9
+      },
+      {
+        "id": "xA",
+        "shape": "circle",
+        "coords": [848, 166, 32],
+        "fillColor": "rgba(255,255,255,0.2)",
+        "descr": 10
+      },
+      {
+        "id": "cA",
+        "shape": "circle",
+        "coords": [848, 38, 15],
+        "fillColor": "rgba(255,255,255,0.5)",
+        "descr": 10
+      }
+    ]
+  },
+
+  "descriptions": [
+    {},
+    {
+      "title": "Step 1",
+      "detail": "Check out our website at **405d.hhs.gov** to access our library of <u>FREE resources</u> that are available to you."
+    },
+    {
+      "title": "Step 2",
+      "detail": "Review the “Where Do I Fit” chart, page 12, in the <u>HICP Main document</u> to know exactly which Technical Volume will best fit your organization's security needs depending on the size of your organization; small, medium or large. Download the “Check Your Cyber Pulse” resource as another great reference."
+    },
+    {
+      "title": "Step 3",
+      "detail": "Pick the practice your organization is going to impliment and appoint a person in your organization that will help to communicate it to your staff. This may be your HIPAA security officer or persons deemed appropriate. Learn more by reading the [HICP Main Document](https://405d.hhs.gov/information), **Technical Volumes 1 and 2** for [recognized cybersecurity practices](https://www.youtube.com/watch?v=e2wG7jUiRjE)"
+    },
+    {
+      "title": "Step 4",
+      "detail": "Have your employees participate in the [Knowledge on Demand (KOD)](https://405d.hhs.gov/knowledgeondemand) videos and review the job aids to gain a stronger awareness about the top 5 threats affecting healthcare."
+    },
+    {
+      "title": "Step 5",
+      "detail": "**HICP** allows you to quickly gauge where your organization stands with cyber hygiene and which security practices you may need to put in place to secure your environment. Review the HICP Main Document for more details."
+    },
+    {
+      "title": "Step 6",
+      "detail": "Place our **FREE** cyber awareness posters and KOD job aids throughout your organization as daily reminders for staff to reduce cyber risk while at work."
+    },
+    {
+      "title": "Step 7",
+      "detail": "Join our Distribution List or become a Task Group Member at our [Contact Us](https://405d.hhs.gov/contactus) page, so you don’t miss out on all the great healthcare focused cybersecurity products we share and develop."
+    },
+    {
+      "title": "Step 8",
+      "detail": "Our “**Have You Heard**” resources located in our Resource Library, help organizations learn about cybersecurity resources from across the entire USG keeping you up to date! \n\nVisit our [resources](/resources) page to view a myriad of resources on mitigation practices and emerging threats at"
+    },
+    {
+      "title": "Step 9",
+      "detail": "Don’t stop there! **Follow 405(d) on our social media platforms** including [LinkedIn](https://www.linkedin.com/company/hhs-ask405d), [Twitter (X)](https://twitter.com/ask405d), Facebook, Instagram for various ways to stay engaged with 405(d)."
+    },
+    {
+      "title": "Step 10",
+      "detail": "Continually audit your processes and procedures and monitor cyber threats in an ever-changing cyber climate."
+    }
+  ]
+}

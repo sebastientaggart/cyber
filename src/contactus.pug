@@ -1,0 +1,45 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Contact Us`
+  - var bodyClass = 'page-contactus'
+  - var pageDescription = 'Contact the HHS Cyber Gateway program — newsletter, social channels, and email.'
+
+block content
+  section.contactus
+    .container-xl
+      .contactus__intro.page-intro-box(data-animate)
+        h1.contactus__title Contact Us
+        h2.contactus__subtitle Join the conversation
+        p.contactus__body Want to hear more from us? Engage with us through our social channels, webinars, newsletters, and more! We offer a myriad of resources released regularly. Subject matter experts frequently use our channels to offer insight and advice on emerging threats and opportunities as well as to learn how to better protect patients.
+        p.contactus__body Sign up for our bi-monthly newsletter here to learn more about upcoming HHS Cyber Gateway releases and events.
+        a.contactus__newsletter-cta(href=`mailto:${site.mailto}?subject=Subscribe`)
+          span Join Our Mailing List
+          span.material-icons(aria-hidden="true") send
+
+  section.contactus-member
+    .container-xl
+      .contactus-member__panel
+        h2.contactus-member__title Become a Member
+        p.contactus-member__body The HHS Cyber Gateway program and Task Group are continuously growing. The Health Sector Coordinating Council is the organizing body our task group falls under and membership is governed by the HSCC. The Task Group is responsible for the development of products such as HICP and the upcoming Enterprise Risk Management (ERM) product. The Task Group works diligently to update, revise, and create official products that provide effective and current cybersecurity practices. Explore this website to find resources, information, and ways to get involved and join the conversation on cybersecurity best practices.
+        a.contactus-member__cta(href=`mailto:${site.mailto}?subject=Task%20Group%20Application`) Task Group Application
+
+  section.contactus-channels
+    .container-xl
+      .contactus-channels__grid
+        .contactus-channels__group
+          h3 Follow us
+          .contactus-channels__icons
+            a(href="https://www.linkedin.com/company/hhs-cyber" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn")
+              i.bi.bi-linkedin(aria-hidden="true")
+            a(href="https://x.com/hhscyber" target="_blank" rel="noopener" aria-label="X (Twitter)" title="X (Twitter)")
+              i.bi.bi-twitter-x(aria-hidden="true")
+            a(href="https://www.facebook.com/hhscyber" target="_blank" rel="noopener" aria-label="Facebook" title="Facebook")
+              i.bi.bi-facebook(aria-hidden="true")
+            a(href="https://www.instagram.com/hhs_cyber_/" target="_blank" rel="noopener" aria-label="Instagram" title="Instagram")
+              i.bi.bi-instagram(aria-hidden="true")
+        .contactus-channels__group
+          h3 Email us
+          a.contactus-channels__email(href=`mailto:${site.mailto}`)
+            i.bi.bi-envelope(aria-hidden="true")
+            span= site.mailto

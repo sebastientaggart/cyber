@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var threatId = 'data-loss'
+  - var pageTitle = `${site.name} | Insider, Accidental or Malicious Data Loss`
+  - var bodyClass = 'page-kod-detail'
+  - var pageDescription = 'Knowledge on Demand training: Insider, Accidental or Malicious Data Loss — interactive video, job aid, and supporting materials.'
+
+block content
+  include includes/kod-detail-template.pug

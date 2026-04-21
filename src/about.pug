@@ -1,0 +1,36 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | About Us`
+  - var bodyClass = 'page-about'
+  - var pageDescription = 'About the HHS Cyber Gateway program and our partner agencies across the federal government and private sector.'
+
+block content
+  section.about-intro
+    .container-xl
+      .row.gx-4.gy-4
+        .col-12.col-md-6
+          .intro-card.intro-card--blue(data-animate)
+            h2.intro-card__title About Us
+            p.intro-card__body= aboutUs.descr
+        .col-12.col-md-6
+          .intro-card.intro-card--bg-panel(data-animate style="transition-delay: 250ms")
+            h2.intro-card__title Our History
+            p.intro-card__body= aboutUs.history
+
+  section.about-partners#partners
+    .container-xl
+      h2.about-partners__heading Our Partners
+      .about-partners__grid
+        each partner in aboutUs.partners
+          a.about-partners__logo(
+            href=partner.link
+            target="_blank"
+            rel="noopener"
+            title=partner.descr
+            aria-label=partner.title
+          )
+            img(
+              src=`images/logos/${partnerLogoMap[partner.id]}`
+              alt=partner.title
+            )

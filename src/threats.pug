@@ -1,0 +1,17 @@
+//- Legacy URL redirect stub. Direct hits to /threats.html immediately
+//- forward to the HICP page's #threats anchor. JS-disabled clients see
+//- the manual fallback link below.
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Redirecting… | HHS Cyber Gateway
+    meta(http-equiv="refresh" content="0; url=cornerstone-hicp.html#threats")
+    link(rel="canonical" href="cornerstone-hicp.pug#threats")
+    meta(name="robots" content="noindex")
+  body
+    p
+      | Redirecting to&nbsp;
+      a(href="cornerstone-hicp.pug#threats") Top 5 Threats
+      | …

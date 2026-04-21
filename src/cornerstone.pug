@@ -1,0 +1,74 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Cornerstone Publications`
+  - var bodyClass = 'page-cornerstone'
+  - var pageDescription = 'Cornerstone publications from the 405(d) program — vetted, government-industry partnership cybersecurity guidance for the HPH sector.'
+
+block content
+  section.cornerstone-intro
+    .container-xl
+      .text-center.page-intro-box(data-animate)
+        h1 Cybersecurity Act of 2015 (CSA)
+        p.cornerstone-intro__body= pageContents.cornerstone.descr
+
+  section.cornerstone-carousel-section
+    .container-xl
+      #cornerstone-carousel.carousel.slide.brand-carousel(
+        data-bs-ride="carousel"
+        data-bs-interval="120000"
+      )
+        .carousel-indicators
+          button(type="button" data-bs-target="#cornerstone-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1")
+          button(type="button" data-bs-target="#cornerstone-carousel" data-bs-slide-to="1" aria-label="Slide 2")
+          button(type="button" data-bs-target="#cornerstone-carousel" data-bs-slide-to="2" aria-label="Slide 3")
+
+        .carousel-inner
+          //- Slide 1: HICP
+          .carousel-item.active
+            .brand-carousel__slide-grid
+              .brand-carousel__media
+                img(src="images/hicp/hicp-main-thumb.png" alt="HICP main document cover")
+              div
+                h3.brand-carousel__title Health Industry Cybersecurity Practices (HICP)
+                p.brand-carousel__body= pageContents.cornerstone.hicp
+                a.brand-carousel__cta(href="https://405d.hhs.gov/Documents/HICP-Main-508.pdf" target="_blank" rel="noopener")
+                  | HICP Main
+                  span.material-icons(aria-hidden="true") download
+                a.brand-carousel__cta.brand-carousel__cta--secondary(href="https://405d.hhs.gov/Documents/tech-vol1-508.pdf" target="_blank" rel="noopener")
+                  | Tech Vol 1
+                  span.material-icons(aria-hidden="true") download
+                a.brand-carousel__cta.brand-carousel__cta--secondary(href="https://405d.hhs.gov/Documents/tech-vol2-508.pdf" target="_blank" rel="noopener")
+                  | Tech Vol 2
+                  span.material-icons(aria-hidden="true") download
+
+          //- Slide 2: OCCI Checklist
+          .carousel-item
+            .brand-carousel__slide-grid
+              .brand-carousel__media
+                img(src="images/hicp/occi-thumb.png" alt="OCCI Checklist cover")
+              div
+                h3.brand-carousel__title Operational Continuity – Cyber Incident (OCCI) Checklist
+                p.brand-carousel__body= pageContents.cornerstone.occi
+                a.brand-carousel__cta(href="https://405d.hhs.gov/Documents/405d-occi-checklist-2024.pdf" target="_blank" rel="noopener")
+                  | OCCI Checklist (PDF)
+                  span.material-icons(aria-hidden="true") download
+
+          //- Slide 3: Hospital Cyber Resiliency Initiative
+          .carousel-item
+            .brand-carousel__slide-grid
+              .brand-carousel__media
+                img(src="images/hicp/landscape-thumb.png" alt="Landscape Analysis cover")
+              div
+                h3.brand-carousel__title Hospital Cyber Resiliency Landscape Analysis
+                p.brand-carousel__body= pageContents.cornerstone.landscape
+                a.brand-carousel__cta(href="https://405d.hhs.gov/Documents/405d-hospital-resiliency-analysis.pdf" target="_blank" rel="noopener")
+                  | Landscape Analysis (PDF)
+                  span.material-icons(aria-hidden="true") download
+
+        button.carousel-control-prev(type="button" data-bs-target="#cornerstone-carousel" data-bs-slide="prev")
+          span.carousel-control-prev-icon(aria-hidden="true")
+          span.visually-hidden Previous
+        button.carousel-control-next(type="button" data-bs-target="#cornerstone-carousel" data-bs-slide="next")
+          span.carousel-control-next-icon(aria-hidden="true")
+          span.visually-hidden Next

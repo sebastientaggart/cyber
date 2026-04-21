@@ -1,0 +1,44 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Web Site Disclaimer`
+  - var bodyClass = 'page-disclaimer'
+  - var pageDescription = 'HHS Cyber Gateway web site disclaimers and privacy policy.'
+
+block content
+  section.disclaimer
+    .disclaimer-page
+      .page-intro-box(data-animate)
+        h3 Web Site Disclaimer
+        p Thank you for visiting our HHS web site and for reviewing our Disclaimers and Web Policy page.
+        p
+          strong Our policy is clear:
+        p(style="text-align: center; font-weight: 700;") We collect no information about you, other than information automatically collected and stored (see below), when you visit our web site unless you choose to provide that information to us.
+        p (NOTE: For information on the Medical Privacy Rule, please go to&nbsp;
+          a(href="https://www.hhs.gov/ocr/hipaa/" target="_blank" rel="noopener") www.hhs.gov/ocr/hipaa/
+          | .)
+
+      hr
+
+      h4 External Link Endorsement Disclaimer - Links and Pop-Up Advertisements
+      p Our website links to federal agencies and, in some cases, to private organizations. You are subject to those sites&rsquo; privacy policies when you leave our site.
+      p Reference in this website to any specific commercial product, process, service, manufacturer, or company is not an endorsement or recommendation by the U.S. Government or the U.S. Department of Health and Human Services (HHS). HHS is not responsible for the contents of other websites.
+      p When visiting our website, your browser may also produce pop-up advertisements. These advertisements were most likely produced by other websites you visited or third-party software on your computer. HHS does not endorse or recommend products or services for which you may see a pop-up advertisement while visiting our site.
+
+      hr
+
+      h4 Information Disclaimer
+      p This information on this website is only intended to be general summary information for public use. This information does not replace written law or regulations, nor does it replace professional medical advice, diagnosis, or treatment. If you have questions about a medical condition, always seek the advice of a doctor or other qualified health professional.
+
+      hr
+
+      h4 Information Security
+      p This site is maintained by the U.S. Government and is protected by various provisions of Title 18, U.S. Code. Violations of Title 18 are subject to criminal prosecution in federal court.
+      p To keep our site secure and to ensure that this service remains available to all users, we use software programs to monitor traffic and identify unauthorized attempts to upload or change information, or otherwise cause damage. In the event of authorized law enforcement investigations, and in accordance with any required legal process, information from these sources may be used to help identify an individual.
+
+      hr
+
+      h4 Survey Disclaimer
+      p According to the Paperwork Reduction Act of 1995, no persons are required to respond to a collection of information unless it displays a valid OMB control number. The valid OMB control number for this information collection is 0990-0379. The time required to complete this information collection is estimated to average 5 minutes per response, including the time to review instructions, search existing data resources, gather the data needed, and complete and review the information collection. If you have comments concerning the accuracy of the time estimate(s) or suggestions for improving this form, please write to: U.S. Department of Health &amp; Human Services, OS/OCIO/PRA, 200 Independence Ave., S.W., Suite 336-E, Washington D.C. 20201, Attention: PRA Reports Clearance Officer.
+
+      p.disclaimer-page__updated Last Updated: April 28, 2021

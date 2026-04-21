@@ -1,0 +1,19 @@
+//- Master layout. All page entries `extends includes/layout.pug` and override
+//- `block variables` (pageTitle, bodyClass, pageDescription) and `block content`.
+doctype html
+html(lang="en")
+  block variables
+    - var pageTitle = site.name
+    - var bodyClass = 'page-default'
+    - var pageDescription = 'Cyber Safety is Patient Safety — HHS Cyber Gateway'
+
+  include head.pug
+
+  body(class=bodyClass)
+    include gov-banner.pug
+    include header.pug
+    include mobile-drawer.pug
+    main#main
+      block content
+    include footer.pug
+    script(type="module" src="./js/main.js")

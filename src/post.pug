@@ -1,0 +1,66 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | News & Articles`
+  - var bodyClass = 'page-post'
+  - var pageDescription = 'News, articles, and updates from the HHS Cyber Gateway program.'
+
+block content
+  - var sortedPosts = posts.slice().sort(function(a, b) { return (b.date || '').localeCompare(a.date || ''); })
+  - var primary = sortedPosts[0]
+  - var secondaries = sortedPosts.slice(1, 3)
+  - var remaining = sortedPosts.slice(3)
+  - var postCategories = ['Task Group Articles', '405(d) Chronicles', 'HICP in the spotlight']
+  - var resourceImageBase = 'https://405d.hhs.gov/blog'
+
+  mixin postCard(post, variant)
+    article.post-card(
+      class=`post-card--${variant}`
+      data-id=post.id
+      data-category=post.category || ''
+    )
+      if post.image
+        .post-card__media
+          img(src=`${resourceImageBase}/${post.image}` alt="" loading="lazy")
+      .post-card__body
+        h3.post-card__title
+          a(href=`post-detail.pug#post-${post.id}`)= post.title
+        .post-card__meta
+          if post.category
+            span.post-card__category= post.category
+          if post.author
+            span= post.author
+          if post.date
+            time= new Date(post.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+        if post.descr
+          p.post-card__descr= post.descr
+
+  section.post-list
+    .container-xl
+      .post-list__intro.page-intro-box(data-animate)
+        h1 News & Articles
+        p= pageContents.post.descr
+
+      .post-list__chips
+        each cat in postCategories
+          button.resources-chips__chip(
+            type="button"
+            data-category=cat
+            aria-pressed="false"
+          )= cat
+
+      if primary
+        .post-list__featured
+          +postCard(primary, 'primary')
+
+      if secondaries.length > 0
+        .post-list__secondaries
+          each post in secondaries
+            +postCard(post, 'secondary')
+
+      if remaining.length > 0
+        .post-list__remaining
+          each post in remaining
+            +postCard(post, 'list')
+
+        .pagination-bar

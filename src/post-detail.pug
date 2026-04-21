@@ -1,0 +1,39 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | News Article`
+  - var bodyClass = 'page-post-detail'
+  - var pageDescription = 'News article from the HHS Cyber Gateway program.'
+
+block content
+  //- Embed only the fields we need in the JSON blob — keeps the HTML payload lean.
+  //- Every post already has `htmlContent` pre-rendered (markdown-it → sanitize-html)
+  //- from pug.config.js at build time.
+  - var embeddedPosts = posts.map(function(p) { return { id: p.id, title: p.title, date: p.date, category: p.category, author: p.author || '', image: p.image || '', headerImage: p.headerImage || '', link: p.link || '', htmlContent: p.htmlContent || '' }; })
+
+  article.post-detail
+    .container-xl
+      a.post-detail__back(href="post.pug")
+        span.material-icons(aria-hidden="true") arrow_back
+        | Back to all articles
+
+      #post-shell
+        img.post-detail__header-image(data-field="header-image" hidden)
+        h1.post-detail__title(data-field="title")
+        .post-detail__meta
+          span.post-detail__category(data-field="category")
+          span.post-detail__author(data-field="author")
+          time(data-field="date")
+        a.post-detail__download(data-field="download" target="_blank" rel="noopener" hidden)
+          span.material-icons(aria-hidden="true") download
+          | Download PDF
+        .post-detail__body(data-field="content")
+
+      #post-not-found.post-detail__not-found(hidden)
+        h2 Article not found
+        p The article you're looking for doesn't exist or has been removed.
+        p
+          a(href="post.pug") Return to News & Articles
+
+  //- JSON blob consumed by src/js/post-detail.js (hash router)
+  script#posts-data(type="application/json")!= JSON.stringify(embeddedPosts)

@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var threatId = 'social-engineering'
+  - var pageTitle = `${site.name} | Social Engineering`
+  - var bodyClass = 'page-kod-detail'
+  - var pageDescription = 'Knowledge on Demand training: Social Engineering — interactive video, job aid, and supporting materials.'
+
+block content
+  include includes/kod-detail-template.pug

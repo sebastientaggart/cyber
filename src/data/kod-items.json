@@ -1,0 +1,57 @@
+[
+  {
+    "title": "Social Engineering",
+    "link": "social-engineering",
+    "imageID": "KOD-SEG",
+    "descr": "Social Engineering is an attempt to trick you into giving out personal information or infecting your device by clicking on a link to give hackers access to patient data. This training includes statistics and resources to help spot social engineering and what to do when you encounter it.",
+    "jobAid": "405d-social-engineering-job-aid_R.pdf",
+    "powerpoint": "405d-social-engineering-presentation.pptx",
+    "video": "social-engineering/story.html",
+    "lms": "405d-social-engineering-lms.zip",
+    "certificate": "certificate-of-completion-405d-social-engineering.pdf"
+  },
+  {
+    "title": "Ransomware",
+    "link": "ransomware",
+    "imageID": "KOD-RNS",
+    "descr": "Ransomware is an attack that occurs when hackers gain control of data or a computer system and hold it hostage until a ransom is paid. This training includes statistics and resources to fight ransomware or steps to take if you find your organization in danger of ransomware.",
+    "jobAid": "405d-ransomware-job-aid_R.pdf",
+    "powerpoint": "405d-ransomware-presentation.pptx",
+    "video": "ransomware/story.html",
+    "lms": "405d-ransomware-lms.zip",
+    "certificate": "certificate-of-completion-405d-ransomware.pdf"
+  },
+  {
+    "title": "Loss or Theft of Equipment or Data",
+    "link": "equipment-theft",
+    "imageID": "KOD-LOT",
+    "descr": "Did you know? Everyday devices such as laptops, smart phones, and USB/thumb drives are often lost or stolen and could end up in the hands of hackers. This training includes statistics and resources to guard against loss or theft of equipment or data.",
+    "jobAid": "405d-equipment-theft-job-aid.pdf",
+    "powerpoint": "405d-equipment-theft-presentation.pptx",
+    "video": "equipment-theft/story.html",
+    "lms": "405d-equipment-theft-lms.zip",
+    "certificate": "certificate-of-completion-405d-loss-or-theft-of-equipment-or-data.pdf"
+  },
+  {
+    "title": "Insider, Accidental or Malicious Data Loss",
+    "link": "data-loss",
+    "imageID": "KOD-DTL",
+    "descr": "Insider threats exist within organizations where employees, contractors, or other users access the organization's technology infrastructure, network, or databases. An accidental threat can be an honest mistake while an insider or intentional threat has malicious motives tied to the loss of data. This training includes statistics and resources if your organization is suffering from accidental or malicious loss of data.",
+    "jobAid": "405d-data-loss-job-aid.pdf",
+    "powerpoint": "405d-data-loss-presentation.pptx",
+    "video": "data-loss/story.html",
+    "lms": "405d-data-loss-lms.zip",
+    "certificate": "certificate-of-completion-405d-accidental-intentional-malicious-data-loss.pdf"
+  },
+  {
+    "title": "Attacks Against Network Connected Medical Devices",
+    "link": "attack",
+    "imageID": "KOD-CMD",
+    "descr": "Attacks against network connected medical devices can impact patient safety and cause you to lose patient trust. This training offers resources and data for your staff to use to combat threats against network connected medical devices.",
+    "jobAid": "405d-attack-job-aid_R.pdf",
+    "powerpoint": "405d-attack-presentation.pptx",
+    "video": "attack/story.html",
+    "lms": "405d-attack-lms.zip",
+    "certificate": "certificate-of-completion-405d-attacks-against-network-connected-medical-devices.pdf"
+  }
+]

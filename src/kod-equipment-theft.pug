@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var threatId = 'equipment-theft'
+  - var pageTitle = `${site.name} | Loss or Theft of Equipment or Data`
+  - var bodyClass = 'page-kod-detail'
+  - var pageDescription = 'Knowledge on Demand training: Loss or Theft of Equipment or Data — interactive video, job aid, and supporting materials.'
+
+block content
+  include includes/kod-detail-template.pug

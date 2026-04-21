@@ -1,0 +1,36 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Five Threats`
+  - var bodyClass = 'page-kod-five-threats'
+  - var pageDescription = 'Knowledge on Demand: Five Threats — interactive trainings on the top five cybersecurity threats facing the HPH sector.'
+
+block content
+  section.kod-five-threats
+    .container-xl
+      .kod-five-threats__intro.page-intro-box(data-animate)
+        h1 Five Threats
+        p= pageContents.kod.fiveThreats.descr
+
+      .kod-five-threats__contains
+        h2 Each Training Contains
+        .kod-five-threats__contains-grid
+          .kod-five-threats__contains-card
+            h3 Job Aid
+            p= pageContents.kod.fiveThreats.jobAid
+          .kod-five-threats__contains-card
+            h3 Interactive Video
+            p= pageContents.kod.fiveThreats.video
+          .kod-five-threats__contains-card
+            h3 PowerPoint
+            p= pageContents.kod.fiveThreats.powerPoint
+          .kod-five-threats__contains-card
+            h3 LMS Version
+            p= pageContents.kod.fiveThreats.lms
+
+      .kod-five-threats__threats-grid
+        each item in kodItems
+          - var pugFile = 'kod-' + item.link + '.pug'
+          a.kod-icon(href=pugFile)
+            img(src=`images/kod/${kodThreatTileMap[item.link]}` alt="")
+            p.kod-icon__title= item.title

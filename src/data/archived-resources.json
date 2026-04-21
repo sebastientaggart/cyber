@@ -1,0 +1,138 @@
+[
+    {
+        "name": "2021 Cyber Threat Review",
+        "fileName": "405d-spotlight-webinar-december2021.pdf"
+    },
+    {
+        "name": "Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP)",
+        "fileName": "HICP-Main-508.pdf",
+        "descr": "Examines cybersecurity threats and vulnerabilities that affect the healthcare industry. It explores (5) current threats and presents (10) practices to mitigate those threats."
+    },
+    {
+        "name": "Technical Volume 1: Cybersecurity Practices for Small Health Care Organizations",
+        "fileName": "tech-vol1-508.pdf",
+        "descr": "Discusses the ten Cybersecurity Practices along with Sub-Practices for small health care organizations."
+    },
+    {
+        "name": "Technical Volume 2: Cybersecurity Practices for Medium and Large Health Care Organizations",
+        "fileName": "tech-vol2-508.pdf",
+        "descr": "Discusses the ten Cybersecurity Practices along with Sub-Practices for medium and large health care organizations."
+    },
+    {
+        "name": "Resources and Templates",
+        "fileName": "resources-templates-508.pdf",
+        "descr": "Includes a variety of cybersecurity resources and templates for end users to reference."
+    },
+    {
+        "name": "Cybersecurity Practices Assessments Toolkit (Appendix E-1)",
+        "fileName": "Resources-Templates-AppendixE-Toolkit.xlsm",
+        "descr": "This tool helps organizations prioritize their cyber threats and develop their own action plans using the assessment methodology outlined in the Resources and Templates volume. For your awareness, this tool is still under development."
+    },
+    {
+        "name": "HICP Threat Mitigation Matrix",
+        "fileName": "405d-HICP-Threat-Mitigation-Matrix-Official-Document-Updated-R.xlsx",
+        "descr": ""
+    },
+    {
+        "name": "Task Group Member List",
+        "fileName": "405d-Task-Group-Member-List.pdf"
+    },
+    {
+        "name": "HICP Fireside Chat",
+        "fileName": "405d-HICP-Fireside-Chat.pdf"
+    },
+    {
+        "name": "HICP Fireside Chat Slides",
+        "fileName": "405d-HICP-Fireside-Chat-PPT.pptx"
+    },
+    {
+        "name": "Email Phishing Threat Series Slides",
+        "fileName": "5-Threats-Series-Threat-1-Email-Phishing-Attack-Powerpoint-Updated-R.pdf"
+    },
+    {
+        "name": "Ransomware Threat Series Slides",
+        "fileName": "5-Threats-Series-Threat-2-Ransomeware-Attack-Powerpoint-Updated-R.pdf"
+    },
+    {
+        "name": "Insider, Accidental, or Intentional Data Loss Threat Series Slides",
+        "fileName": "5-Threats-Series-Threat-4-Insider-Accidental-or-Intentional-Data-Loss-Powerpoint-Updated-R.pdf"
+    },
+    {
+        "name": "Attacks Against Connected Medical Devices Threat Series Slides",
+        "fileName": "5-Threats-Series-Threat-5-Attacks-Against-Connected-Medical-Devices-Powerpoint-Updated-R.pdf"
+    },
+    {
+        "name": "Loss or Theft of Equipment Threat Series Slides",
+        "fileName": "5-Threats-Series-Threat-3-Loss-or-Theft-of-Equipment-or-Data-Powerpoint-Updated-R.pdf"
+    },
+    {
+        "name": "National Critical Infrastructure Security and Resilience Month (NCISRM) Campaign",
+        "fileName": "NCISRM-Toolkit-2019.zip"
+    },
+    {
+        "name": "2022 Patient Safety Awareness Week Toolkit for Small Organizations",
+        "fileName": "2022psaw-final-small.zip",
+        "skipInResources": true
+    },
+    {
+        "name": "2022 Patient Safety Awareness Week Toolkit for Medium-Large Organizations",
+        "fileName": "2022psaw-final-medlarge.zip",
+        "skipInResources": true
+    },
+    {
+        "name": "Patient Safety Awareness Week 2020",
+        "fileName": "405d-PSAW.zip"
+    },
+    {
+        "name": "National Critical Infrastructure Security and Resilience Month (NCISRM) Campaign - 2019",
+        "fileName": "NCISRM-Toolkit-2019.zip"
+    },
+    {
+        "name": "National Cybersecurity Awareness Month Campaign (NCSAM)",
+        "fileName": "405d-NCSAM.zip"
+    },
+    {
+        "name": "2021 405(d) Program Year in Review",
+        "fileName": "405d-2021YearInReview.pdf"
+    },
+    {
+        "name": "November 2020 Newsletter",
+        "fileName": "405d-Post-2011-November2020.pdf",
+        "archived": true
+    },
+    {
+        "name": "September 2020 Newsletter",
+        "fileName": "405d-Post-Volume-VII-September-R.pdf",
+        "archived": true
+    },
+    {
+        "name": "July 2020 Newsletter",
+        "fileName": "405d-Post-Volume-VI-July-R.pdf",
+        "archived": true
+    },
+    {
+        "name": "May 2020 Newsletter",
+        "fileName": "405d-Post-Volume-V-May-R.pdf",
+        "archived": true
+    },
+    {
+        "name": "March 2020 Newsletter",
+        "fileName": "405d-Post-March-R.pdf",
+        "archived": true
+    },
+    {
+        "name": "January 2020 Newsletter",
+        "fileName": "405d-Newsletter-January-2020-R.pdf",
+        "archived": true
+    },
+    {
+        "name": "November 2019 Newsletter",
+        "fileName": "405d-Newsletter-November.pdf",
+        "archived": true
+    },
+    {
+        "name": "September 2019 Newsletter",
+        "fileName": "405d-Newsletter-September.pdf",
+        "archived": true
+    }
+]

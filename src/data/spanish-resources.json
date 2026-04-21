@@ -1,0 +1,27 @@
+{
+  "guides": [
+    { "title": "Folleto sobre Knowledge on Demand", "url": "405d-knowledge-on-demand-flyer-es-US.pdf" },
+    { "title": "Tarjeta postal HICP", "url": "405d-hicp-postcard-es-US.pdf" },
+    { "title": "Folleto HICP", "url": "405d-hicp-flyer-es-US.pdf" }
+  ],
+  "posters": [
+    { "title": "Carteles sobre proveedores médicos", "url": "405d-medical-practitioners-posters-es-US.pdf" },
+    { "title": "Carteles sobre profesionales de TI", "url": "405d-it-practitioners-posters-es-US.pdf" },
+    { "title": "Carteles sobre hábitos saludables", "url": "405d-healthy-habits-posters-es-US.pdf" },
+    { "title": "Cartel sobre zona de seguridad cibernética", "url": "405d-cyber-safety-zone-poster-es-US.pdf" },
+    { "title": "Escalamiento de amenazas en la atención médica", "url": "405d-castle-threat-poster-es-US.pdf" }
+  ],
+  "jobAid": [
+    { "title": "Recurso sobre la ingeniería social", "url": "405d-social-engineering-job-aid-es-US.pdf" },
+    { "title": "Recurso sobre ransomware", "url": "405d-ransomware-job-aid-es-US.pdf" },
+    {
+      "title": "Recurso sobre la prevención de pérdida o robo de equipo",
+      "url": "405d-equipment-theft-job-aid-es-US.pdf"
+    },
+    {
+      "title": "Recurso sobre pérdida de datos por amenaza interna, accidental, o maliciosa",
+      "url": "405d-data-loss-job-aid-es-US.pdf"
+    },
+    { "title": "Recurso sobre dispositivos médicos", "url": "405d-attack-job-aid-es-US.pdf" }
+  ]
+}

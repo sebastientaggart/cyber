@@ -1,0 +1,50 @@
+//- Shared body for the 5 KOD threat detail pages.
+//- Each entry sets `var threatId = '<slug>'` then includes this template.
+//- Renders hero, Storyline launch button, description, 3 download buttons,
+//- feedback mailto, and "Other Trainings" 4-tile grid linking to the other threats.
+- var threat = kodItems.find(function(t) { return t.link === threatId; })
+- var others = kodItems.filter(function(t) { return t.link !== threatId; })
+- var docBase = 'https://405d.hhs.gov/Documents'
+- var storyBase = 'https://405d.hhs.gov/kod-video'
+
+section.kod-detail
+  .container-xl
+    .kod-detail__intro.page-intro-box(data-animate)
+      h1= threat.title
+
+    .kod-detail__launch
+      a(
+        href=`${storyBase}/${threat.video}`
+        target="_blank"
+        rel="noopener"
+        aria-label=`Launch ${threat.title} training in a new window`
+      )
+        img(src=`images/kod/${kodLaunchImageMap[threat.link]}` alt=`Launch ${threat.title}`)
+
+    .kod-detail__body
+      p= threat.descr
+
+      .kod-detail__buttons
+        a.kod-detail__button(href=`${docBase}/${threat.jobAid}` target="_blank" rel="noopener")
+          span.material-icons(aria-hidden="true") description
+          | Job Aid (PDF)
+        a.kod-detail__button(href=`${docBase}/${threat.powerpoint}` target="_blank" rel="noopener")
+          span.material-icons(aria-hidden="true") slideshow
+          | Presentation (PPTX)
+        a.kod-detail__button(href=`${docBase}/${threat.lms}` target="_blank" rel="noopener")
+          span.material-icons(aria-hidden="true") archive
+          | LMS Package (ZIP)
+
+      p.kod-detail__feedback
+        | Have feedback on this training? Let us know at
+        |
+        a(href=`mailto:${site.mailto}?subject=KOD Feedback`)= site.mailto
+
+  .container-xl.kod-detail__others
+    h3 Check out our other trainings
+    .kod-detail__others-grid
+      each other in others
+        - var pugFile = 'kod-' + other.link + '.pug'
+        a.kod-icon(href=pugFile)
+          img(src=`images/kod/${kodThreatTileMap[other.link]}` alt="")
+          p.kod-icon__title= other.title

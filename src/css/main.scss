@@ -1,0 +1,19 @@
+// HHS Cyber Gateway — global stylesheet
+// Imports run in dependency order: tokens first, then base, then components.
+
+@use 'partials/variables' as *;
+@use 'partials/base';
+@use 'partials/gov-banner';
+@use 'partials/header';
+@use 'partials/hero';
+@use 'partials/footer';
+@use 'partials/animate';
+@use 'partials/carousel';
+@use 'partials/hicp';
+@use 'partials/landscape';
+@use 'partials/kod';
+@use 'partials/resources';
+@use 'partials/post';
+@use 'partials/home';
+@use 'partials/offcanvas';
+@use 'partials/pages';

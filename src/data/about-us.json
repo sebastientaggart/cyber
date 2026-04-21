@@ -1,0 +1,87 @@
+{
+  "descr": "The U.S. Department of Health and Human services has a number of cybersecurity resources that can support your enterprise in its efforts to build a cyber resilient organization. These resources include best practice guidance, education, threat specific intelligence, and more to ensure you are staying up to date on the most pertinent cybersecurity resources available to support the HPH sector. We work collaboratively across the federal government and with our industry partners to offer healthcare focused cybersecurity resources and tools. Thank you for your commitment to the security and well-being of our nation's healthcare infrastructure. Together, we can build a stronger, more secure future for the HPH sector. Remember Cyber Safety is Patient Safety.",
+  "history": "As we navigate an increasingly complex digital landscape, the threat of cybersecurity in the healthcare industry has become more pronounced. The vital role that healthcare organizations play in safeguarding patients necessitates a proactive and collaborative approach to address evolving cybersecurity challenges. In response to these pressing concerns, we introduced the HHS Cyber Gateway, a website from the U.S. Department of Health and Human Services. This innovative website serves as a centralized platform connecting HPH stakeholders to a wealth of cybersecurity resources provided by HHS and other federal agencies. The HHS Cyber Gateway is designed to be a consistently evolving, comprehensive, and accessible hub easing your access to information, programs, and resources to enhance cybersecurity practices across the healthcare industry.",
+  "taskGroupDescrs": [
+    {
+      "descr": "The Task Group is responsible for the development of products such as HICP and other resources. The Task Group works diligently to update, revise and create official 405(d) products to provide effective and current cybersecurity practices."
+    },
+    {
+      "descr": "Join the Task Group of professionals that oversee and develop products that are made by and for organizations with patient safety at the top of priorities."
+    },
+    {
+      "descr": "For a full listing of our current 405(d) Task Group members as of 3/25/2024, click",
+      "link": "405d-task-group-member-list.pdf"
+    },
+    {
+      "descr": "Get Involved with the 405(d) Task Group:"
+    }
+  ],
+  "partners": [
+    {
+      "id": "HHS",
+      "title": "Health and Human Services",
+      "link": "https://www.hhs.gov/",
+      "descr": "The Department of Health and Human Services (HHS) mission is to enhance and protect the health and well-being of all Americans. They fulfill that mission by providing for effective health and human services and fostering advances in medicine, public health, and social services. The Office of the Chief Information Officer supports this mission by leading the development and implementation of information technology infrastructure across the agency."
+    },
+    {
+      "id": "HC3",
+      "title": "HHS Health Sector Cybersecurity Coordination Center",
+      "link": "https://www.hhs.gov/about/agencies/asa/ocio/hc3/index.html",
+      "descr": "The HHS Health Sector Cybersecurity Coordination Center (HC3) is an operational cybersecurity center designed to support and improve the cyber defense of the Healthcare and Public Health Sector. HC3 strengthens coordination and information sharing within the sector and cultivates cybersecurity resilience by providing timely and actionable cybersecurity intelligence to health organizations and developing strategic partnerships between these organizations."
+    },
+    {
+      "id": "ASPR",
+      "title": "Assistant Secretary for Preparedness and Response",
+      "link": "https://aspr.hhs.gov/cyber/Pages/default.aspx",
+      "descr": "The National Defense Authorization Act of 2021, Section 9002, identifies HHS as the lead agency for the Healthcare and Public Health (HPH) sector all-hazards risk management function, known as the Sector Risk Management Agency (SRMA). ASPR’s Office of Critical Infrastructure Protection within the Office of Preparedness, leads HHS divisions in collaborative efforts with federal, state, local, tribal, and territorial partners, and private sector owners/operators in executing the mandated responsibilities of the SRMA, including cybersecurity-related responsibilities and provides specialized sector-specific guidance, expertise, and supporting programs."
+    },
+    {
+      "id": "FDA",
+      "title": "U.S. Food and Drug Administration",
+      "link": "https://www.fda.gov/medical-devices",
+      "descr": "The Food and Drug Administration (FDA) is responsible for protecting the public health by ensuring the safety, efficacy, and security of human and veterinary drugs, biological products, and medical devices; and by ensuring the safety of our nation's food supply, cosmetics, and products that emit radiation."
+    },
+    {
+      "id": "OCR",
+      "title": "HHS Office of Civil Rights",
+      "link": "https://www.hhs.gov/ocr/index.html",
+      "descr": "The HHS Office of Civil Rights (OCR) enforces civil rights and conscience and religious freedom laws, and protects the privacy, security, and availability of individuals’ health information. Through these mechanisms, OCR helps to ensure equal access to health and human services, protects the exercise of religious beliefs and moral convictions by individuals and institutions participating in HHS programs, protects individuals’ health information, gives tools for provider awareness and full engagement of individuals in decisions related to their health care, and advances the health and well-being of all Americans."
+    },
+    {
+      "id": "ARPA-H",
+      "title": "Advanced Research Projects Agency for Health",
+      "link": "https://arpa-h.gov/",
+      "descr": "The Advanced Research Projects Agency for Health (ARPA-H) launched the Digital Health Security (DIGIHEALS) project to ensure patients continue to receive care in the wake of a medical facility cyberattack."
+    },
+    {
+      "id": "ONC",
+      "title": "Office of the National Coordinator for Health IT",
+      "link": "https://healthit.gov/",
+      "descr": "The Office of the National Coordinator for Health Information Technology (ONC) in the HHS Office of the Secretary, is a resource to the entire health system to support the adoption of health information technology and the promotion of nationwide, standards-based health information exchange to improve healthcare, including information privacy and security."
+    },
+    {
+      "id": "ONS",
+      "title": "Office of National Security",
+      "link": "https://healthit.gov/",
+      "descr": "The Office of National Security (ONS) conducts all-source intelligence analysis to inform HHS policy and drive operational planning activities. ONS executes its mission, through departmental and Intelligence Community coordination, by providing timely and relevant threat intelligence to HHS senior leaders and staff involved in executing the HPH SRMA mission."
+    },
+    {
+      "id": "CISA",
+      "title": "StopRansomware.gov",
+      "link": "https://stopransomware.gov/",
+      "descr": "StopRansomware.gov, developed by the Cybersecurity & Infrastructure Security Agency (CISA), is the U.S. Government's official one-stop location for resources to tackle ransomware more effectively. Ransomware is a form of malware designed to encrypt files on a device, rendering any files and the systems that rely on them unusable. Malicious actors then demand ransom in exchange for decryption. The resources on this site are designed to help individuals and organizations prevent attacks that can severely impact business processes and leave organizations without the data they need to operate and deliver mission-critical services."
+    },
+    {
+      "id": "HSCC",
+      "title": "Health Sector Coordinating Council",
+      "link": "https://healthsectorcouncil.org/",
+      "descr": "The Healthcare and Public Health Sector Coordinating Council (HSCC) is a coalition of industry associations and their members. It has been a platform for collaboration among healthcare industry leaders and the government for more than a decade to address the most pressing security and resiliency challenges to the healthcare sector as a whole."
+    },
+    {
+      "id": "CMS",
+      "title": "Centers for Medicare and Medicaid Services",
+      "link": "https://www.cms.gov/medicare/health-safety-standards/conditions-coverage-participation",
+      "descr": "CMS is the federal agency that provides health coverage to more than 160 million through Medicare, Medicaid, the Children's Health Insurance Program, and the Health Insurance Marketplace. CMS works in partnership with the entire health care community to improve quality, equity and outcomes in the health care system."
+    }
+  ]
+}

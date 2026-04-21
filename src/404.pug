@@ -1,0 +1,46 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Page Not Found`
+  - var bodyClass = 'page-404'
+  - var pageDescription = 'The page you requested could not be found.'
+
+block content
+  //- Phase 4 — legacy URL catch-all redirect handler.
+  //- The static host routes any unknown URL to 404.html. Before showing the
+  //- 404 content, we check `location.pathname` against legacy 405d URL
+  //- prefixes and `location.replace()` to the right destination if matched.
+  //- Inlined as the first thing in <body> so it runs synchronously before
+  //- the rest of the page paints.
+  script.
+    (function () {
+      var path = window.location.pathname.toLowerCase().replace(/\/$/, '');
+      // strip a trailing .html so /information/hicp.html behaves like /information/hicp
+      var stripped = path.replace(/\.html$/, '');
+      var redirect = null;
+
+      if (stripped === '/threats') {
+        redirect = 'cornerstone-hicp.html#threats';
+      } else if (stripped === '/best-practices') {
+        redirect = 'cornerstone-hicp.html#best-practices';
+      } else if (stripped === '/information' || stripped.indexOf('/information/') === 0) {
+        redirect = 'cornerstone.html';
+      } else if (stripped === '/news' || stripped.indexOf('/news/') === 0) {
+        redirect = 'post.html';
+      } else if (stripped.indexOf('/knowledgeondemand/') === 0) {
+        var slug = stripped.replace('/knowledgeondemand/', '').split('/')[0];
+        var knownSlugs = ['social-engineering', 'ransomware', 'equipment-theft', 'data-loss', 'attack'];
+        redirect = knownSlugs.indexOf(slug) !== -1
+          ? 'kod-' + slug + '.html'
+          : 'knowledgeondemand.html';
+      }
+
+      if (redirect) {
+        window.location.replace(redirect);
+      }
+    })();
+
+  .error-container
+    h1 404
+    h2 This is not the page you are looking at.
+    a(href="index.pug") Home

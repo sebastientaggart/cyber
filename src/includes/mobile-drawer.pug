@@ -1,0 +1,56 @@
+//- Mobile drawer — Bootstrap 5 offcanvas. Triggered by the hamburger button
+//- in header.pug (data-bs-toggle="offcanvas" data-bs-target="#mobile-drawer").
+//- Bootstrap JS handles open/close, focus trap, ESC dismissal, backdrop click.
+.offcanvas.offcanvas-start.mobile-drawer#mobile-drawer(
+  tabindex="-1"
+  aria-labelledby="mobile-drawer-title"
+)
+  .offcanvas-header
+    h2.offcanvas-title#mobile-drawer-title= site.name
+    button.btn-close(
+      type="button"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close menu"
+    )
+  .offcanvas-body
+    nav(aria-label="Mobile navigation")
+      ul.mobile-drawer__list
+        li
+          a.mobile-drawer__item(href="index.pug") Home
+        li
+          a.mobile-drawer__item(href="cornerstone.pug") Cornerstone Publications
+          ul.mobile-drawer__sublist
+            li
+              a(href="cornerstone-hicp.pug") HICP
+            li
+              a(href="landscape-analysis.pug") Hospital Resiliency Landscape Analysis
+        li
+          a.mobile-drawer__item(href="knowledgeondemand.pug") Knowledge on Demand
+          ul.mobile-drawer__sublist
+            li
+              a(href="kod-five-threats.pug") Five Threats
+            li
+              a(href="kod-quick-shots.pug") Quick Shots
+        li
+          a.mobile-drawer__item(href="resources.pug") Resource Library
+          ul.mobile-drawer__sublist
+            li
+              a(href="resources-toolkits.pug") Toolkits
+            li
+              a(href="resources-poster.pug") Posters
+            li
+              a(href="resources-publications.pug") Publications
+            li
+              a(href="resources-webinars.pug") Webinars
+            li
+              a(href="resources-sbars.pug") SBARs
+            li
+              a(href="resources-archive.pug") Archive
+        li
+          a.mobile-drawer__item(href="spanish.pug") Recoursos de español
+        li
+          a.mobile-drawer__item(href="about.pug") About Us
+        li
+          a.mobile-drawer__item(href="contactus.pug") Contact Us
+        li
+          a.mobile-drawer__item(href="disclaimer.pug") Disclaimer

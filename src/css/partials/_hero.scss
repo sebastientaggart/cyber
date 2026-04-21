@@ -1,0 +1,36 @@
+@use 'variables' as *;
+
+.site-hero__tagline {
+  color: $sun-glow;
+  padding: 2rem 1rem 1rem;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+
+  @media (min-width: 768px) {
+    padding-inline: 5rem;
+  }
+}
+
+.site-hero__tagline-line,
+.site-hero__tagline-emphasis {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.site-hero__tagline-line {
+  font-size: 1.75rem;
+
+  @media (min-width: 768px) {
+    font-size: 2.25rem;
+  }
+}
+
+.site-hero__tagline-emphasis {
+  font-size: 2.5rem;
+  font-style: italic;
+
+  @media (min-width: 768px) {
+    font-size: 3.5rem;
+  }
+}

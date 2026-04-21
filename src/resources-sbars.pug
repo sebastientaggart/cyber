@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Resource Library — SBARs`
+  - var bodyClass = 'page-resources'
+  - var pageDescription = 'HHS Cyber Gateway resource library filtered to SBARs.'
+
+block content
+  - var defaultCategory = 'SBARs'
+  include includes/resources-template.pug

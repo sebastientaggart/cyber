@@ -1,0 +1,110 @@
+//- Site footer. Link structure ported verbatim from 405d-old/src/Components/Footer.jsx
+//- (col1Items / col2Items / col3Items). Tracking params stripped from social URLs.
+//-
+//- PHASE 1 NOTE: links to not-yet-built routes are rendered as <span> placeholders
+//- (no href) so Parcel doesn't fail to resolve them. Phase 2/3 swaps each `span`
+//- back to `a(href=...)` once the target page exists.
+footer.site-footer
+  .container-xl
+    .row.gx-4.gy-4
+      //- Column 1: logos + socials
+      .col-12.col-sm-3.site-footer__col
+        .site-footer__logos
+          img(src="images/logo/hhs-cyber-logo.png" alt=`${site.name}`)
+          img(src="images/logo/aspr.png" alt="ASPR")
+        h5.site-footer__heading Follow us
+        .site-footer__socials
+          a(
+            href="https://www.linkedin.com/company/hhs-cyber"
+            target="_blank"
+            rel="noopener"
+            aria-label="LinkedIn"
+            title="LinkedIn"
+          )
+            i.bi.bi-linkedin(aria-hidden="true")
+          a(
+            href="https://x.com/hhscyber"
+            target="_blank"
+            rel="noopener"
+            aria-label="X (Twitter)"
+            title="X (Twitter)"
+          )
+            i.bi.bi-twitter-x(aria-hidden="true")
+          a(
+            href="https://www.facebook.com/hhscyber"
+            target="_blank"
+            rel="noopener"
+            aria-label="Facebook"
+            title="Facebook"
+          )
+            i.bi.bi-facebook(aria-hidden="true")
+          a(
+            href="https://www.instagram.com/hhs_cyber_/"
+            target="_blank"
+            rel="noopener"
+            aria-label="Instagram"
+            title="Instagram"
+          )
+            i.bi.bi-instagram(aria-hidden="true")
+
+      //- Column 2: Home + Cornerstone Publications + Knowledge on Demand
+      .col-12.col-sm-3.site-footer__col
+        ul.site-footer__list
+          li.site-footer__item--lead
+            a(href="index.pug") Home
+          li.site-footer__group
+            a.site-footer__item--lead(href="cornerstone.pug") Cornerstone Publications
+            ul.site-footer__sublist
+              li
+                a(href="cornerstone-hicp.pug") Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP)
+              li
+                a(href="landscape-analysis.pug") Hospital Resiliency Landscape Analysis
+          li.site-footer__group
+            a.site-footer__item--lead(href="knowledgeondemand.pug") Knowledge on Demand
+            ul.site-footer__sublist
+              li
+                a(href="kod-five-threats.pug") Five Threats
+              li
+                a(href="kod-quick-shots.pug") Quick Shots
+
+      //- Column 3: Resources
+      .col-6.col-sm-3.site-footer__col
+        ul.site-footer__list
+          li.site-footer__group
+            a.site-footer__item--lead(href="resources.pug") Resources
+            ul.site-footer__sublist
+              li
+                a(href="resources-toolkits.pug") Toolkits
+              li
+                a(href="resources-poster.pug") Poster
+              li
+                a(href="resources-publications.pug") Publications
+              li
+                a(href="resources-webinars.pug") Webinars
+              li
+                a(href="resources-sbars.pug") SBARs
+              li
+                a(href="resources-archive.pug") Archive
+
+      //- Column 4: Recoursos + About + Contact + Disclaimer
+      .col-6.col-sm-3.site-footer__col
+        ul.site-footer__list
+          li.site-footer__group
+            a.site-footer__item--lead(href="spanish.pug") Recoursos de español
+            ul.site-footer__sublist
+              li
+                a(href="spanish.pug#guides") Resumen de guías de recursos
+              li
+                a(href="spanish.pug#posters") Carteles
+              li
+                a(href="spanish.pug#job-aids") Recursos sobre amenazas cibernéticas
+          li.site-footer__item--lead
+            a(href="about.pug") About Us
+          li.site-footer__item--lead
+            a(href="contactus.pug") Contact Us
+          li.site-footer__item--lead
+            a(href="disclaimer.pug") Disclaimer
+
+    .row
+      .col-12.site-footer__version
+        span Ver: #{site.version}

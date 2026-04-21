@@ -1,0 +1,87 @@
+//- Shared body for the 6 live-data resources pages.
+//- Each entry sets `var defaultCategory = '<Category>'` (or omits for the main page)
+//- in `block variables`. The body class also picks up the default via JS:
+//- src/js/resources.js reads `document.body.dataset.defaultCategory` on init.
+
+- var tagCounts = {};
+- resources.forEach(function(r) { (r.tags || '').split(',').map(function(t){return t.trim();}).filter(Boolean).forEach(function(t) { tagCounts[t] = (tagCounts[t] || 0) + 1; }); });
+- var sortedTags = Object.entries(tagCounts).sort(function(a, b) { return b[1] - a[1]; }).slice(0, 30);
+
+- var __defaultCategory = (typeof defaultCategory === 'undefined') ? '' : defaultCategory
+section.resources-page(data-default-category=__defaultCategory)
+  .container-xl
+    .resources-page__intro.page-intro-box(data-animate)
+      h1 Resource Library
+      p= pageContents.resources.descr
+
+    .resources-page__layout
+      aside.resources-page__sidebar
+        nav.tag-cloud(aria-label="Filter by tag")
+          h2.tag-cloud__heading Browse by tag
+          .tag-cloud__list
+            each entry in sortedTags
+              a.tag-cloud__tag(
+                href="#"
+                data-tag=entry[0].toLowerCase()
+                data-count=entry[1]
+              )= entry[0]
+
+      .resources-page__main
+        .resources-search
+          input.resources-search__input(
+            type="search"
+            placeholder="Search resources..."
+            aria-label="Search resources"
+          )
+          button.resources-search__button(type="button") Search
+
+        .resources-chips
+          each cat in resourceCategories
+            button.resources-chips__chip(
+              type="button"
+              data-category=cat
+              aria-pressed="false"
+            )= cat
+
+        .resources-controls
+          .resources-controls__count
+            | #{resources.length} resources
+          .resources-controls__sort
+            label(for="resources-sort") Sort:
+            select#resources-sort
+              option(value="DD") Newest first
+              option(value="DA") Oldest first
+              option(value="TA") Title A–Z
+              option(value="TD") Title Z–A
+          button.resources-controls__reset(type="button" disabled) Reset
+
+        .pagination-bar.pagination-bar--top
+
+        .resource-grid
+          each r in resources
+            article.resource-card(
+              data-id=r.id
+              data-category=r.category
+              data-tags=(r.tags || '').toLowerCase()
+              data-title-lower=r.title.toLowerCase()
+              data-date=r.date
+            )
+              .resource-card__media
+                img(
+                  src=`${resourceImageBase}/${r.image}`
+                  alt=""
+                  loading="lazy"
+                )
+              .resource-card__body
+                h3.resource-card__title
+                  a(href=r.link target="_blank" rel="noopener")= r.title
+                .resource-card__meta
+                  if r.date
+                    time= new Date(r.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })
+                  span.resource-card__category= r.category
+                if r.descr
+                  p.resource-card__descr= r.descr
+
+        .resources-empty.is-hidden No resources match the current filters.
+
+        .pagination-bar.pagination-bar--bottom

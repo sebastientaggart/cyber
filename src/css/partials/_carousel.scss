@@ -1,0 +1,118 @@
+@use 'variables' as *;
+
+// Brand-tinted Bootstrap carousel for /cornerstone and /knowledgeondemand
+.brand-carousel {
+  background-color: $bg-panel;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+
+  .carousel-inner {
+    background-color: #fff;
+  }
+
+  .carousel-item {
+    padding: 2rem 3rem;
+  }
+
+  &__slide-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    align-items: center;
+
+    @media (min-width: 768px) {
+      grid-template-columns: 280px 1fr;
+    }
+  }
+
+  &__media img {
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    display: block;
+    margin-inline: auto;
+    border-radius: 4px;
+    transition: transform 150ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+    &:hover,
+    &:focus-visible {
+      transform: scale(1.025) rotate(2deg);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    &__media img {
+      transition: none;
+
+      &:hover,
+      &:focus-visible {
+        transform: none;
+      }
+    }
+  }
+
+  &__title {
+    color: $navy-dark;
+    margin: 0 0 0.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  &__body {
+    color: #333;
+    line-height: 1.55;
+    margin-bottom: 1rem;
+  }
+
+  &__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.55rem 1.1rem;
+    background-color: $sun-glow;
+    color: $navy-dark;
+    border-radius: 999px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 0.5rem;
+
+    &:hover,
+    &:focus-visible {
+      background-color: $sun-glow-dark;
+      color: $navy-dark;
+      text-decoration: none;
+    }
+
+    &--secondary {
+      background-color: $navy;
+      color: #fff;
+
+      &:hover,
+      &:focus-visible {
+        background-color: $navy-dark;
+        color: #fff;
+      }
+    }
+  }
+
+  &__coming-soon {
+    display: inline-block;
+    padding: 0.35rem 0.85rem;
+    background-color: rgba(0, 0, 0, 0.1);
+    color: $navy-dark;
+    border-radius: 999px;
+    font-size: 0.85rem;
+    font-weight: 700;
+  }
+
+  // Bootstrap controls/indicators tinted to brand
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(1) drop-shadow(0 0 2px rgba(0, 0, 0, 0.6));
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: $navy;
+  }
+}

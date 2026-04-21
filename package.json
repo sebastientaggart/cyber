@@ -1,0 +1,26 @@
+{
+  "name": "hhscyber-gateway",
+  "version": "0.1.0",
+  "description": "HHS Cyber Gateway — static site (Parcel + Pug + SCSS)",
+  "private": true,
+  "source": [
+    "src/*.pug"
+  ],
+  "scripts": {
+    "clean": "rm -rf dist .parcel-cache",
+    "start": "parcel",
+    "prebuild": "node scripts/build-search-index.mjs",
+    "build": "rm -rf dist .parcel-cache && parcel build --no-source-maps",
+    "fetch-content": "node scripts/fetch-content.mjs"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-pug": "2.16.4",
+    "@parcel/transformer-sass": "2.16.4",
+    "lunr": "^2.3.9",
+    "markdown-it": "^14.1.1",
+    "markdown-it-footnote": "^4.0.0",
+    "parcel": "2.16.4",
+    "sanitize-html": "^2.17.2"
+  }
+}

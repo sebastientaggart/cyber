@@ -1,0 +1,186 @@
+@use 'variables' as *;
+
+.site-header {
+  position: relative;
+  color: #fff;
+}
+
+.site-hero {
+  min-height: 380px;
+  background-image: url('../images/headers/header-home.png');
+  background-position: center top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: $navy-dark;
+  position: relative;
+
+  // Subtle dark overlay so the white text always passes contrast
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.18);
+    pointer-events: none;
+  }
+
+  > .container-xl {
+    position: relative;
+    z-index: 1;
+    padding-block: 1.25rem 2.5rem;
+  }
+}
+
+// Per-page hero backgrounds — Phase 1
+.page-spanish .site-hero {
+  background-image: url('../images/headers/header-spanish.png');
+}
+
+// Default backgrounds (home image) for pages without a unique bg in 405d's switch
+.page-home .site-hero,
+.page-about .site-hero,
+.page-disclaimer .site-hero,
+.page-404 .site-hero,
+.page-contactus .site-hero,
+.page-default .site-hero {
+  background-image: url('../images/headers/header-home.png');
+}
+
+// Phase 2 — cornerstone family uses the cornerstone background
+.page-cornerstone .site-hero,
+.page-hicp .site-hero,
+.page-landscape .site-hero {
+  background-image: url('../images/headers/header-cornerstone.png');
+}
+
+// Phase 2 — KOD family uses the education background
+.page-kod .site-hero,
+.page-kod-five-threats .site-hero,
+.page-kod-detail .site-hero,
+.page-kod-quick-shots .site-hero {
+  background-image: url('../images/headers/header-education.png');
+}
+
+// Phase 3 — resources family uses the resources background
+.page-resources .site-hero {
+  background-image: url('../images/headers/header-resources.png');
+}
+
+// Phase 3 — post / news pages use the post background
+.page-post .site-hero,
+.page-post-detail .site-hero {
+  background-image: url('../images/headers/header-post.png');
+}
+
+.site-header {
+  &__bar {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding-top: 0.5rem;
+  }
+
+  &__logo {
+    flex: 1 1 auto;
+    text-decoration: none;
+
+    img {
+      height: 86px;
+      width: auto;
+      display: block;
+    }
+  }
+
+  &__top-links {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin-top: 0.75rem;
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 0.95rem;
+
+      &:hover,
+      &:focus-visible {
+        color: $sun-glow;
+      }
+    }
+
+    @media (max-width: 575.98px) {
+      display: none;
+    }
+  }
+
+  &__divider {
+    color: rgba(255, 255, 255, 0.5);
+  }
+
+  &__hamburger {
+    display: none;
+    background: transparent;
+    border: 0;
+    color: #fff;
+    padding: 0.5rem;
+    cursor: pointer;
+
+    .material-icons {
+      font-size: 28px;
+    }
+
+    @media (max-width: 575.98px) {
+      display: inline-flex;
+      align-items: center;
+    }
+  }
+
+  &__tabs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(200, 200, 200, 0.5);
+    border-bottom: 1px solid rgba(200, 200, 200, 0.5);
+  }
+
+  &__tab {
+    flex: 1 1 auto;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.85rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-bottom: 3px solid transparent;
+    transition: border-color 150ms ease, color 150ms ease;
+
+    &:hover,
+    &:focus-visible {
+      color: $sun-glow;
+      border-bottom-color: $tab-selector;
+    }
+
+    @media (max-width: 767.98px) {
+      flex-basis: 50%;
+      font-size: 0.85rem;
+    }
+  }
+
+  // Placeholder for not-yet-built routes (Phase 2/3)
+  &__tab--disabled {
+    color: rgba(255, 255, 255, 0.55);
+    cursor: not-allowed;
+
+    &:hover,
+    &:focus-visible {
+      color: rgba(255, 255, 255, 0.55);
+      border-bottom-color: transparent;
+    }
+  }
+
+  &__top-link--disabled {
+    color: rgba(255, 255, 255, 0.55);
+    font-size: 0.95rem;
+    cursor: not-allowed;
+  }
+}

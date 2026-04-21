@@ -1,0 +1,105 @@
+@use 'variables' as *;
+
+.site-footer {
+  background-color: $navy;
+  color: #fff;
+  padding-block: 2rem;
+  margin-top: 4rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+
+    &:hover,
+    &:focus-visible {
+      color: $sun-glow;
+      text-decoration: underline;
+    }
+  }
+
+  &__col {
+    // Column-level spacing handled by Bootstrap grid (row gx-4 gy-4)
+  }
+
+  &__logos {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+
+    img {
+      max-width: 200px;
+      height: auto;
+    }
+  }
+
+  &__heading {
+    margin: 0.5rem 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+
+  &__socials {
+    display: flex;
+    gap: 0.75rem;
+
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 36px;
+      height: 36px;
+      font-size: 1.5rem;
+      color: #fff;
+      transition: color 150ms ease, transform 150ms ease;
+
+      &:hover,
+      &:focus-visible {
+        color: $sun-glow;
+        transform: translateY(-2px);
+      }
+    }
+  }
+
+  &__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__group {
+    margin-bottom: 1rem;
+  }
+
+  &__item--lead {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-block: 0.25rem;
+  }
+
+  &__sublist {
+    list-style: none;
+    margin: 0.25rem 0 0;
+    padding-left: 0.75rem;
+
+    li {
+      font-size: 0.85rem;
+      margin-block: 0.2rem;
+    }
+  }
+
+  // Placeholder for routes that are not yet built (Phase 2/3 work)
+  &__item--disabled {
+    color: rgba(255, 255, 255, 0.55);
+    cursor: not-allowed;
+  }
+
+  &__version {
+    margin-top: 1.5rem;
+    text-align: right;
+    font-size: 0.7rem;
+    color: #bbb;
+    font-style: italic;
+  }
+}

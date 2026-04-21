@@ -1,0 +1,30 @@
+@use 'variables' as *;
+
+// Mirrors 405d-old AnimatedBox: hidden state (opacity 0, blurred, translated down)
+// transitions to visible once .is-visible is latched by src/js/animate.js.
+[data-animate] {
+  opacity: 0;
+  filter: blur(8px);
+  transform: translateY(6em);
+  transition:
+    opacity 1.5s ease-in-out,
+    filter 1.5s ease-in-out,
+    transform 1.5s ease-in-out;
+  will-change: opacity, transform, filter;
+
+  &.is-visible {
+    opacity: 1;
+    filter: none;
+    transform: none;
+  }
+}
+
+// Respect user preference — snap straight to visible state, no transitions.
+@media (prefers-reduced-motion: reduce) {
+  [data-animate] {
+    opacity: 1;
+    filter: none;
+    transform: none;
+    transition: none;
+  }
+}

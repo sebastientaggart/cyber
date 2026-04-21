@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Resource Library — Publications`
+  - var bodyClass = 'page-resources'
+  - var pageDescription = 'HHS Cyber Gateway resource library filtered to Publications.'
+
+block content
+  - var defaultCategory = 'Publications'
+  include includes/resources-template.pug

@@ -1,0 +1,32 @@
+//- Site chrome: hero background + top bar + nav tabs + tagline.
+//- Per-page hero background is selected by `bodyClass` on <body> via _header.scss.
+header.site-header
+  .site-hero
+    .container-xl
+      .site-header__bar
+        a.site-header__logo(href="index.pug" aria-label=`${site.name} home`)
+          img(src="images/logo/hhs-cyber-logo.png" alt=`${site.name}` height=86)
+        nav.site-header__top-links(aria-label="Utility")
+          a(href="about.pug") About Us
+          span.site-header__divider(aria-hidden="true") |
+          a(href="contactus.pug") Contact Us
+        button.site-header__hamburger(
+          type="button"
+          aria-label="Open menu"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobile-drawer"
+          aria-controls="mobile-drawer"
+        )
+          span.material-icons menu
+
+      nav.site-header__tabs(aria-label="Primary")
+        a.site-header__tab(href="index.pug") Home
+        //- Phase 2/3 restore real hrefs on the four spans below.
+        a.site-header__tab(href="cornerstone.pug") Cornerstone Publications
+        a.site-header__tab(href="knowledgeondemand.pug") Knowledge on Demand
+        a.site-header__tab(href="resources.pug") Resource Library
+        a.site-header__tab(href="spanish.pug") Recoursos de español
+
+      .site-hero__tagline
+        h1.site-hero__tagline-line Cyber Safety is
+        h1.site-hero__tagline-emphasis Patient Safety

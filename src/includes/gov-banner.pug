@@ -1,0 +1,33 @@
+//- USWDS-style government banner. Toggled by src/js/animate.js (initGovBanner).
+.gov-banner(role="region" aria-label="Official government website")
+  .container-xl.gov-banner__top
+    img.gov-banner__flag(src="images/uswds/us-flag-small.png" alt="U.S. flag")
+    span.gov-banner__label An official website of the United States government
+    button.gov-banner__toggle.js-gov-banner-toggle(
+      type="button"
+      aria-expanded="false"
+      aria-controls="gov-banner-content"
+    )
+      span.gov-banner__toggle-text Here's how you know
+      span.gov-banner__chevron(aria-hidden="true")
+  #gov-banner-content.gov-banner__content(aria-hidden="true")
+    .container-xl
+      .row
+        .col-md-6.gov-banner__col
+          img.gov-banner__icon(src="images/uswds/icon-dot-gov.svg" alt="")
+          .gov-banner__col-body
+            p
+              strong Official websites use .gov
+            p A
+              strong .gov
+              |  website belongs to an official government organization in the United States.
+        .col-md-6.gov-banner__col
+          img.gov-banner__icon(src="images/uswds/icon-https.svg" alt="")
+          .gov-banner__col-body
+            p
+              strong Secure .gov websites use HTTPS
+            p A lock (
+              span.gov-banner__lock 🔒
+              | ) or
+              strong https://
+              |  means you've safely connected to the .gov website. Share sensitive information only on official, secure websites.

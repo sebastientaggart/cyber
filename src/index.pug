@@ -1,0 +1,107 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Home`
+  - var bodyClass = 'page-home'
+  - var pageDescription = 'Cyber Safety is Patient Safety — HHS Cyber Gateway resources, tools, and education for the Healthcare and Public Health (HPH) sector.'
+
+block content
+  section.home-intro
+    .container-xl
+      .row.gx-4.gy-4
+        .col-12.col-md-4
+          .intro-card.intro-card--blue(data-animate)
+            h2.intro-card__title Who We Are
+            p.intro-card__body= pageContents.home.whoWeAre
+        .col-12.col-md-4
+          .intro-card.intro-card--navy(data-animate style="transition-delay: 250ms")
+            h2.intro-card__title What We Do
+            p.intro-card__body= pageContents.home.whatWeDo
+        .col-12.col-md-4
+          .intro-card.intro-card--grey(data-animate style="transition-delay: 500ms")
+            h2.intro-card__title How Can We Help You
+            p.intro-card__body= pageContents.home.howCanWeHelpYou
+
+  //- Phase 4 — date-gated notices banner. Renders nothing when notices.json is empty
+  //- or no notices are currently active. JS in src/js/notices.js parses the embedded
+  //- JSON blob and populates #notices-banner.
+  section.home-notices(aria-label="Notices")
+    .container-xl
+      #notices-banner
+      script#notices-data(type="application/json")!= JSON.stringify(notices)
+
+  //- Phase 4 — main links grid (6 cards from home-page-content.json with Bootstrap
+  //- accordion behavior). Each card opens a sub-link panel below the grid.
+  section.home-main-links
+    .container-xl
+      #main-links-accordion.main-links-grid
+        each card, idx in homePageContent.mainLinks
+          - var iconPair = homeLinkIconMap[card.icon] || { light: card.icon + '.png', dark: card.icon + '-dark.png' }
+          .main-links__card
+            button.main-links__button(
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target=`#main-link-${idx}`
+              aria-expanded=(idx === 0 ? 'true' : 'false')
+              aria-controls=`main-link-${idx}`
+              class=(idx === 0 ? '' : 'collapsed')
+            )
+              img.main-links__icon.main-links__icon--light(src=`images/home-icons/${iconPair.light}` alt="")
+              img.main-links__icon.main-links__icon--dark(src=`images/home-icons/${iconPair.dark}` alt="")
+              h3.main-links__title= card.title
+              p.main-links__descr= card.descr
+      .main-links-panels
+        each card, idx in homePageContent.mainLinks
+          .collapse.main-links__panel(
+            id=`main-link-${idx}`
+            class=(idx === 0 ? 'show' : '')
+            data-bs-parent="#main-links-accordion"
+          )
+            .main-links__panel-inner
+              .row.g-3
+                each link in card.links
+                  - var colMobile = 'col-6'
+                  - var colDesktop = 'col-md-3'
+                  if link.size === 'full'
+                    - colMobile = 'col-12'
+                    - colDesktop = 'col-md-12'
+                  else if link.size === 'double'
+                    - colDesktop = 'col-md-6'
+                  div(class=`${colMobile} ${colDesktop}`)
+                    a.main-links__sublink(
+                      href=link.url
+                      target=(link.internal ? null : '_blank')
+                      rel=(link.internal ? null : 'noopener')
+                      class=(link.isNew ? 'main-links__sublink--new' : '')
+                    )
+                      span.main-links__sublink-title= link.title
+                      if link.isNew
+                        span.main-links__sublink-badge NEW
+
+  //- Phase 4 — animated stats counters (scroll-spy via src/js/stats.js)
+  section.home-stats
+    .container-xl
+      h2.home-stats__heading The scale of cyber threats in healthcare
+      .home-stats__grid
+        each stat in homePageContent.stats
+          .stat-counter
+            .stat-counter__value(
+              data-end-value=stat.value
+              style=`color: ${stat.color}`
+            ) 0
+            h3.stat-counter__title= stat.title
+            if stat.descr
+              p.stat-counter__descr= stat.descr
+            if stat.link
+              a.stat-counter__link(href=stat.link target="_blank" rel="noopener")
+                = stat.linkText || 'Source'
+                span.material-icons(aria-hidden="true") launch
+
+  section.home-newsletter(data-animate)
+    .container-xl
+      .newsletter-panel
+        h2.newsletter-panel__title Join Our Distro
+        p.newsletter-panel__body Want to stay up to date on the latest HPH cybersecurity resources, updates, and threat mitigation tactics? Join our mailing list for our Advisory Bulletins and weekly Healthcare and Public Health Sector Cybersecurity Newsletter.
+        a.btn.newsletter-panel__cta(href=`mailto:${site.mailto}?subject=Subscribe`)
+          span Join Our Mailing List
+          span.material-icons(aria-hidden="true") send

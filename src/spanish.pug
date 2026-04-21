@@ -1,0 +1,36 @@
+extends includes/layout.pug
+
+block variables
+  - var pageTitle = `${site.name} | Recoursos de español`
+  - var bodyClass = 'page-spanish'
+  - var pageDescription = 'Recursos de ciberseguridad en español para el sector de la Salud y los Servicios de Salud Pública.'
+
+block content
+  section.spanish-intro
+    .container-xl
+      .page-intro-box.text-center
+        h1 Recoursos de español
+        p= pageContents.spanish.descr
+
+  each item in pageContents.spanish.items
+    //- Key inconsistencies inherited from the 405d source:
+    //-   item.key === 'job-aids'  ↔  spanishResources.jobAid (camelCase)
+    //-   item.imageCode 'jobAid'  ↔  job-aid.png on disk
+    - var listKey = item.key === 'job-aids' ? 'jobAid' : item.key
+    - var imgFile = item.imageCode === 'jobAid' ? 'job-aid.png' : item.imageCode + '.png'
+    section.spanish-box(id=item.key style=`background-color: ${item.color}`)
+      .container-xl
+        .row.gx-4.gy-4.align-items-center
+          .col-12.col-md-4.spanish-box__media
+            img(src=`images/spanish/${imgFile}` alt=item.title)
+          .col-12.col-md-8
+            h2.spanish-box__title= item.title
+            p.spanish-box__body= item.descr
+            ul.spanish-box__links
+              each pdf in spanishResources[listKey]
+                li
+                  a(
+                    href=`https://405d.hhs.gov/Documents/${pdf.url}`
+                    target="_blank"
+                    rel="noopener"
+                  )= pdf.title

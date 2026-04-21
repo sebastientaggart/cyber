@@ -1,0 +1,38 @@
+//- Inline-SVG cybersecurity roadmap with hotspots.
+//- viewBox="0 0 1000 272" matches the natural pixel dimensions of cybersecurity-roadmap.png,
+//- so hotspot coordinates from cybersecurityRoadmap.json `areas[].coords` map directly into
+//- SVG user space — no JS resize handling needed.
+//-
+//- Bootstrap popovers are wired up at runtime by src/js/hicp-roadmap.js, which also adds
+//- keyboard handlers (Enter/Space → open, Escape → close) and click-outside dismissal.
+//- Popover content (markdown) is pre-rendered to HTML at build time in pug.config.js via marked.
+.cybersecurity-roadmap
+  svg.cybersecurity-roadmap__svg(
+    viewBox="0 0 1000 272"
+    xmlns="http://www.w3.org/2000/svg"
+    role="img"
+    aria-labelledby="roadmap-title"
+  )
+    title#roadmap-title Your cybersecurity roadmap — 10 steps to start your journey
+    image(
+      href="images/hicp/cybersecurity-roadmap.png"
+      x="0" y="0" width="1000" height="272"
+    )
+    each area in roadmap.map.areas
+      //- Filter to the 10 primary hotspots (x1–x9, xA). Skip the c1–cA highlight circles.
+      if area.id && area.id.charAt(0) === 'x' && area.coords && area.coords.length === 3
+        - var step = roadmapDescriptions[area.descr]
+        circle.cybersecurity-roadmap__hotspot(
+          cx=area.coords[0]
+          cy=area.coords[1]
+          r=area.coords[2]
+          tabindex="0"
+          role="button"
+          aria-label=`${step.title}: open description`
+          data-bs-toggle="popover"
+          data-bs-trigger="click"
+          data-bs-placement="auto"
+          data-bs-html="true"
+          data-bs-title=step.title
+          data-bs-content=step.html
+        )

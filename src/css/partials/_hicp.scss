@@ -1,0 +1,291 @@
+@use 'sass:color';
+@use 'variables' as *;
+
+// =============================================================================
+// HICP — Cybersecurity Roadmap (inline SVG hotspots)
+// =============================================================================
+
+.cybersecurity-roadmap {
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  padding-inline: 1rem;
+
+  &__svg {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  &__hotspot {
+    fill: rgba(255, 255, 255, 0.4);
+    stroke: $sun-glow;
+    stroke-width: 2;
+    cursor: pointer;
+    transition: fill 200ms ease, stroke-width 200ms ease;
+
+    &:hover,
+    &:focus-visible {
+      fill: rgba(253, 186, 53, 0.7);
+      stroke-width: 4;
+      outline: none;
+    }
+  }
+}
+
+// =============================================================================
+// HICP — 5-threat Bootstrap nav-tabs
+// =============================================================================
+
+.hicp-threats {
+  margin-block: 2.5rem;
+  scroll-margin-top: 1rem;
+
+  &__heading {
+    color: $navy;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    @media (min-width: 768px) {
+      font-size: 1.85rem;
+    }
+  }
+
+  // Override Bootstrap nav-tabs to brand colors
+  .nav-tabs {
+    border-bottom: 2px solid $navy;
+    gap: 0.25rem;
+    flex-wrap: wrap;
+
+    .nav-link {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.4rem;
+      color: $navy;
+      background-color: $bg-panel;
+      border: 1px solid transparent;
+      border-radius: 6px 6px 0 0;
+      padding: 0.65rem 1rem;
+      font-weight: 600;
+      min-width: 110px;
+
+      img {
+        max-height: 48px;
+        width: auto;
+      }
+
+      &:hover {
+        background-color: color.adjust($bg-panel, $lightness: 4%);
+        color: $navy-dark;
+      }
+
+      &.active {
+        background-color: $navy;
+        color: #fff;
+        border-color: $navy;
+        border-bottom-color: $sun-glow;
+        border-bottom-width: 4px;
+      }
+    }
+  }
+
+  &__pane {
+    background-color: #fff;
+    border: 1px solid #d0d8e2;
+    border-top: none;
+    padding: 1.5rem;
+    border-radius: 0 0 6px 6px;
+  }
+
+  &__title {
+    color: $navy;
+    margin: 0 0 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+
+  &__scenario-label {
+    display: block;
+    color: $navy-dark;
+    font-weight: 700;
+    margin-top: 1rem;
+    margin-bottom: 0.25rem;
+  }
+
+  &__video {
+    margin-block: 1rem;
+
+    video {
+      width: 100%;
+      max-width: 700px;
+      height: auto;
+      background-color: #000;
+      display: block;
+      margin-inline: auto;
+    }
+  }
+
+  &__transcript {
+    display: inline-block;
+    margin-top: 0.5rem;
+    color: $link-aaa;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0.55rem 1rem;
+    background-color: $navy;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+
+    &:hover,
+    &:focus-visible {
+      background-color: $navy-dark;
+      color: #fff;
+      text-decoration: none;
+    }
+
+    &--accent {
+      background-color: $sun-glow;
+      color: $navy-dark;
+
+      &:hover,
+      &:focus-visible {
+        background-color: $sun-glow-dark;
+        color: $navy-dark;
+      }
+    }
+  }
+}
+
+// =============================================================================
+// HICP — 10-practice grid + collapse panels
+// =============================================================================
+
+.hicp-practices {
+  margin-block: 2.5rem;
+  scroll-margin-top: 1rem;
+
+  &__heading {
+    color: $navy;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+
+    @media (min-width: 768px) {
+      font-size: 1.85rem;
+    }
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+
+    @media (min-width: 576px) {
+      grid-template-columns: repeat(5, 1fr);
+    }
+  }
+
+  &__button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: $bg-panel;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    padding: 0.85rem 0.5rem;
+    color: $navy-dark;
+    font-weight: 600;
+    font-size: 0.85rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 150ms ease, border-color 150ms ease;
+    width: 100%;
+    min-height: 110px;
+
+    img {
+      max-height: 56px;
+      width: auto;
+    }
+
+    &:hover {
+      background-color: color.adjust($bg-panel, $lightness: 4%);
+    }
+
+    &[aria-expanded="true"] {
+      background-color: $navy;
+      color: #fff;
+      border-color: $sun-glow;
+    }
+  }
+
+  &__panel {
+    background-color: #fff;
+    border: 1px solid #d0d8e2;
+    border-radius: 6px;
+    padding: 1.25rem 1.5rem;
+    margin-top: 0.75rem;
+  }
+
+  &__panel-title {
+    color: $navy;
+    margin: 0 0 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  &__panel-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+  }
+}
+
+// =============================================================================
+// HICP — shared document list (3 PDFs)
+// =============================================================================
+
+.hicp-document-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-block: 1rem;
+
+  &__button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.6rem 1.1rem;
+    background-color: $newsletter;
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 600;
+
+    &:hover,
+    &:focus-visible {
+      background-color: color.adjust($newsletter, $lightness: -10%);
+      color: #fff;
+      text-decoration: none;
+    }
+  }
+}

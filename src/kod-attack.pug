@@ -1,0 +1,10 @@
+extends includes/layout.pug
+
+block variables
+  - var threatId = 'attack'
+  - var pageTitle = `${site.name} | Attacks Against Connected Medical Devices`
+  - var bodyClass = 'page-kod-detail'
+  - var pageDescription = 'Knowledge on Demand training: Attacks Against Network Connected Medical Devices — interactive video, job aid, and supporting materials.'
+
+block content
+  include includes/kod-detail-template.pug

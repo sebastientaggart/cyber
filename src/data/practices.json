@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Email Protection Systems",
+    "descr": "The two most common phishing methods occur by email access: 1) Credential theft is where attackers leverage emails to conduct credential harvesting attacks on the organization. 2) Malware dropper attacks are used when attackers deliver malware through emails, which can compromise endpoints. An organization’s cybersecurity practices must address these two attack vectors. Because both attack types leverage email, email systems should be the focus for additional security controls.",
+    "download": "405d-email-protection-systems-poster_R.pdf",
+    "pulse": "405d-email-protection-systems-pulse-check_R.pdf",
+    "icon": "iconEmail"
+  },
+  {
+    "title": "Endpoint Protection Systems",
+    "descr": "An organization’s endpoints must be protected. Endpoints include desktops, laptops, mobile devices, and other connected hardware devices (e.g., printers, medical equipment). Because technology is highly mobile, computers are often connected to and disconnected from an organization’s network.",
+    "download": "405d-endpoint-protection-systems-poster_R.pdf",
+    "pulse": "405d-endpoint-protection-systems-pulse-check_R.pdf",
+    "icon": "iconEndpointProtection"
+  },
+  {
+    "title": "Identity and Access Management",
+    "descr": "Health care organizations of all sizes need to clearly identify all users and maintain audit trails that monitor each user’s access to data, applications, systems, and endpoints. Just as you may use a name badge to identify yourself in the physical work environment, cybersecurity access management practices can help ensure that users are properly identified in the digital environment, as well.",
+    "download": "405d-identity-and-access-management-poster.pdf",
+    "pulse": "405d-identity-and-access-management-pulse-check_R.pdf",
+    "icon": "iconIdentityAndAccessManagement"
+  },
+  {
+    "title": "Data Protection and Loss Prevention",
+    "descr": "A security breach is the loss or exposure of sensitive data, including information relevant to the organization’s business and patient PHI. Impacts to the organization can be profound if data are corrupted, lost, or stolen.",
+    "download": "405d-data-protection-and-loss-prevention-poster_R.pdf",
+    "pulse": "405d-data-protection-and-loss-prevention-pulse-check_R.pdf",
+    "icon": "iconDataProtectionLossPrevention"
+  },
+  {
+    "title": "IT Asset Management",
+    "descr": "Organizations manage IT assets using processes referred to collectively as IT asset management (ITAM). ITAM is critical to ensuring that the appropriate cyber hygiene controls are maintained across all assets in your organization",
+    "download": "405d-it-asset-management-poster_R.pdf",
+    "pulse": "405d-it-asset-management-pulse-check_R.pdf",
+    "icon": "iconITAssetManagement"
+  },
+  {
+    "title": "Network Management",
+    "descr": "Computers communicate with other computers through networks. These networks are connected wirelessly or via wired connections (e.g., network cables), and networks must be established before systems can interoperate. Networks that are established in an insecure manner increase an organization’s exposure to cyberattacks.",
+    "download": "405d-network-management-poster_R.pdf",
+    "pulse": "405d-network-management-pulse-check_R.pdf",
+    "icon": "iconNetworkManagement"
+  },
+  {
+    "title": "Vulnerability Management",
+    "descr": "Organizations manage IT assets using processes referred to collectively as IT asset management (ITAM). ITAM is critical to ensuring that the appropriate cyber hygiene controls are maintained across all assets in your organization",
+    "download": "405d-vulnerability-management-poster.pdf",
+    "pulse": "405d-vulnerability-management-pulse-check_R.pdf",
+    "icon": "iconVulnerabilityManagement"
+  },
+  {
+    "title": "Security Operations Center & Incident Response",
+    "descr": "Incident response is the ability to discover cyberattacks on the network and prevent them from causing data breach or loss. Incident response is often referred to as the standard “blocking and tackling” of information security. Many types of security incidents occur on a regular basis across organizations of all sizes. Two common security incidents that affect organizations of all sizes are 1) the installation and detection of malware, and 2) phishing attacks that include malicious payloads (via attachments and links).",
+    "download": "405d-security-operations-center-n-incident-response-poster_R.pdf",
+    "pulse": "405d-security-operations-center-n-incident-response-pulse-check_R.pdf",
+    "icon": "iconSecurityOperationsCenterAndIncidentResponse"
+  },
+  {
+    "title": "Network Connected Medical Device Security",
+    "descr": "Medical devices are essential to diagnostic, therapeutic and treatment practices. These devices deliver significant benefits and are successful in the treatment of many diseases. As with all technologies, medical device benefits are accompanied by cybersecurity challenges. Cybersecurity vulnerabilities are introduced when medical devices are connected to a network or computer to process required updates, therefore in order to protect patients it is important to protect these devices. Medical devices are a specialized type of Internet of Things (IoT) device and rather than recreating cybersecurity practices for them, healthcare organizations are encouraged to extend the relevant cybersecurity practices from each of the other prescriptions, and implement them appropriately for medical device management.",
+    "download": "405d-network-connected-medical-device-security-poster_R.pdf",
+    "pulse": "405d-network-connected-medical-device-security-pulse-check_R.pdf",
+    "icon": "iconMedicalDeviceSecurity"
+  },
+  {
+    "title": "Cybersecurity Oversight and Governance",
+    "descr": "Establishing and implementing cybersecurity policies, procedures, and processes is one of the most effective means of preventing cyberattacks. They set expectations and foster a consistent adoption of behaviors by your workforce. With clearly articulated cybersecurity policies, your employees, contractors, and third-party vendors know which data, applications, systems, and devices they are authorized to access and the consequences of unauthorized access attempts.",
+    "download": "405d-cybersecurity-oversight-and-governance-poster_R.pdf",
+    "pulse": "405d-cybersecurity-oversight-and-governance-pulse-check_R.pdf",
+    "icon": "iconCybersecurityOversightAndGovernance"
+  }
+]
