@@ -5,6 +5,8 @@
 //
 // No-op if the page doesn't contain the Quick Shots grid.
 
+import { isSafeAssetUrl } from './url-utils.js';
+
 function initKodQuickShots() {
   const grid = document.querySelector('.kod-quick-shots__grid');
   const modalEl = document.getElementById('kod-video-modal');
@@ -18,7 +20,7 @@ function initKodQuickShots() {
   function openVideo(tile) {
     const url = tile.getAttribute('data-video-url');
     const title = tile.getAttribute('data-video-title') || '';
-    if (!url) return;
+    if (!url || !isSafeAssetUrl(url)) return;
     videoEl.src = url;
     if (titleEl) titleEl.textContent = title;
     modal.show();

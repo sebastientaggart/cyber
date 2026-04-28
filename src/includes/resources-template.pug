@@ -6,6 +6,7 @@
 - var tagCounts = {};
 - resources.forEach(function(r) { (r.tags || '').split(',').map(function(t){return t.trim();}).filter(Boolean).forEach(function(t) { tagCounts[t] = (tagCounts[t] || 0) + 1; }); });
 - var sortedTags = Object.entries(tagCounts).sort(function(a, b) { return b[1] - a[1]; }).slice(0, 30);
+- var isSafeHttpUrl = function(url) { return typeof url === 'string' && /^https?:\/\//i.test(url.trim()); };
 
 - var __defaultCategory = (typeof defaultCategory === 'undefined') ? '' : defaultCategory
 section.resources-page(data-default-category=__defaultCategory)
@@ -24,6 +25,8 @@ section.resources-page(data-default-category=__defaultCategory)
                 href="#"
                 data-tag=entry[0].toLowerCase()
                 data-count=entry[1]
+                role="button"
+                aria-pressed="false"
               )= entry[0]
 
       .resources-page__main
@@ -46,6 +49,7 @@ section.resources-page(data-default-category=__defaultCategory)
         .resources-controls
           .resources-controls__count
             | #{resources.length} resources
+          .resources-controls__status.visually-hidden(role="status" aria-live="polite")
           .resources-controls__sort
             label(for="resources-sort") Sort:
             select#resources-sort
@@ -66,15 +70,20 @@ section.resources-page(data-default-category=__defaultCategory)
               data-title-lower=r.title.toLowerCase()
               data-date=r.date
             )
+              - var resourceImage = isSafeHttpUrl(`${resourceImageBase}/${r.image}`) ? `${resourceImageBase}/${r.image}` : ''
+              - var resourceLink = isSafeHttpUrl(r.link) ? r.link : ''
               .resource-card__media
                 img(
-                  src=`${resourceImageBase}/${r.image}`
+                  src=resourceImage
                   alt=""
                   loading="lazy"
                 )
               .resource-card__body
                 h3.resource-card__title
-                  a(href=r.link target="_blank" rel="noopener")= r.title
+                  if resourceLink
+                    a(href=resourceLink target="_blank" rel="noopener noreferrer")= r.title
+                  else
+                    span= r.title
                 .resource-card__meta
                   if r.date
                     time= new Date(r.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })

@@ -4,6 +4,7 @@ block variables
   - var pageTitle = `${site.name} | About Us`
   - var bodyClass = 'page-about'
   - var pageDescription = 'About the HHS Cyber Gateway program and our partner agencies across the federal government and private sector.'
+  - var isSafeHttpUrl = function(url) { return typeof url === 'string' && /^https?:\/\//i.test(url.trim()); }
 
 block content
   section.about-intro
@@ -23,10 +24,11 @@ block content
       h2.about-partners__heading Our Partners
       .about-partners__grid
         each partner in aboutUs.partners
+          - var safePartnerUrl = isSafeHttpUrl(partner.link) ? partner.link : '#'
           a.about-partners__logo(
-            href=partner.link
-            target="_blank"
-            rel="noopener"
+            href=safePartnerUrl
+            target=(safePartnerUrl === '#' ? null : '_blank')
+            rel=(safePartnerUrl === '#' ? null : 'noopener noreferrer')
             title=partner.descr
             aria-label=partner.title
           )

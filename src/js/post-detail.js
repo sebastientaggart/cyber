@@ -4,6 +4,8 @@
 // matching post, and populates the DOM shell. Re-renders on `hashchange`.
 // No-op if there's no `#posts-data` blob on the page.
 
+import { isSafeAssetUrl, isSafeHttpUrl } from './url-utils.js';
+
 const SITE_NAME = 'HHS Cyber Gateway';
 
 function formatDate(iso) {
@@ -62,9 +64,10 @@ function initPostDetail() {
     // Optional download button
     const dl = shell.querySelector('[data-field="download"]');
     if (dl) {
-      if (post.link) {
+      if (post.link && isSafeHttpUrl(post.link)) {
         dl.hidden = false;
         dl.href = post.link;
+        dl.rel = 'noopener noreferrer';
       } else {
         dl.hidden = true;
       }
@@ -73,7 +76,7 @@ function initPostDetail() {
     // Optional header image
     const hero = shell.querySelector('[data-field="header-image"]');
     if (hero) {
-      if (post.headerImage) {
+      if (post.headerImage && isSafeAssetUrl(post.headerImage)) {
         hero.hidden = false;
         hero.src = post.headerImage;
         hero.alt = post.title || '';
@@ -85,15 +88,15 @@ function initPostDetail() {
 
     // Update document title for the active post
     document.title = `${SITE_NAME} | ${post.title}`;
-    window.scrollTo({ top: 0, behavior: 'instant' });
+    window.scrollTo({ top: 0, behavior: 'auto' });
   }
 
   window.addEventListener('hashchange', render);
   render();
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState === 'complete') {
   initPostDetail();
 } else {
-  document.addEventListener('DOMContentLoaded', initPostDetail);
+  window.addEventListener('load', initPostDetail);
 }

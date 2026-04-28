@@ -53,8 +53,8 @@ function initStats() {
   els.forEach((el) => io.observe(el));
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState === 'complete') {
   initStats();
 } else {
-  document.addEventListener('DOMContentLoaded', initStats);
+  window.addEventListener('load', initStats);
 }

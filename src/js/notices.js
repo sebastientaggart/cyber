@@ -9,6 +9,8 @@
 // No-op when there are no notices, no active notices, or the page lacks the
 // expected DOM elements.
 
+import { isSafeHttpUrl } from './url-utils.js';
+
 function initNotices() {
   const blob = document.getElementById('notices-data');
   const banner = document.getElementById('notices-banner');
@@ -51,11 +53,12 @@ function initNotices() {
     card.append(header, title, body);
 
     if (notice.link_url) {
+      if (!isSafeHttpUrl(notice.link_url)) return;
       const link = document.createElement('a');
       link.href = notice.link_url;
       link.className = 'notice-card__link';
       link.target = '_blank';
-      link.rel = 'noopener';
+      link.rel = 'noopener noreferrer';
       link.textContent = notice.link_title || 'Learn more';
       card.append(link);
     }
@@ -64,8 +67,8 @@ function initNotices() {
   });
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState === 'complete') {
   initNotices();
 } else {
-  document.addEventListener('DOMContentLoaded', initNotices);
+  window.addEventListener('load', initNotices);
 }

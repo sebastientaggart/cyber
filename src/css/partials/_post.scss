@@ -99,8 +99,10 @@
     }
 
     @media (min-width: 768px) {
-      grid-template-columns: 320px 1fr;
-      align-items: center;
+      &:has(.post-card__media) {
+        grid-template-columns: 320px 1fr;
+        align-items: center;
+      }
     }
   }
 
@@ -122,8 +124,10 @@
     padding: 1rem;
 
     @media (min-width: 576px) {
-      grid-template-columns: 100px 1fr;
-      align-items: start;
+      &:has(.post-card__media) {
+        grid-template-columns: 100px 1fr;
+        align-items: start;
+      }
     }
 
     .post-card__title {

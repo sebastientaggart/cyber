@@ -213,7 +213,7 @@
     },
     {
       "title": "ICYMI",
-      "descr": "The latest cybersecurity resources and news from The HHS 405(d) Program.",
+      "descr": "The latest cybersecurity resources and news from The HHS Cyber program.",
       "icon": "icymi",
       "links": [
         { "title": "CPG Highlights", "url": "https://405d.hhs.gov/Documents/405d-cpg-highlights-2024.pdf" },

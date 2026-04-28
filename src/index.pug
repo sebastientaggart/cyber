@@ -4,6 +4,8 @@ block variables
   - var pageTitle = `${site.name} | Home`
   - var bodyClass = 'page-home'
   - var pageDescription = 'Cyber Safety is Patient Safety — HHS Cyber Gateway resources, tools, and education for the Healthcare and Public Health (HPH) sector.'
+  - var isSafeHttpUrl = function(url) { return typeof url === 'string' && /^https?:\/\//i.test(url.trim()); }
+  - var isSafeInternalUrl = function(url) { return typeof url === 'string' && /^[./#]/.test(url.trim()); }
 
 block content
   section.home-intro
@@ -60,6 +62,9 @@ block content
             .main-links__panel-inner
               .row.g-3
                 each link in card.links
+                  - var safeInternal = !!link.internal && isSafeInternalUrl(link.url)
+                  - var safeExternal = !link.internal && isSafeHttpUrl(link.url)
+                  - var safeUrl = safeInternal || safeExternal ? link.url : '#'
                   - var colMobile = 'col-6'
                   - var colDesktop = 'col-md-3'
                   if link.size === 'full'
@@ -69,9 +74,9 @@ block content
                     - colDesktop = 'col-md-6'
                   div(class=`${colMobile} ${colDesktop}`)
                     a.main-links__sublink(
-                      href=link.url
-                      target=(link.internal ? null : '_blank')
-                      rel=(link.internal ? null : 'noopener')
+                      href=safeUrl
+                      target=(safeExternal ? '_blank' : null)
+                      rel=(safeExternal ? 'noopener noreferrer' : null)
                       class=(link.isNew ? 'main-links__sublink--new' : '')
                     )
                       span.main-links__sublink-title= link.title
@@ -92,8 +97,8 @@ block content
             h3.stat-counter__title= stat.title
             if stat.descr
               p.stat-counter__descr= stat.descr
-            if stat.link
-              a.stat-counter__link(href=stat.link target="_blank" rel="noopener")
+            if stat.link && isSafeHttpUrl(stat.link)
+              a.stat-counter__link(href=stat.link target="_blank" rel="noopener noreferrer")
                 = stat.linkText || 'Source'
                 span.material-icons(aria-hidden="true") launch
 

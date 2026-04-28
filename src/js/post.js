@@ -99,8 +99,8 @@ function initPost() {
   applyFilters();
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState === 'complete') {
   initPost();
 } else {
-  document.addEventListener('DOMContentLoaded', initPost);
+  window.addEventListener('load', initPost);
 }

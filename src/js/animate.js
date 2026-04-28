@@ -46,15 +46,15 @@ function initGovBanner() {
   });
 }
 
-function ready(fn) {
-  if (document.readyState !== 'loading') {
-    fn();
-  } else {
-    document.addEventListener('DOMContentLoaded', fn);
-  }
-}
-
-ready(() => {
+// Wait for `load` (not DOMContentLoaded) so all stylesheets are applied
+// before we query or observe the DOM — avoids "layout forced before page was
+// fully loaded" warnings from cross-origin CSS still in flight.
+if (document.readyState === 'complete') {
   initAnimations();
   initGovBanner();
-});
+} else {
+  window.addEventListener('load', () => {
+    initAnimations();
+    initGovBanner();
+  });
+}

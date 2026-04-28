@@ -11,7 +11,11 @@ const sanitizeHtml = require('sanitize-html');
 // `markdown-it-footnote` adds support for the `[^N]` syntax used in 3 of 41 posts.
 const md = new MarkdownIt({ html: true, linkify: false, typographer: false }).use(mdFootnote);
 
+// Migration note: this base points to legacy 405(d)-owned media that still lives
+// on 405d.hhs.gov. As ownership/content is moved to hhscyber.hhs.gov, replace
+// these references with the new canonical host and remove this compatibility path.
 const RESOURCE_URL_BASE = 'https://405d.hhs.gov/blog';
+const RESOURCE_URL_TOKEN_BASE = `${RESOURCE_URL_BASE}/`;
 
 // Allowlist for sanitize-html. Mirrors the tags markdown-it can produce plus the
 // inline HTML used by the source data (`<u>` from the HICP roadmap, etc.).
@@ -27,14 +31,21 @@ const ALLOWED_ATTRS = {
   img: ['src', 'alt', 'title', 'width', 'height'],
   '*': ['id', 'class', 'aria-label', 'aria-labelledby', 'role'],
 };
+const SANITIZE_OPTIONS = {
+  allowedTags: ALLOWED_TAGS,
+  allowedAttributes: ALLOWED_ATTRS,
+  allowedSchemes: ['http', 'https', 'mailto'],
+  allowedSchemesAppliedToAttributes: ['href', 'src'],
+  allowProtocolRelative: false,
+};
 
 function renderMarkdown(rawMarkdown) {
   const html = md.render(rawMarkdown || '');
-  return sanitizeHtml(html, { allowedTags: ALLOWED_TAGS, allowedAttributes: ALLOWED_ATTRS });
+  return sanitizeHtml(html, SANITIZE_OPTIONS);
 }
 
 function renderPostBody(contentArray) {
-  const raw = (contentArray || []).join('\n').replace(/\{\{RESOURCE_URL\}\}/g, RESOURCE_URL_BASE);
+  const raw = (contentArray || []).join('\n').replace(/\{\{RESOURCE_URL\}\}/g, RESOURCE_URL_TOKEN_BASE);
   return renderMarkdown(raw);
 }
 

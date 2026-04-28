@@ -32,6 +32,7 @@ function initResources() {
   const pagerTop = document.querySelector('.pagination-bar--top');
   const pagerBottom = document.querySelector('.pagination-bar--bottom');
   const emptyEl = document.querySelector('.resources-empty');
+  const statusEl = document.querySelector('.resources-controls__status');
 
   const state = {
     categories: new Set(),
@@ -39,6 +40,8 @@ function initResources() {
     searchIds: null, // Set<id> when search active, null when inactive
     sort: sortSelect ? sortSelect.value : 'DD',
     page: 1,
+    lastSort: null,
+    searchError: false,
   };
 
   // Honor preselected category from <section data-default-category="Toolkits">
@@ -76,8 +79,13 @@ function initResources() {
     }[state.sort] || (() => 0);
     visibleCards.sort(cmp);
 
-    // Re-attach in sorted order so visual order matches
-    visibleCards.forEach((c) => grid.appendChild(c));
+    // Re-attach only when sort mode changes, to avoid excess DOM writes.
+    if (state.lastSort !== state.sort) {
+      const fragment = document.createDocumentFragment();
+      visibleCards.forEach((c) => fragment.appendChild(c));
+      grid.appendChild(fragment);
+      state.lastSort = state.sort;
+    }
 
     // Hide all then reveal current page
     cards.forEach((c) => c.classList.add('is-hidden'));
@@ -90,7 +98,17 @@ function initResources() {
     if (countLabel) {
       countLabel.textContent = `${visibleCards.length} resource${visibleCards.length === 1 ? '' : 's'}`;
     }
-    if (emptyEl) emptyEl.classList.toggle('is-hidden', visibleCards.length > 0);
+    if (emptyEl) {
+      if (state.searchError) {
+        emptyEl.textContent = 'Search is temporarily unavailable. Please try again.';
+      } else {
+        emptyEl.textContent = 'No resources match the current filters.';
+      }
+      emptyEl.classList.toggle('is-hidden', visibleCards.length > 0);
+    }
+    if (statusEl) {
+      statusEl.textContent = `Showing ${visibleCards.length} resource${visibleCards.length === 1 ? '' : 's'}, page ${state.page} of ${totalPages}.`;
+    }
 
     // Pagination
     renderPagination(pagerTop, totalPages);
@@ -159,9 +177,11 @@ function initResources() {
       if (state.tags.has(t)) {
         state.tags.delete(t);
         tag.classList.remove('is-active');
+        tag.setAttribute('aria-pressed', 'false');
       } else {
         state.tags.add(t);
         tag.classList.add('is-active');
+        tag.setAttribute('aria-pressed', 'true');
       }
       state.page = 1;
       applyFilters();
@@ -174,12 +194,15 @@ function initResources() {
     const term = searchInput.value.trim();
     if (!term) {
       state.searchIds = null;
+      state.searchError = false;
     } else {
       try {
         state.searchIds = await searchResources(term);
+        state.searchError = false;
       } catch (err) {
         console.error('search failed:', err);
         state.searchIds = new Set();
+        state.searchError = true;
       }
     }
     state.page = 1;
@@ -209,9 +232,13 @@ function initResources() {
       state.categories.clear();
       state.tags.clear();
       state.searchIds = null;
+      state.searchError = false;
       state.page = 1;
       chips.forEach((c) => c.setAttribute('aria-pressed', 'false'));
-      tagButtons.forEach((t) => t.classList.remove('is-active'));
+      tagButtons.forEach((t) => {
+        t.classList.remove('is-active');
+        t.setAttribute('aria-pressed', 'false');
+      });
       if (searchInput) searchInput.value = '';
       applyFilters();
     });
@@ -221,8 +248,8 @@ function initResources() {
   applyFilters();
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState === 'complete') {
   initResources();
 } else {
-  document.addEventListener('DOMContentLoaded', initResources);
+  window.addEventListener('load', initResources);
 }

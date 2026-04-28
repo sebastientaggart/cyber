@@ -21,8 +21,8 @@ export function initTagCloud() {
   });
 }
 
-if (document.readyState !== 'loading') {
+if (document.readyState === 'complete') {
   initTagCloud();
 } else {
-  document.addEventListener('DOMContentLoaded', initTagCloud);
+  window.addEventListener('load', initTagCloud);
 }

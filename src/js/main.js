@@ -1,11 +1,37 @@
-// HHS Cyber Gateway — site JS entry. Each module no-ops on pages where its
-// target DOM elements are absent, so importing them all here is safe.
+// HHS Cyber Gateway — site JS entry.
+// Load only feature modules needed by the current page.
 import './animate.js';
-import './hicp-roadmap.js';
-import './kod-quick-shots.js';
-import './tag-cloud.js';
-import './resources.js';
-import './post.js';
-import './post-detail.js';
-import './stats.js';
-import './notices.js';
+
+const has = (selector) => !!document.querySelector(selector);
+
+if (has('.cybersecurity-roadmap__hotspot')) {
+  import('./hicp-roadmap.js');
+}
+
+if (has('.kod-quick-shots__grid')) {
+  import('./kod-quick-shots.js');
+}
+
+if (has('.tag-cloud')) {
+  import('./tag-cloud.js');
+}
+
+if (has('.resources-page .resource-grid')) {
+  import('./resources.js');
+}
+
+if (has('.post-list')) {
+  import('./post.js');
+}
+
+if (has('#posts-data')) {
+  import('./post-detail.js');
+}
+
+if (has('.stat-counter__value')) {
+  import('./stats.js');
+}
+
+if (has('#notices-data')) {
+  import('./notices.js');
+}
