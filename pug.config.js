@@ -71,15 +71,16 @@ const posts = postsRaw.map((p) => ({ ...p, htmlContent: renderPostBody(p.content
 const notices = readJSON('src/data/notices.json');
 
 // =============================================================================
-// Phase 4 — home page main links, stats, and "New" badge precomputation
+// Phase 4 — home page main links and "New" badge precomputation
 // =============================================================================
 const homePageContent = readJSON('src/data/home-page-content.json');
+const cybersecurityPerformanceGoals = readJSON('src/data/cybersecurity-performance-goals.json');
 
 // Pre-compute "New" badge flags so templates don't need runtime date math.
 // 405d uses `moment().subtract(1, 'd')` as the cutoff — we use the same logic.
 const YESTERDAY_ISO = new Date(Date.now() - 24 * 60 * 60 * 1000).toISOString().slice(0, 10);
 homePageContent.mainLinks.forEach((card) => {
-  card.links.forEach((link) => {
+  (card.links || []).forEach((link) => {
     if (link.hilightTill && link.hilightTill > YESTERDAY_ISO) {
       link.isNew = true;
     }
@@ -108,6 +109,7 @@ module.exports = {
 
     // Phase 4 data
     homePageContent,
+    cybersecurityPerformanceGoals,
 
     site: {
       name:    'HHS Cyber Gateway',
@@ -181,8 +183,9 @@ module.exports = {
       education:    { light: 'education.png',    dark: 'education-dark.png' },
       practitioner: { light: 'practitioner.png', dark: 'practitioner-dark.png' },
       poster:       { light: 'poster.png',       dark: 'poster-dark.png' },
-      itprof:       { light: 'itprof.png',       dark: 'itprof-dark.png' },
-      icymi:        { light: 'icymi.png',        dark: 'icymi-dark.png' },
+      itprof:          { light: 'itprof.png',          dark: 'itprof-dark.png' },
+      icymi:           { light: 'icymi.png',           dark: 'icymi-dark.png' },
+      'cyber-performance': { light: 'cyber-performance.png', dark: 'cyber-performance-dark.png' },
     },
   },
 };

@@ -101,7 +101,8 @@
   // grid item wrapper
 }
 
-.main-links__button {
+// Shared tile chrome for accordion triggers and direct-link cards
+%main-links-tile {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,7 +116,7 @@
   color: #fff;
   border: 3px solid transparent;
   border-radius: 8px;
-  cursor: pointer;
+  text-decoration: none;
   transition:
     background-color 200ms ease,
     border-color 200ms ease,
@@ -124,12 +125,27 @@
   &:hover {
     background-color: $newsletter;
     transform: translateY(-2px);
+    color: #fff;
   }
+
+  &:focus-visible {
+    outline: 3px solid $sun-glow;
+    outline-offset: 2px;
+  }
+}
+
+.main-links__button {
+  @extend %main-links-tile;
+  cursor: pointer;
 
   &[aria-expanded="true"] {
     background-color: $newsletter;
     border-color: $sun-glow;
   }
+}
+
+.main-links__direct {
+  @extend %main-links-tile;
 }
 
 .main-links__icon {
@@ -144,11 +160,13 @@
 }
 
 .main-links__button:hover .main-links__icon--light,
-.main-links__button[aria-expanded="true"] .main-links__icon--light {
+.main-links__button[aria-expanded="true"] .main-links__icon--light,
+.main-links__direct:hover .main-links__icon--light {
   display: none;
 }
 .main-links__button:hover .main-links__icon--dark,
-.main-links__button[aria-expanded="true"] .main-links__icon--dark {
+.main-links__button[aria-expanded="true"] .main-links__icon--dark,
+.main-links__direct:hover .main-links__icon--dark {
   display: block;
 }
 
@@ -238,96 +256,6 @@
   flex-shrink: 0;
 }
 
-// =============================================================================
-// Home — stats counters
-// =============================================================================
-
-.home-stats {
-  background-color: $bg-panel;
-  padding-block: 3rem;
-  border-radius: 8px;
-  margin-block: 2rem;
-
-  &__heading {
-    text-align: center;
-    color: $navy;
-    margin: 0 0 2rem;
-    font-size: 1.5rem;
-    font-weight: 700;
-
-    @media (min-width: 768px) {
-      font-size: 1.85rem;
-    }
-  }
-
-  &__grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: 1fr;
-    max-width: 1100px;
-    margin-inline: auto;
-    padding-inline: 1rem;
-
-    @media (min-width: 768px) {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-}
-
-.stat-counter {
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 1.5rem;
-  text-align: center;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
-
-  &__title {
-    color: $navy;
-    margin: 0.75rem 0 0;
-    font-size: 1.1rem;
-    font-weight: 700;
-  }
-
-  &__value {
-    font-family: 'Lato', sans-serif;
-    font-size: 2.5rem;
-    font-weight: 900;
-    line-height: 1;
-    margin-block: 0 0.5rem;
-
-    @media (min-width: 768px) {
-      font-size: 3rem;
-    }
-  }
-
-  &__descr {
-    color: #555;
-    font-size: 0.85rem;
-    margin: 0.5rem 0 0;
-  }
-
-  &__link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    margin-top: 0.75rem;
-    color: $link-aaa;
-    text-decoration: none;
-    font-size: 0.85rem;
-    font-weight: 600;
-
-    &:hover,
-    &:focus-visible {
-      color: $navy-dark;
-      text-decoration: underline;
-    }
-
-    .material-icons {
-      font-size: 0.9rem;
-    }
-  }
-}
-
 // Reduced motion: no transforms on the sublinks
 @media (prefers-reduced-motion: reduce) {
   .main-links__sublink {
@@ -338,7 +266,8 @@
       transform: none;
     }
   }
-  .main-links__button:hover {
+  .main-links__button:hover,
+  .main-links__direct:hover {
     transform: none;
   }
 }

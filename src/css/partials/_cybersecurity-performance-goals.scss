@@ -1,0 +1,199 @@
+@use 'variables' as *;
+
+// =============================================================================
+// Cybersecurity Performance Goals
+// =============================================================================
+
+.page-cybersecurity-performance-goals {
+  .cybersecurity-performance-goals__hero.page-intro-box {
+    margin-top: 1.25rem;
+  }
+
+  .cybersecurity-performance-goals__purpose {
+    .purpose__heading {
+      margin: 0 0 1rem;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: $navy;
+    }
+
+    .purpose__html {
+      margin-bottom: 1rem;
+      line-height: 1.55;
+      color: $navy-dark;
+
+      p {
+        margin: 0 0 1rem;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      a {
+        color: $link-aaa;
+        font-weight: 600;
+
+        &:hover,
+        &:focus-visible {
+          color: $navy-dark;
+        }
+      }
+    }
+
+    .purpose__ctas {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+  }
+
+  .cybersecurity-performance-goals__columns {
+    margin-top: 0.5rem;
+  }
+
+  .cpg-column__intro {
+    margin-bottom: 1rem;
+  }
+
+  .cpg-column__title {
+    margin: 0 0 0.75rem;
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: $navy;
+  }
+
+  .cpg-column__lead {
+    margin: 0 0 0.75rem;
+    line-height: 1.55;
+    color: $navy-dark;
+  }
+
+  .cpg-column__note {
+    margin: 0;
+    font-size: 0.95rem;
+    color: #444;
+  }
+
+  .cpg-column__toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .cpg-column__goals {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .cpg-goal {
+    border: 1px solid rgba($navy-dark, 0.12);
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  }
+
+  .cpg-goal__header {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: transparent;
+  }
+
+  .cpg-goal__toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 100%;
+    text-align: left;
+    padding: 0.85rem 1rem;
+    background: $bg-panel;
+    border: none;
+    border-bottom: 1px solid rgba($navy-dark, 0.08);
+    cursor: pointer;
+    transition: background-color 150ms ease;
+
+    &:hover,
+    &:focus-visible {
+      background: rgba($newsletter, 0.35);
+    }
+
+    &[aria-expanded='true'] {
+      background: rgba($sun-glow, 0.2);
+      border-bottom-color: rgba($navy-dark, 0.12);
+    }
+
+    &[aria-expanded='true'] .cpg-goal__chevron {
+      transform: rotate(180deg);
+    }
+  }
+
+  .cpg-goal__title {
+    margin: 0;
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: $navy;
+    line-height: 1.3;
+  }
+
+  .cpg-goal__chevron {
+    flex-shrink: 0;
+    transition: transform 200ms ease;
+    color: $navy;
+  }
+
+  .cpg-goal__body {
+    padding-top: 1rem;
+  }
+
+  .cpg-goal__descr {
+    margin: 0 0 1rem;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .cpg-goal__subhead {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: $navy;
+  }
+
+  .cpg-goal__nist {
+    margin: 0;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: #333;
+  }
+
+  .cpg-goal__list {
+    margin: 0;
+    padding-left: 1.2rem;
+    font-size: 0.9rem;
+    line-height: 1.45;
+    color: #333;
+
+    &--links {
+      list-style: disc;
+    }
+
+    a {
+      color: $link-aaa;
+      font-weight: 600;
+    }
+  }
+
+  .cpg-goal__ref {
+    white-space: normal;
+  }
+
+  .cpg-goal__row {
+    margin-top: 0.5rem;
+  }
+}

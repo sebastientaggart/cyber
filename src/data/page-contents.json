@@ -4,11 +4,11 @@
     "whoWeAre": "The increasing sophistication of cyber threats demands a united front from the HPH sector. As the Sector Risk Management Agency, we have launched The HHS Cyber Gateway in direct response to this imperative, providing a curated selection of resources tailored to meet the unique cybersecurity needs of healthcare organizations. By leveraging the collective expertise of federal agencies and collaborating with industry stakeholders, we believe this website will help empower HPH Sector members navigate the evolving threat landscape effectively.",
     "howCanWeHelpYou": "The HHS Cyber Gateway cornerstone publications provide your organizations with proven best practices to implement and use to mitigate the most prevalent and emerging cyber threats of today. We provide FREE cyber hygiene resources to educate small to large organizations on how to stay cyber aware and increase their cyber preparedness. Our vetted publications and supporting resources have one goal in mind, to keep patient safety a top priority - remember: “Cyber Safety is Patient Safety”! ",
 
-    "engageWithUs": "ZZZ The 405(d) Program is continuously growing! In addition to products like HICP, the Program releases content through a variety of channels that offer best practices and tips for organizations small to large to implement to protect patients and organizations. Follow our newsletter and social channels to stay up to date on latest news and events from the program!"
+    "engageWithUs": "HHS is continuously growing! In addition to products like HICP, HHS releases content through a variety of channels that offer best practices and tips for organizations small to large to implement to protect patients and organizations. Follow our newsletter and social channels to stay up to date on latest news and events."
   },
 
   "cornerstone": {
-    "descr": "The 405(d) Program develops consensus-based best practices and methodologies to strengthen the Healthcare & Public Health (HPH) sector’s cybersecurity posture against cyber threats. Through partnerships between government and industry, the program has released TWO vetted landmark publications for the sector to utilize in their cybersecurity defense. The 405(d) Program and Task Group actively continues to develop new products to help further strengthen our sector.",
+    "descr": "HHS develops consensus-based best practices and methodologies to strengthen the Healthcare & Public Health (HPH) sector’s cybersecurity posture against cyber threats. Through partnerships between government and industry, HHS has released TWO vetted landmark publications for the sector to utilize in their cybersecurity defense. HHS and the Task Group actively continue to develop new products to help further strengthen our sector.",
     "hicp": "Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP 2023 Edition) outlines the top threats facing the HPH Sector. Developed with every stakeholder in mind, organizations ranging in size from small to large can benefit from the resources and best practices provided in the main document and additional two technical volumes. HICP aims to provide organizations with recommendations and best practices to prepare and fight against cybersecurity threats that can impact patient safety.",
     "occi": "The Operational Continuity-Cyber Incident (OCCI) checklist serves as an action plan designed to assist operational staff and executive management in effectively responding to and recovering from an extended enterprise outage caused by a severe cyber-attack. This checklist, an integral component of your broader Incident Response Plan (IRP), is specifically tailored to address the critical first 12 hours following a cyber event.",
     "landscape": "The Hospital Resiliency Landscape Analysis conducted a deeper investigative study into both methods that cyber adversaries are using to compromise US hospitals, disrupt operations and extort them for financial gain. It then benchmarked these results to specific practices in the Health Industry Cybersecurity Practices (HICP) in order to outline the most meaningful protections for these specific threats.",
@@ -64,14 +64,14 @@
     "fiveThreats": {
       "descr": "Knowledge on Demand (KOD) is a cybersecurity education platform that includes multiple delivery methodologies to reach the varied size health care facilities across the country. Five cybersecurity trainings that align with the top five cybersecurity threats outlined in HICP are featured for training your healthcare staff, security team, and any other department that is on the front lines for protecting patient safety. The best part about this resource? It’s FREE!",
       "jobAid": "These are single documents with key tips related to the topic. This format is meant to be used as an “on-the-job” resource tool. They can provide instructional steps if necessary to meet the training objectives.",
-      "video": "These videos are launched from the 405(d) KOD webpage. They include recorded audio to take the trainee through the video along with interactive content to include knowledge checks and animations.",
+      "video": "These videos are launched from the HHS Knowledge on Demand webpage. They include recorded audio to take the trainee through the video along with interactive content to include knowledge checks and animations.",
       "powerPoint": "These can be leveraged for in person or on-site presentations. These will include facilitator notes with slide specific content and knowledge checks to reinforce learning. Such presentations can be delivered in presentation mode or in a “Lunch n Learn” format at your location.",
       "lms": "Content intended for a Learning Management System (LMS) will be similar in look and experience to the previously discussed Interactive Training video. Content will be exported and saved to a file type compatible for import to an organization’s LMS platform."
     },
 
     "quickShots": {
       "descr": [
-        "The Quick Shot video series are two to three minutes in length and share key cybersecurity terminology that impacts the Healthcare and Public Health  sector in a fun and engaging manner. These videos empower all HPH stakeholders to identify, protect against, and prevent cybersecurity threats. This series currently aligns to Health Industry Cybersecurity Practices and will expand to align with the other 405(d) Cornerstone Publications.",
+        "The Quick Shot video series are two to three minutes in length and share key cybersecurity terminology that impacts the Healthcare and Public Health  sector in a fun and engaging manner. These videos empower all HPH stakeholders to identify, protect against, and prevent cybersecurity threats. This series currently aligns to Health Industry Cybersecurity Practices and will expand to align with the other HHS Cornerstone publications.",
         "**Remember, a Quick Shot a day keeps the cybercriminal away!"
       ],
 
@@ -189,11 +189,11 @@
   },
   "resources": {
     "descr": "Our cybersecurity resources are free and can be used by organizations sized small to large. Search below to find the latest best practices, cyber hygiene resources, and more! Search and use the bank of resources HHS has to offer to find information and materials in one place!",
-    "archiveDescr": "Find older 405(d) publications, hygiene tips, and resources to protect patients from cybersecurity threats in our archived resources that doesn’t contain the latest and updated content."
+    "archiveDescr": "Find older HHS publications, hygiene tips, and resources to protect patients from cybersecurity threats in our archived resources that don’t contain the latest and updated content."
   },
 
   "landscapeAnalysis": {
-    "top": "The HPH Sector has faced dramatic increases in cyber-attacks intended to cause disruption to the care continuum. In response to this growing threat, the HHS 405(d) Program in partnership Health Sector Coordinating Council Cybersecurity Working Group (HSCC CWG), and the HHS’ Centers for Medicare & Medicaid Services (CMS) conducted Landscape Analysis, which reviewed active threats attacking hospitals and the cybersecurity capabilities of hospitals operating in the United States.",
+    "top": "The HPH Sector has faced dramatic increases in cyber-attacks intended to cause disruption to the care continuum. In response to this growing threat, HHS in partnership with the Health Sector Coordinating Council Cybersecurity Working Group (HSCC CWG), and the HHS’ Centers for Medicare & Medicaid Services (CMS) conducted Landscape Analysis, which reviewed active threats attacking hospitals and the cybersecurity capabilities of hospitals operating in the United States.",
     "studyObjectives": {
       "descr": [
         "This report aims to discuss the dramatic increases in cyber-attacks to the HPH Sector intended to cause disruption to the care continuum. The Landscape Analysis conducted a deeper investigative study into both the methods that cyber adversaries are using to compromise US hospitals, disrupt operations and extort for financial gain. It then benchmarked these results to specific practices of the Health Industry Cybersecurity Practices (HICP) in order to outline the most meaningful protections to these specific threats.",
@@ -276,7 +276,7 @@
       {
         "title": "Censinet/AHA/KLAS Study",
         "list": [
-          "59 small, medium and large hospitals (size measured by # of beds - using HICP), evaluating on coverage to the NIST CSF and 405(d) HICP, as well as organized benchmarking"
+          "59 small, medium and large hospitals (size measured by # of beds - using HICP), evaluating on coverage to the NIST CSF and HHS HICP, as well as organized benchmarking"
         ]
       },
       {
@@ -328,7 +328,7 @@
   },
 
   "spanish": {
-    "descr": "El Programa 405(d) ha dado el paso inicial específico para llegar a los usuarios finales en el Sector HPH que usan el español como lengua materna o se sienten más cómodos usando el español que el inglés. Los recursos específicos del programa se han traducido al español para comunicar la ciberhigiene en un entorno médico.",
+    "descr": "HHS ha dado el paso inicial específico para llegar a los usuarios finales en el Sector HPH que usan el español como lengua materna o se sienten más cómodos usando el español que el inglés. Los recursos específicos del programa se han traducido al español para comunicar la ciberhigiene en un entorno médico.",
     "items": [
       {
         "key": "guides",
@@ -447,7 +447,7 @@
   },
 
   "information": {
-    "howCanWeHelpYou": "The 405(d) Program aims to develop consensus-based best practices and methodologies to strengthen the healthcare & public health (HPH) sector's cybersecurity posture against cyber threats. After significant analysis of the current cybersecurity issues facing the healthcare industry, the 405(d) Task Group developed Health Industry Cybersecurity Practice: Managing Threat and Protecting Patients, its first official Task Group product. The 405(d) Program and Task Group actively continues to develop new products to help further strengthen our sector.",
+    "howCanWeHelpYou": "HHS aims to develop consensus-based best practices and methodologies to strengthen the healthcare & public health (HPH) sector's cybersecurity posture against cyber threats. After significant analysis of the current cybersecurity issues facing the healthcare industry, the HHS Task Group developed Health Industry Cybersecurity Practice: Managing Threat and Protecting Patients, its first official Task Group product. HHS and the Task Group actively continue to develop new products to help further strengthen our sector.",
     "role-it": {
       "title": "IT professionals",
       "descr": " IT professionals can encounter a wide array of threats from social engineering to ransomware and may not have the “know how” to resolve every issue. Resources like the fact sheet and publications can help guide IT professionals with recommended cybersecurity practices to keep patient’s safe.",
@@ -496,7 +496,7 @@
     },
     "org-sm": {
       "name": "small",
-      "descr": " If you are considered a small organization, typically you have a smaller budget for cybersecurity mitigation as well as a smaller staff overall dedicated to cybersecurity. The 405(d) Program offers resources made just for you like the quick start guides and recommends sharing information with your security officer or provider. Check out the many resources that fit your organization!",
+      "descr": " If you are considered a small organization, typically you have a smaller budget for cybersecurity mitigation as well as a smaller staff overall dedicated to cybersecurity. HHS offers resources made just for you like the quick start guides and recommends sharing information with your security officer or provider. Check out the many resources that fit your organization!",
       "links": [
         {
           "title": "HICP Tech Volume 1",
@@ -600,7 +600,7 @@
     "threats": "The top five threats defined in HICP are social engineering, ransomware, loss or theft of equipment, insider, accidental, or malicious data loss, and attacks against network connected medical devices. Learn more about the 5 threats facing HPH and the early warnings that you can look for.",
     "practices": "Ranging from personnel training and awareness to the development and implementation of new processes, the 10 Cybersecurity Practices outlined in HICP Technical Volumes 1 & 2 provide best practices to mitigate the Top 5 Threats. Learn more on how you can start preparing and fighting cybersecurity threats today.",
     "landscape": [
-      "The HPH Sector has faced dramatic increases in cyber-attacks intended to cause disruption to the care continuum. In response to this growing threat, the HHS 405(d) Program conducted Landscape Analysis, which reviewed active threats attacking hospitals and the cybersecurity capabilities of hospitals operating in the United States.",
+      "The HPH Sector has faced dramatic increases in cyber-attacks intended to cause disruption to the care continuum. In response to this growing threat, HHS conducted Landscape Analysis, which reviewed active threats attacking hospitals and the cybersecurity capabilities of hospitals operating in the United States.",
       "The Landscape Analysis conducted a deeper investigative study into both the methods that cyber adversaries are using to compromise US hospitals, disrupt operations and extort for financial gain. It then benchmarked these results to specific practices of the Health Industry Cybersecurity Practices (HICP) in order to outline the most meaningful protections to these specific threats."
     ]
   }

@@ -1,0 +1,589 @@
+{
+  "downloadPdfUrl": "https://aspr.hhs.gov/cyber/Documents/Health-Care-Sector-Cybersecurity-Dec2023-508.pdf",
+  "launchTourUrl": "https://405d.hhs.gov/kod/cpg-tour/index.html",
+  "essentialColumn": {
+    "title": "Essential Goals",
+    "lead": "To help healthcare organizations address common vulnerabilities by setting a floor of safeguards that will better protect them from cyber attacks, improve response when events occur, and minimize residual risk.",
+    "noteItalic": "To aid in further understanding the alignment to HICP we have included the links to the HICP sub-practices page for each CPG."
+  },
+  "enhancedColumn": {
+    "title": "Enhanced Goals",
+    "lead": "To help healthcare organizations mature their cybersecurity capabilities and reach the next level of defense needed to protect against additional attack vectors.",
+    "noteItalic": "To aid in further understanding the alignment to HICP we have included the links to the HICP sub-practices page for each CPG."
+  },
+  "purposeParagraphsHtml": [
+    "<p>The Department of Health and Human Services (HHS) helps the Healthcare and Public Health (HPH) critical infrastructure sector prepare for and respond to cyber threats, adapt to the evolving threat landscape, and build a more resilient sector. As outlined in the HHS Healthcare Sector Cybersecurity <a href=\"https://www.hhs.gov/about/news/2023/12/06/hhs-announces-next-steps-ongoing-work-enhance-cybersecurity-health-care-public-health-sectors.html\" target=\"_blank\" rel=\"noopener noreferrer\">concept paper</a>, HHS is publishing these voluntary healthcare specific <strong>Cybersecurity Performance Goals</strong> (CPGs) to help healthcare organizations prioritize implementation of high-impact cybersecurity practices.</p>",
+    "<p>These CPGs are a voluntary subset of cybersecurity practices that healthcare organizations, and healthcare delivery organizations in particular, can prioritize to strengthen cyber preparedness, improve cyber resiliency, and ultimately protect patient health information and safety. They were built off the chassis of CISA’s CPGs and informed by common industry cybersecurity frameworks, guidelines, best practices, and strategies (e.g., <a href=\"cornerstone-hicp.pug\">Healthcare Industry Cybersecurity Practices</a>, <a href=\"https://www.nist.gov/cyberframework\" target=\"_blank\" rel=\"noopener noreferrer\">National Institute of Standards and Technology (NIST) Cybersecurity Framework</a>, and <a href=\"https://aspr.hhs.gov/cip/hph-cybersecurity-framework-implementation-guide/Pages/default.aspx\" target=\"_blank\" rel=\"noopener noreferrer\">Healthcare and Public Health Sector Cybersecurity Framework Implementation Guide</a>). The HPH CPGs directly address common attack vectors against U.S. domestic hospitals as identified in the 2023 <a href=\"landscape-analysis.pug\">Hospital Cyber Resiliency Landscape Analysis</a>.</p>"
+  ],
+  "essentialGoals": [
+    {
+      "id": 1,
+      "name": "Mitigate Known Vulnerabilities",
+      "descr": "Reduce the likelihood of threat actors exploiting known vulnerabilities to breach organizational networks that are directly accessible from the Internet.",
+      "practices": [
+        "Vulnerability Management",
+        "Endpoint Protection"
+      ],
+      "subpractices": [
+        {
+          "title": "Host/Server-Based Scanning",
+          "id": "7.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=77"
+        },
+        {
+          "title": "Web Application Scanning",
+          "id": "7.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=77"
+        },
+        {
+          "title": "Basic Endpoint Protection",
+          "id": "2.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=29"
+        }
+      ],
+      "nist": "CA-2, CA-5, CA-7, CA-8, PM-4, PM-15, RA-3, RA-5, SA-5, SA-11, SI-2, SI-4, SI-5, RA-1, RA-3, RA-5, SI-2, CA-5, PM-4, PM-9, PM-28, RA-7, CA-1, CA-2, RA-1, PM-4, PM-15, RA-7, SI-5, SR-6 AC-1, AC-17, AC-19, AC-20, SC-15",
+      "cisa": [
+        "Mitigating Known Vulnerabilities (1.E)",
+        "No Exploitable Services on the Internet (2.W)"
+      ],
+      "addResx": [
+        {
+          "title": "CISA's Vulnerability Scanning (VS)",
+          "link": "https://www.cisa.gov/resources-tools/services/cisa-vulnerability-scanning"
+        },
+        {
+          "title": "Known Exploited Vulnerabilities Catalog",
+          "link": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Email Security",
+      "descr": "Reduce risk from common email-based threats, such as email spoofing, phishing, and fraud.",
+      "practices": [
+        "Email Protection Systems"
+      ],
+      "subpractices": [
+        {
+          "title": "Email System Controls",
+          "id": "1.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=18"
+        },
+        {
+          "title": "Workforce Education",
+          "id": "1.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=22"
+        },
+        {
+          "title": "MFA for Email Access",
+          "id": "1.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=21"
+        }
+      ],
+      "nist": "MP-2, MP-3, MP-4, MP-5, MP-6, MP-7, MP-8, SC-28, SC-8, SC-11, AC-4, AC-5, AC-6, AU-13, PE-19, PS-6, SC-7, SI-4, AC-12, AC-17, AC-18, CP-8, SC-5, SC-7, SC-10, SC-11, SC-20, SC-21, SC-22, SC-23, SC-31,  SC-37, SC-38, SC-47, AC-14, IA-1, IA-2, IA-3, IA-5, IA-8, IA-9, IA-10, IA-11",
+      "cisa": [
+        "Email Security (2.M)"
+      ],
+      "addResx": [
+        {
+          "title": "CISA Insights: Enhance Email & Web Security",
+          "link": "https://www.cisa.gov/sites/default/files/publications/CISAInsights-Cyber-EnhanceEmailandWebSecurity_S508C.pdf"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Multifactor Authentication",
+      "descr": "Add a critical, additional layer of security, where safe and technically capable, to protect assets and accounts directly accessible from the Internet.",
+      "practices": [
+        "Identity & Access Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Identity",
+          "id": "3.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=40"
+        },
+        {
+          "title": "Authentication",
+          "id": "3.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=43"
+        },
+        {
+          "title": "Multi-factor Authentication for Remote Access",
+          "id": "3.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=46"
+        }
+      ],
+      "nist": "AC-14, IA-1, IA-2, IA-3, IA-5, IA-8, IA-9, IA-10, IA-11, IA-1, IA-2, IA-3, IA-4, IA-5, IA-7, IA-8, IA-9, IA-10, IA-11, IA-12",
+      "cisa": [
+        "Phishing-Resistant Multifactor Authentication (MFA) – 2.H"
+      ],
+      "addResx": [
+        {
+          "title": "CISA's More Than A Password",
+          "link": "https://www.cisa.gov/MFA"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Basic Cybersecurity Training",
+      "descr": "Ensure organizational users learn and perform more secure behaviors.",
+      "practices": [
+        "Email Protection Systems",
+        "Cybersecurity Oversight & Governance"
+      ],
+      "subpractices": [
+        {
+          "title": "Workforce Education",
+          "id": "1.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=22"
+        },
+        {
+          "title": "Security Awareness & Training",
+          "id": "10.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=133"
+        }
+      ],
+      "nist": "AT-2, PM-13, PM-14, AT-3, PM-13",
+      "cisa": [
+        "Basic Cybersecurity Training (2.I)"
+      ],
+      "addResx": [
+        {
+          "title": "HHS Knowledge on Demand",
+          "link": "https://405d.hhs.gov/knowledgeondemand"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Strong Encryption",
+      "descr": "Deploy encryption to maintain confidentiality of sensitive data and integrity of Information Technology (IT) and Operational Technology (OT) traffic in motion.",
+      "practices": [
+        "Email Protection Systems",
+        "Endpoint Protection Systems",
+        "Data Protection & Loss Prevention"
+      ],
+      "subpractices": [
+        {
+          "title": "Email Encryption",
+          "id": "1.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=21"
+        },
+        {
+          "title": "Basic Endpoint Protection Controls",
+          "id": "2.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=29"
+        },
+        {
+          "title": "Data Security",
+          "id": "4.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=54"
+        }
+      ],
+      "nist": "SC-8, SC-11",
+      "cisa": [
+        "Strong and Agile Encryption (2.K)"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Revoke Credentials for Departing Workforce Members, Including Employees, Contractors, Affiliates, and Volunteers",
+      "descr": "Prevent unauthorized access to organizational accounts or resources by former workforce members, including employees, contractors, affiliates, and volunteers by removing access promptly.",
+      "practices": [
+        "Identity & Access Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Provisioning, Transfers and Deprovisioning Procedures",
+          "id": "3.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=42"
+        },
+        {
+          "title": "Authentication",
+          "id": "3.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=43"
+        }
+      ],
+      "nist": "IA-1, IA-2, IA-3, IA-4, IA-5, IA-7, IA-8, IA-9, IA-10, IA-11, IA-12, PS-1, PS-2, PS-3, PS-4, PS-5, PS-6, PS-7, PS-8, PS-9, SA-21",
+      "cisa": [
+        "Revoking Credentials for Departing Employees (2.D)"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Basic Incident Planning and Preparedness",
+      "descr": "Ensure safe and effective organizational responses to, restoration of, and recovery from significant cybersecurity incidents.",
+      "practices": [
+        "Cybersecurity Oversight & Governance"
+      ],
+      "subpractices": [
+        {
+          "title": "Incident Response",
+          "id": "8.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=92"
+        },
+        {
+          "title": "Policies",
+          "id": "10.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=129"
+        },
+        {
+          "title": "Backup Strategies",
+          "id": "4.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=55"
+        }
+      ],
+      "addResx": [
+        {
+          "title": "CISA Tabletop Exercise Packages",
+          "link": "https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages"
+        }
+      ],
+      "nist": "CP-10, IR-4, IR-8, CP-2, CP-3, IR-3, IR-8, CP-2, IR-4, IR-8, SI-5, PM-15",
+      "cisa": [
+        "Incident Planning and Preparedness (5.A)"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Unique Credentials",
+      "descr": "Use unique credentials inside organizations’ networks to detect anomalous activity and prevent attackers from moving laterally across the organization, particularly between IT and OT networks.",
+      "practices": [
+        "Identity and Access Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Identity",
+          "id": "3.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=40"
+        },
+        {
+          "title": "Provisioning, Transfers, and Deprovisioning Procedures",
+          "id": "3.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=42"
+        },
+        {
+          "title": "Authentication",
+          "id": "3.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=43"
+        },
+        {
+          "title": "Multi-Factor Authentication",
+          "id": "3.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=46"
+        }
+      ],
+      "nist": "IA-1, IA-2, IA-3, IA-4, IA-5, IA-7, IA-8, IA-9, IA-10, IA-11, IA-12",
+      "cisa": [
+        "Unique Credentials (2.C)"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Separate User and Privileged Accounts",
+      "descr": "Establish secondary accounts to prevent threat actor’s from accessing privileged or administrative accounts when common user accounts are compromised.",
+      "practices": [
+        "Identity & Access Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Identity",
+          "id": "3.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=40"
+        },
+        {
+          "title": "Provisioning, Transfers, and Deprovisioning Procedures",
+          "id": "3.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=42"
+        },
+        {
+          "title": "Authentication",
+          "id": "3.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=43"
+        },
+        {
+          "title": "Multi-Factor Authentication",
+          "id": "3.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=46"
+        }
+      ],
+      "nist": "AC-1, AC-2, AC-3, AC-5, AC-6, AC-14, AC-16, AC-24",
+      "cisa": [
+        "Separating User and Privileged Accounts (2.E)"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Vendor/Supplier Cybersecurity Requirements",
+      "descr": "Identify, assess, and mitigate risks associated with third party products and services.",
+      "practices": [
+        "Cybersecurity Oversight & Governance"
+      ],
+      "subpractices": [
+        {
+          "title": "Cybersecurity Risk Assessment & Management",
+          "id": "10.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=131"
+        }
+      ],
+      "nist": "SA-4, SA-9, SR-2, SR-3, SR-5",
+      "cisa": [
+        "Vendor / Supplier Cybersecurity Requirements (1.I)"
+      ]
+    }
+  ],
+  "enhancedGoals": [
+    {
+      "id": 11,
+      "name": "Asset Inventory",
+      "descr": "Identify known, unknown (shadow), and unmanaged assets to more rapidly detect and respond to new vulnerabilities.",
+      "practices": [
+        "IT Asset Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Inventory of Endpoints and Servers",
+          "id": "5.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=63"
+        },
+        {
+          "title": "Procurement",
+          "id": "5.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=65"
+        },
+        {
+          "title": "Secure Storage for Inactive Devices",
+          "id": "5.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=65"
+        },
+        {
+          "title": "System Placement and Data Classification",
+          "id": "7.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=78"
+        }
+      ],
+      "nist": "CM-8, PM-5, CM-8, AC-20, PM-5, SA-9, AU-12, CA-7, CM-3, SC-5, SC-7, SI-4",
+      "cisa": [
+        "Asset Inventory (1.A)"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Third Party Vulnerability Disclosure",
+      "descr": "Establish processes to promptly discover and respond to known threats and vulnerabilities in assets provided by vendors and service providers.",
+      "practices": [
+        "Cybersecurity Oversight and Governance"
+      ],
+      "subpractices": [
+        {
+          "title": "Cybersecurity Risk Assessment and Management",
+          "id": "10.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=131"
+        }
+      ],
+      "nist": "PM-30, SA-9, SR-1, SR-2, SR-3, SR-5, PM-9, RA-3, SA-15, SR-2, SR-3, SR-5, SR-6 ",
+      "cisa": [
+        "Supply Chain Vulnerability Disclosure (1.H)"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Third Party Incident Reporting",
+      "descr": "Establish processes to promptly discover and respond to known security incidents or breaches across vendors and service providers.",
+      "practices": [
+        "Cybersecurity Oversight and Governance",
+        "Vulnerability Management",
+        "Security Operations Center and Incident Response"
+      ],
+      "subpractices": [
+        {
+          "title": "Cybersecurity Risk Assessment and Management",
+          "id": "10.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=131"
+        },
+        {
+          "title": "Patch Management, Configuration Management",
+          "id": "7.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=79"
+        },
+        {
+          "title": "Information Sharing and ISACs/ISAOs",
+          "id": "8.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=97"
+        }
+      ],
+      "nist": "SA-4, SA-9, SR-2, SR-3, SR-5, PM-9, RA-3, SA-15, SR-2, SR-3, SR-5, SR-6",
+      "cisa": [
+        "Supply Chain Incident Reporting (1.G)"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Cybersecurity Testing",
+      "descr": "Establish processes to promptly discover and responsibly share vulnerabilities in assets discovered through penetration testing and attack simulations",
+      "practices": [
+        "Vulnerability Management",
+        "Security Operations Center and Incident Response"
+      ],
+      "subpractices": [
+        {
+          "title": "Penetration Testing",
+          "id": "7.L.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=81"
+        },
+        {
+          "title": "Attack Simulation",
+          "id": "7.L.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=84"
+        },
+        {
+          "title": "Information Sharing and ISACs/ISAOs",
+          "id": "8.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=97"
+        }
+      ],
+      "nist": "CA-2, CA-7,  PM-16, PM-28, RA-2, RA-3",
+      "cisa": [
+        "Vulnerability Disclosure / Reporting (4.B)"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Cybersecurity Mitigation",
+      "descr": "Establish processes internally to act quickly on prioritized vulnerabilities discovered through penetration testing and attack simulations.",
+      "practices": [
+        "Security Operations Center and Incident Response"
+      ],
+      "subpractices": [
+        {
+          "title": "Information Sharing and ISACs/ISAOs",
+          "id": "8.M.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=97"
+        },
+        {
+          "title": "Patch Management",
+          "id": "7.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=79"
+        },
+        {
+          "title": "Vulnerability Remediation Planning",
+          "id": "7.L.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=83"
+        }
+      ],
+      "nist": "CA-2, CA-7,  PM-16, PM-28, RA-2, RA-3",
+      "cisa": [
+        "Third Party Validation of Cybersecurity Control Effectiveness (1.F)"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Detect and Respond to Relevant Threats and Tactics, Techniques, and Procedures",
+      "descr": "Ensure organizational awareness of and ability to detect relevant threats and TTPs at endpoints. Ensure organizations are able to secure entry and exit points to its network with endpoint protection.",
+      "practices": [
+        "Endpoint Protection Systems"
+      ],
+      "subpractices": [
+        {
+          "title": "Endpoint Detection  and Response",
+          "id": "2.L.C",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=34"
+        }
+      ],
+      "nist": "PM-15, PM-16, RA-10, SI-5, PM-12, PM-16, RA-3, RA-10, SI-5, AU-12, CA-7, CM-3, SC-5, SC-7, SI-4",
+      "cisa": [
+        "Detecting Relevant Threats and TTPs (3.A)"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Network Segmentation",
+      "descr": "Mission critical assets are separated into discrete network segments to minimize lateral movement by threat actors after initial compromise.",
+      "practices": [
+        "Network Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Network Segmentation",
+          "id": "6.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=69"
+        }
+      ],
+      "nist": "AC-4, AC-10, SC-7, SC-10, SC-20, AC-12, AC-17, AC-18, CP-8, SC-5, SC-7, SC-10, SC-11, SC-20, SC-21, SC-22, SC-23, SC-31,  SC-37, SC-38, SC-47",
+      "cisa": [
+        "Network Segmentation (2.F)"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Centralized Log Collection",
+      "descr": "Collection of necessary telemetry from security log data sources within an organization’s network that maximizes visibility, cost effectiveness, and faster response to incidents.",
+      "practices": [
+        "Security Operations Center and Incident Response"
+      ],
+      "subpractices": [
+        {
+          "title": "Security Operations Center",
+          "id": "8.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=87"
+        },
+        {
+          "title": "Incident Response",
+          "id": "8.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=92"
+        }
+      ],
+      "nist": "AU-1, AU-2, AU-3, AU-6, AU-7, AU-12, AU-13, AU-14, AU-16",
+      "cisa": [
+        "Log Collection (2.T)"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Centralized Incident Planning and Preparedness",
+      "descr": "Ensure organizations consistently maintain, drill, and update cybersecurity incident response plans for relevant threat scenarios.",
+      "practices": [
+        "Security Operations Center and Incident Response"
+      ],
+      "subpractices": [
+        {
+          "title": "Security Operations Center",
+          "id": "8.M.A",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=87"
+        },
+        {
+          "title": "Incident Response",
+          "id": "8.M.B",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=92"
+        }
+      ],
+      "nist": "CM-3, CM-4, SA-10",
+      "cisa": [
+        "Incident Response (IR) Plans (2.S)"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Configuration Management",
+      "descr": "Define secure device and system settings in a consistent manner and maintain them according to established baselines.",
+      "practices": [
+        "Vulnerability Management"
+      ],
+      "subpractices": [
+        {
+          "title": "Patch Management, Configuration Management",
+          "id": "7.M.D",
+          "href": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf#page=79"
+        }
+      ],
+      "nist": "CM-1, CM-2, CM-3, CM-4, CM-5, CM-6, CM-7, CM-9, SA-10",
+      "cisa": [
+        "Document Device Configurations (2.O)"
+      ]
+    }
+  ]
+}

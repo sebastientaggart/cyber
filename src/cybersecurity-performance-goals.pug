@@ -1,0 +1,68 @@
+extends includes/layout.pug
+include includes/cpg-goal.pug
+
+block variables
+  - var pageTitle = `${site.name} | Cybersecurity Performance Goals`
+  - var bodyClass = 'page-cybersecurity-performance-goals'
+  - var pageDescription = 'Healthcare and Public Health (HPH) Cybersecurity Performance Goals (CPGs) — voluntary practices aligned with HICP, NIST, and CISA to strengthen cyber preparedness and protect patient safety.'
+
+block content
+  section.cybersecurity-performance-goals
+    .container-xl
+      header.cybersecurity-performance-goals__hero.page-intro-box(data-animate)
+        h1 HPH Cybersecurity Performance Goals
+
+      .cybersecurity-performance-goals__purpose.page-intro-box(data-animate)
+        h2.purpose__heading Purpose
+        each paraHtml in cybersecurityPerformanceGoals.purposeParagraphsHtml
+          .purpose__html!= paraHtml
+        .purpose__ctas
+          a.btn.btn-primary.purpose__cta(
+            href=cybersecurityPerformanceGoals.downloadPdfUrl
+            target="_blank"
+            rel="noopener noreferrer"
+          )
+            span Download CPGs
+            i.bi.bi-arrow-down-circle.ms-2(aria-hidden="true")
+          a.btn.btn-outline-primary.purpose__cta(
+            href=cybersecurityPerformanceGoals.launchTourUrl
+            target="_blank"
+            rel="noopener noreferrer"
+          )
+            span Launch Tour
+            i.bi.bi-rocket-takeoff.ms-2(aria-hidden="true")
+
+      .row.g-4.cybersecurity-performance-goals__columns
+        .col-12.col-lg-6
+          .js-cpg-column.cpg-column(data-animate)
+            .cpg-column__intro.page-intro-box
+              h2.cpg-column__title= cybersecurityPerformanceGoals.essentialColumn.title
+              p.cpg-column__lead= cybersecurityPerformanceGoals.essentialColumn.lead
+              p.cpg-column__note
+                em= cybersecurityPerformanceGoals.essentialColumn.noteItalic
+            .cpg-column__toolbar
+              button.btn.btn-sm.cpg-column__expand(type="button" data-cpg-action="expand") Expand all
+              button.btn.btn-sm.btn-outline-secondary.cpg-column__collapse(type="button" data-cpg-action="collapse" disabled) Collapse all
+            .cpg-column__goals
+              each goal in cybersecurityPerformanceGoals.essentialGoals
+                +cpgGoal(goal, 'essential')
+            .cpg-column__toolbar
+              button.btn.btn-sm.cpg-column__expand(type="button" data-cpg-action="expand") Expand all
+              button.btn.btn-sm.btn-outline-secondary.cpg-column__collapse(type="button" data-cpg-action="collapse" disabled) Collapse all
+
+        .col-12.col-lg-6
+          .js-cpg-column.cpg-column(data-animate style="transition-delay: 120ms")
+            .cpg-column__intro.page-intro-box
+              h2.cpg-column__title= cybersecurityPerformanceGoals.enhancedColumn.title
+              p.cpg-column__lead= cybersecurityPerformanceGoals.enhancedColumn.lead
+              p.cpg-column__note
+                em= cybersecurityPerformanceGoals.enhancedColumn.noteItalic
+            .cpg-column__toolbar
+              button.btn.btn-sm.cpg-column__expand(type="button" data-cpg-action="expand") Expand all
+              button.btn.btn-sm.btn-outline-secondary.cpg-column__collapse(type="button" data-cpg-action="collapse" disabled) Collapse all
+            .cpg-column__goals
+              each goal in cybersecurityPerformanceGoals.enhancedGoals
+                +cpgGoal(goal, 'enhanced')
+            .cpg-column__toolbar
+              button.btn.btn-sm.cpg-column__expand(type="button" data-cpg-action="expand") Expand all
+              button.btn.btn-sm.btn-outline-secondary.cpg-column__collapse(type="button" data-cpg-action="collapse" disabled) Collapse all

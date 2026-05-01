@@ -1,6 +1,13 @@
 {
   "mainLinks": [
     {
+      "title": "Cybersecurity Performance",
+      "descr": "Voluntary Healthcare and Public Health Cybersecurity Performance Goals (CPGs) aligned with HICP and CISA to prioritize high-impact practices and protect patient safety.",
+      "icon": "cyber-performance",
+      "url": "cybersecurity-performance-goals.pug",
+      "internal": true
+    },
+    {
       "title": "Publications",
       "descr": "Vetted cybersecurity best practices publications created by industry and government partnerships to strengthen the sector.",
       "icon": "publication",
@@ -18,11 +25,11 @@
           "url": "https://405d.hhs.gov/Documents/405d-occi-checklist-2024.pdf"
         },
         {
-          "title": "405(d) Post (April 2024)",
+          "title": "HHS Post (April 2024)",
           "url": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf"
         },
         {
-          "title": "405(d) Post XXV (July 2024)",
+          "title": "HHS Post XXV (July 2024)",
           "url": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf"
         },
         { "title": "HICP Technical Vol. 2", "url": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf", "size": "full" }
@@ -210,85 +217,6 @@
           "url": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-small.pdf"
         }
       ]
-    },
-    {
-      "title": "ICYMI",
-      "descr": "The latest cybersecurity resources and news from The HHS Cyber program.",
-      "icon": "icymi",
-      "links": [
-        { "title": "CPG Highlights", "url": "https://405d.hhs.gov/Documents/405d-cpg-highlights-2024.pdf" },
-        {
-          "title": "December 405(d) Post",
-          "url": "https://405d.hhs.gov/Documents/405d-post-volxxii-2023-december.pdf"
-        },
-        {
-          "title": "How to Implement Cyber Insurance (for Medium-Large Healthcare Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-small.pdf"
-        },
-        {
-          "title": "How to Implement Cyber Insurance (for Small Healthcare Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-small.pdf"
-        },
-        {
-          "title": "Medical Practitioners Cyber Hygiene Poster",
-          "url": "https://405d.hhs.gov/Documents/405d-medical-practitioner-cyber-hygiene-2.pdf"
-        },
-        {
-          "title": "Practice Administrators & IT Professionals Cyber Hygiene Poster",
-          "url": "https://405d.hhs.gov/Documents/405d-medical-practitioner-cyber-hygiene.pdf"
-        },
-        {
-          "title": "2023 Cybersecurity Awareness Month Key Behavior Posters",
-          "url": "https://405d.hhs.gov/Documents/405d-cam2023-key-behaviors-posters.pdf"
-        }
-      ]
-    }
-  ],
-
-  "stats": [
-    {
-      "title": "OCR Reported Breaches",
-      "descr": "as of March 5th, 2024",
-      "color": "#ff1111",
-      "value": 13182206,
-      "linkText": "via OCR Breach Report",
-      "link": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf"
-    },
-    {
-      "title": "2023 OCR Reported Individuals Affected",
-      "descr": "",
-      "color": "#ff1111",
-      "value": 120273715,
-      "linkText": "via OCR Breach Report",
-      "link": "https://ocrportal.hhs.gov/ocr/breach/breach_report.jsf"
-    },
-
-    {
-      "title": "2023 Healthcare Specific Breaches",
-      "descr2": "including 436 with confirmed data disclosure",
-
-      "color": "#ff1111",
-      "value": 525,
-      "linkText": "via Verizon Data Breach Investigations Report",
-      "link": "https://www.verizon.com/business/resources/T47e/reports/2023-data-breach-investigations-report-dbir.pdf"
-    }
-  ],
-
-  "oldStats": [
-    {
-      "title": "2023 Financial Specific Breaches",
-      "descr": "including 480 with confirmed data disclosure",
-      "color": "#ff1111",
-      "value": 1832,
-      "link": "https://www.verizon.com/business/resources/T47e/reports/2023-data-breach-investigations-report-dbir.pdf"
-    },
-    {
-      "title": "Revenew Lost",
-      "descr": "YTD as of Fedruary 29, 2024",
-      "color": "#ff1111",
-      "value": 947,
-      "suffix": "<span style='font-size:.75em;'>M</span>",
-      "prefix": "<span style='font-size:.5em;'>$</span> "
     }
   ]
 }

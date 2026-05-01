@@ -1,0 +1,62 @@
+//- Single CPG goal collapsible (Bootstrap collapse; no accordion parent so multiple can be open).
+mixin cpgGoal(goal, scopePrefix)
+  - var panelId = `cpg-goal-${scopePrefix}-${goal.id}`
+  .cpg-goal.card
+    .cpg-goal__header
+      button.cpg-goal__toggle(
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target=`#${panelId}`
+        aria-expanded="false"
+        aria-controls=panelId
+      )
+        h3.cpg-goal__title= goal.name
+        span.cpg-goal__chevron.bi.bi-chevron-down(aria-hidden="true")
+    .collapse.cpg-goal__collapse(id=panelId)
+      .card-body.cpg-goal__body
+        p.cpg-goal__descr= goal.descr
+        if goal.practices && goal.practices.length
+          .row.g-3.cpg-goal__row
+            .col-md-6
+              h4.cpg-goal__subhead HICP Practices
+              ul.cpg-goal__list
+                each prx in goal.practices
+                  li= prx
+            .col-md-6
+              h4.cpg-goal__subhead HICP Sub-Practices
+              if goal.subpractices && goal.subpractices.length
+                ul.cpg-goal__list
+                  each sprx in goal.subpractices
+                    li
+                      = sprx.title
+                      if sprx.href
+                        |  
+                        span.cpg-goal__ref (
+                        a(href=sprx.href target="_blank" rel="noopener noreferrer")= sprx.id
+                        | )
+                      if sprx.links && sprx.links.length
+                        |  
+                        span.cpg-goal__ref (
+                        each ref, ridx in sprx.links
+                          if ridx > 0
+                            | , 
+                          a(href=ref.href target="_blank" rel="noopener noreferrer")= ref.id
+                        | )
+        .row.g-3.cpg-goal__row
+          .col-md-6
+            h4.cpg-goal__subhead NIST Controls
+            p.cpg-goal__nist= goal.nist
+          .col-md-6
+            h4.cpg-goal__subhead CISA CPG IDs
+            if goal.cisa && goal.cisa.length
+              ul.cpg-goal__list
+                each cid in goal.cisa
+                  li= cid
+        if goal.addResx && goal.addResx.length
+          .row.g-3.cpg-goal__row
+            .col-12
+              h4.cpg-goal__subhead Additional Resources
+              ul.cpg-goal__list.cpg-goal__list--links
+                each resx in goal.addResx
+                  li
+                    a(href=resx.link target="_blank" rel="noopener noreferrer")= resx.title

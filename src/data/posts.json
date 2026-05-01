@@ -30,7 +30,7 @@
     "date": "2024-04-29T19:16:11.000Z",
     "descr": "In today’s hyper-connected world, the ability to maintain communication during crises is not just advantageous — it’s essential. The Cybersecurity and Infrastructure Security Agency (CISA) recognizes this imperative and offers Priority Telecommunications Services (PTS) to ensure that essential personnel can stay connected even when network infrastructures are strained by natural disasters, cyber-attacks, or other disruptive events.",
     "content": [
-      "![Spotlight Webinar]({{RESOURCE_URL}}post_xxiii_5.png) Last month during the HHS 405(d) Spotlight Webinar, CISA joined 405(d) and shared information on CISA’s Priority",
+      "![Spotlight Webinar]({{RESOURCE_URL}}post_xxiii_5.png) Last month during the HHS Spotlight Webinar, CISA joined HHS and shared information on CISA’s Priority",
       "Telecommunication Services. See below for an overview and if you would like to watch",
       "the webinar watch [HERE](https://www.youtube.com/watch?v=GG7Jhyzq1x8) or download the",
       "slides from our website [HERE](https://405d.hhs.gov/Documents/405d-webinar-2024-0327-cisa-telcom-svc.pdf).",
@@ -88,7 +88,7 @@
       "when it matters most."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf",
-    "category": "405(d) Chronicles"
+    "category": "HHS Chronicles"
   },
   {
     "id": "0472a552-daa8-42da-8aaa-b899495daece",
@@ -98,21 +98,21 @@
     "descr": "Cybersecurity plays a huge role in keeping your organization and patients safe. A single cyber-attack has the potential to shut down care facilities, erase important patient health history, and leave your patients vulnerable to identity theft. Everyone has a role to play in protecting patients—what’s yours?",
     "tags": "Patient Safety, Patient Safety Awareness Week, Cyber Safety, CISO",
     "content": [
-      "March 8-14, 2020 was Patient Safety Awareness Week and the 405(d) message was and always has been: Cyber Safety is Patient Safety. The Patient Safety Awareness Week campaign was an annual recognition event to encourage the public to learn more about healthcare safety and we believe this should and does include cybersecurity. Cyber-attacks in healthcare affect every aspect of an organization but most importantly they affect patient safety. A single cyber-attack has the potential to shut down care facilities, erase important patient health history, and put your patient’s health and identity at risk. The Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP) Publication provides organizations details about the top five threats facing the healthcare industry and ten practices that can be implemented to mitigate them. Ensuring the American public is safe in their healthcare system is a priority for HHS and this involves cybersecurity. Read a message from the HHS CISO Janet Vogel as she discusses the importance of cybersecurity as it relates to patient safety.",
+      "March 8-14, 2020 was Patient Safety Awareness Week and the HHS message was and always has been: Cyber Safety is Patient Safety. The Patient Safety Awareness Week campaign was an annual recognition event to encourage the public to learn more about healthcare safety and we believe this should and does include cybersecurity. Cyber-attacks in healthcare affect every aspect of an organization but most importantly they affect patient safety. A single cyber-attack has the potential to shut down care facilities, erase important patient health history, and put your patient’s health and identity at risk. The Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP) Publication provides organizations details about the top five threats facing the healthcare industry and ten practices that can be implemented to mitigate them. Ensuring the American public is safe in their healthcare system is a priority for HHS and this involves cybersecurity. Read a message from the HHS CISO Janet Vogel as she discusses the importance of cybersecurity as it relates to patient safety.",
       "",
       "#### Letter from         ",
       "### Chief Information Security Oﬃcer",
       "",
       "Dear Colleagues,",
       "",
-      "At some time in our lives all of us are or will become patients in the healthcare system. This can be a daunting experience and a vulnerable one because you are immediately placing your trust in healthcare professionals to keep you safe and secure. As part of the annual **Patient Safety Awareness Week** across the United States, we are participating in this campaign to encourage the public to learn more about healthcare safety. We at HHS believe this must, and does, include cybersecurity. Our theme for HHS is **“Cyber Safety is Patient Safety.”**![CISO]({{RESOURCE_URL}}post_ciso.png)",
+      "At some time in our lives all of us are or will become patients in the healthcare system. This can be a daunting experience and a vulnerable one because you are immediately placing your trust in healthcare professionals to keep you safe and secure. As part of the annual **Patient Safety Awareness Week** across the United States, we are participating in this campaign to encourage the public to learn more about healthcare safety. We at HHS believe this must, and does, include cybersecurity. Our theme is **“Cyber Safety is Patient Safety.”**![CISO]({{RESOURCE_URL}}post_ciso.png)",
       "",
       "There has never been a more critical time for our sector to discuss the importance of cybersecurity as it relates to patient safety because an increase in cyber-attacks have crippled hospitals, doctor’s offices, and other care facilities. HHS wants to do everything we can to help the healthcare community do what it does best - care for and protect patients.",
       "",
-      "HHS has two programs that are available to the public to prepare for and mitigate cyber-attacks. The first is the HHS 405(d) Program which aims to align healthcare industry security approaches. This program created the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP) publication to raise awareness, provide vetted cybersecurity practices, and move organizations towards consistency in mitigating the most pertinent cybersecurity threats. The second is the HHS Health Sector Cybersecurity Coordination Center (HC3). In order",
+      "HHS has two programs that are available to the public to prepare for and mitigate cyber-attacks. The first is HHS, which aims to align healthcare industry security approaches. HHS created the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP) publication to raise awareness, provide vetted cybersecurity practices, and move organizations towards consistency in mitigating the most pertinent cybersecurity threats. The second is the HHS Health Sector Cybersecurity Coordination Center (HC3). In order",
       "to address these threats, HC3 works across the health sector, including healthcare organizations, law enforcement, and cybersecurity information sharing organizations, to understand the threats our sector faces, learn the bad actors’ patterns and trends, and provide information and approaches on how the sector can better defend itself.",
       "",
-      "Last week, the 405(d) Program sent out cybersecurity awareness materials that you can use throughout your organizations to increase awareness of this ever growing threat to our industry. I encourage you to use these to educate your workforce and instill the concept that Cyber Safety is Patient Safety. If we as a committed group continue to spread awareness, we will succeed at moving the needle and continue to protect our patients",
+      "Last week, HHS sent out cybersecurity awareness materials that you can use throughout your organizations to increase awareness of this ever growing threat to our industry. I encourage you to use these to educate your workforce and instill the concept that Cyber Safety is Patient Safety. If we as a committed group continue to spread awareness, we will succeed at moving the needle and continue to protect our patients",
       "",
       "Thank You, \\",
       "*Janet Vogel*\\",
@@ -125,11 +125,11 @@
   {
     "id": "0aad0fc2-8fad-4bad-8772-365ba7de3f23",
     "published": true,
-    "title": "405(d) Chronicles",
+    "title": "HHS Chronicles",
     "date": "2021-03-01T05:00:00.000Z",
     "descr": "The pandemic created the need for increased use of technology to meet patient healthcare needs. Looking ahead, is your organization prepared with the necessary security requriements to keep patient data safe? Learn more here.",
     "content": [
-      "*The 405(d) Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
+      "*The HHS Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
       "",
       "Early March 2020 seems like yesterday and a lifetime ago. Direct patient care in small organizations had always centered around the office for the most part. Telehealth apps were being discussed and even tested out by some organizations but it wasn’t a regular part of the patient care workflow. Then the Coronavirus (COVID-19) pandemic shutdown our world and overnight the shift to online patient care became an absolute, immediate necessity. ",
       "",
@@ -159,8 +159,8 @@
       "Throughout this national crisis one thing is for certain more than ever before, we must never forget that the job of those of us on the technology side of healthcare is to provide support and aid to those who actually provide care to patients. They need us to have the technology available and functioning in a manner that helps them efficiently care for patients while keeping them and their information safe at the same time."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-March-Volume-IX-R.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Donna Grindle, 405(d) Task Group Member"
+    "category": "HHS Chronicles",
+    "author": "Donna Grindle, HHS Task Group Member"
   },
   {
     "id": "0cbdc624-2e79-4bd1-91da-e54a160d01da",
@@ -226,7 +226,7 @@
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-March-R.pdf",
     "category": "Task Group Articles",
-    "author": "Ido Geffen and Priyanka Upendra, 405(d) Task Group Members"
+    "author": "Ido Geffen and Priyanka Upendra, HHS Task Group Members"
   },
   {
     "id": "1a53440b-0397-4deb-a45e-158141aef308",
@@ -265,7 +265,7 @@
       "",
       "It takes everyone in a practice working together to ward off the \"bad actors\". Practice Owners set the stage for effectiveness. When you become the champion, everyone else will come along. You don't have to spend a fortune to get there.",
       "",
-      "You now have the FREE resources necessary to get started: \"[**Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients**](https://405d.hhs.gov/Documents/HICP-Main-508.pdf)\". It's available to you at: https://405d.hha.gov",
+      "You now have the FREE resources necessary to get started: \"[**Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients**](https://405d.hhs.gov/Documents/HICP-Main-508.pdf)\". It's available to you at: https://405d.hhs.gov",
       "",
       "After you make a quick read through the first ten pages, you will see that there are cost-effective practices that you and your staff can implement in any size practice. You won't get it done in a day, but why not get started?",
       "",
@@ -275,7 +275,7 @@
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Newsletter-January-2020-R.pdf",
     "category": "Task Group Articles",
-    "author": "Philip A. Smith, MD, FAAFP, 405(d) Task Group Member"
+    "author": "Philip A. Smith, MD, FAAFP, HHS Task Group Member"
   },
   {
     "id": "25a0971f-3a5a-4fc5-bd27-a7f9a95d3eda",
@@ -291,7 +291,7 @@
       "",
       "- Organizational Key Performance Indicators (KPIs)",
       "- The NIST Cybersecurity Framework (CSF)",
-      "- The 405(d) Health Industry Cybersecurity Practices (HICP)",
+      "- The HHS Health Industry Cybersecurity Practices (HICP)",
       "",
       "Findings from this landmark Study also served as one of the primary sources of data included in the recently",
       "published [HHS Hospital Cyber Resiliency Initiative: Landscape Analysis](https://405d.hhs.gov/Documents/405d-hospital-resiliency-analysis.pdf).",
@@ -362,7 +362,7 @@
     "image": "post_xxi_1_2.png",
     "headerImage": "post_xxi_1_bg.png",
     "category": "Task Group Articles",
-    "author": "Ed Gaudet, 405(d) Task Group member"
+    "author": "Ed Gaudet, HHS Task Group member"
   },
   {
     "id": "28ae7294-a5c6-4bb9-ac81-9757a4b33cd0",
@@ -371,13 +371,13 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Read along as Bob Chaput discusses the topic of cybersecurity and cyber risk mangement no longer simply a matter of compliance or data security.  Cyber risk is about patient safety and medical professional liability.",
     "content": [
-      "*The 405(d) Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today.* ",
+      "*The HHS Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today.* ",
       "",
       "The healthcare ecosystem has come a long way, and still has a long way to go, when it comes to risk analysis and risk management. More organizations are making an effort. Concurrently, the Office for Civil Rights (OCR) enforcement data for the last ten years has consistently shown that approximately nine out of ten organizations are not conducting the comprehensive, enterprise wide risk analyses and risk management explicitly called for in the HIPAA Security Rule.[^1] Furthermore, we know there has been a bit of fibbing on those Meaningful Use Attestations, validating that risk analyses had been completed. ",
       "",
       "I am hopeful risk analyses will improve because of all the dedicated people working in privacy, security, compliance, and risk management. These thousands of hardworking professionals are committed to making it right and continue to garner the attention and support of their C-suites and boards. One of the things that continues to keep me awake at night is the lack of attention to the foundational requirement of conducting ongoing, continuous risk analyses. Cybersecurity is clearly becoming a patient safety issue. Therefore, we must make risk analysis part of the fabric of everything we do. Consider for a moment the lawsuit that has been filed against an Alabama hospital alleging that the medical team’s inability to access critical fetal monitoring data and devices during a 2019 ransomware attack led to a baby’s death.[^2] The lawsuit specifically calls out the organization’s failure to conduct risk analysis multiple times.[^3]",
       " ",
-      "The only viable path to a comprehensive Enterprise Cyber Risk Management (ECRM) program starts with ongoing, continuous risk analyses. The work of the 405(d) Task Group and upcoming publications of updated Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP) Technical Volumes underscores the importance of ongoing, continuous risk analyses for all covered entities, business associates, and hybrid organizations, large and small.",
+      "The only viable path to a comprehensive Enterprise Cyber Risk Management (ECRM) program starts with ongoing, continuous risk analyses. The work of the HHS Task Group and upcoming publications of updated Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP) Technical Volumes underscores the importance of ongoing, continuous risk analyses for all covered entities, business associates, and hybrid organizations, large and small.",
       "",
       "",
       "## What Is Ongoing, Continuous Risk Analyses",
@@ -447,8 +447,8 @@
       "[^8]:  “Guidance on risk analysis requirements under the HIPAA[^apps] Security Rule.” OCR/HHS. July 14, 2010. Accessed January 3, 2022. https://www.hhs.gov/sites/default/files/ ocr/privacy/hipaa/administrative/securityrule/rafinalguidancepdf.pdf"
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-2022-01-January.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Bob Chaput, MA, CISSP, HCISPP, CRISC, CIPP/US, C|EH, NACD CERT, 405(d) Task Group Member"
+    "category": "HHS Chronicles",
+    "author": "Bob Chaput, MA, CISSP, HCISPP, CRISC, CIPP/US, C|EH, NACD CERT, HHS Task Group Member"
   },
   {
     "id": "29af968f-84ba-4310-8f84-a92b1c28ee12",
@@ -458,7 +458,7 @@
     "descr": "Bijan Anvar shares his own personal experiences delivering training to medical, dental and legal groups and shares the value of cybersecurity education.",
     "tags": "Cybersecurity Training, Education, Workforce Development",
     "content": [
-      "*The 405(d) Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
+      "*The HHS Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
       "",
       "I have seen and heard a lot as someone who frequently gives trainings extensively to medical, dental, and legal groups. What really surprises me are the cybersecurity myths so many people believe. After one of my presentations, someone told me that my presentation was useless to them because their office used “Macs” and, “FYI, Macs don’t get malware.” This was a relatively small group, but the gentleman assured me that he confirmed it with the person who handles their IT. I politely mentioned that it is never a bad idea to get a second or third opinion, and he might want to consider speaking with someone else. This was on a Sunday. The following day, he called me to say that he was hit with ransomware and needed help.",
       "",
@@ -466,16 +466,16 @@
       "",
       "These are just two real life examples of people trusting IT professionals without verifying the information and that information being wrong. Cybersecurity education and training are critical to any small, medium, and large business. Training should include creating best practice protocols. This is important not only to be proactive, but also for vetting a vendor who promises to help you with your security needs. What good is buying a firewall if it is not configured properly? You don’t have to know about IT to ask about IT. You owe it to your patients who trust you with their data to be informed about cybersecurity.",
       "",
-      "There are many resources to help all sizes of businesses. The 405(d) program is the best place to start if you’re looking for a place to begin learning about cybersecurity for your healthcare organization. [The Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP)](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) publication lays out the top five threats facing healthcare and the ten practices to mitigate those threats. The 405(d) Program also helps with cyber hygiene for offices with posters, an active social media presence and campaigns such as Patient Safety Awareness Week and Cybersecurity Awareness Month. All their awareness products and resources can be found at [405d.hhs.gov](https://405d.hhs.gov)."
+      "There are many resources to help all sizes of businesses. HHS is the best place to start if you’re looking for a place to begin learning about cybersecurity for your healthcare organization. [The Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP)](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) publication lays out the top five threats facing healthcare and the ten practices to mitigate those threats. HHS also helps with cyber hygiene for offices with posters, an active social media presence and campaigns such as Patient Safety Awareness Week and Cybersecurity Awareness Month. Awareness products and resources can be found at [405d.hhs.gov](https://405d.hhs.gov)."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-2022-march-volxv.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Bijan Anvar, 405(d) Task Group Member"
+    "category": "HHS Chronicles",
+    "author": "Bijan Anvar, HHS Task Group Member"
   },
   {
     "id": "38194d10-77fd-4b9e-b83c-03722d676b8b",
     "published": true,
-    "title": "405(d) Chronicles",
+    "title": "HHS Chronicles",
     "date": "2021-07-01T04:00:00.000Z",
     "descr": "Dr. Mark Jarrett shares his thoughts on lessons learned from the pandemic experience and the responsbility we all have to be guardians of our data.   Learn more here.",
     "content": [
@@ -488,8 +488,8 @@
       "It is everyone’s responsibility to be a guardian of our data. It’s important to remember to upgrade your operating systems, apply and test security patches as quickly as possible, use secure passwords and change regularly, and beware of phishing hooks. Look before you click. Also, for a more in-depth knowledge on keeping data secure, I suggest every physician and administration staff read the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) main document to learn more about your role in the effort to keep our data safe."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-March-Volume-IX-R.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Mark Jarrett, MD, MBA, MS- 405(d) Task Group Member"
+    "category": "HHS Chronicles",
+    "author": "Mark Jarrett, MD, MBA, MS- HHS Task Group Member"
   },
   {
     "id": "38f0e88f-0fd6-4c9d-b63a-0fe9eebcb4a7",
@@ -514,14 +514,14 @@
       " Organizations](https://405d.hhs.gov/Documents/tech-vol1-508.pdf)  at [405d.hhs.gov](https://405d.hhs.gov/)."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may.pdf",
-    "category": "405(d) Chronicles"
+    "category": "HHS Chronicles"
   },
   {
     "id": "3900fcc7-08dd-4747-a1bb-2eb001dae582",
     "published": true,
     "title": "Do You Know The Risk?: The Urgent Need for Data Security in Healthcare AI",
     "date": "2024-07-10T04:00:00.000Z",
-    "descr": "Donna Grindle, 405(d) Task Group Ambassador Lead, writes on the use of artificial intelligence and other items impacting healthcare.",
+    "descr": "Donna Grindle, HHS Task Group Ambassador Lead, writes on the use of artificial intelligence and other items impacting healthcare.",
     "content": [
       "In the face of evolving cyber threats, the healthcare sector stands at a pivotal juncture. In the dynamic and fast-paced world of healthcare, embracing the use of Artificial Intelligence (AI) marks a pioneering shift towards enhanced patient care and streamlined operations. AI’s potential to deliver personalized treatments and leverage predictive analytics is not just transformative; it’s revolutionary. With healthcare institutions relying more on AI to enhance patient care and operational efficiency, the need for robust data protection measures is becoming increasingly crucial. It is essential to create and consistently enforce protocols for assessing data privacy and security issues when choosing and implementing AI technologies as we go, not as an afterthought. Surprisingly, many current AI applications may not have undergone a comprehensive, if any, security evaluation, highlighting the need to address this gap quickly.",
       "",
@@ -581,7 +581,7 @@
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf",
     "category": "Task Group Articles",
-    "author": "Donna Grindle, 405(d) Task Group Ambassador Lead"
+    "author": "Donna Grindle, HHS Task Group Ambassador Lead"
   },
   {
     "id": "398a099a-0200-48c1-9b46-6fd6b209a4a1",
@@ -592,7 +592,7 @@
     "content": [
       "Dear Colleagues,",
       "",
-      "2022 was an exciting year for the 405(d) Task Group",
+      "2022 was an exciting year for the HHS Task Group",
       "and Program. As we begin to chart the year ahead,",
       "I want to take this moment to highlight the many",
       "accomplishments we achieved in 2022. My personal",
@@ -612,15 +612,15 @@
       "addition, a new wave was established with the goal of",
       "reviewing and republishing the “Operational Continuity",
       "Cyber Incident (OCCI)” as another joint product between",
-      "industry and the 405(d) Program. Also, throughout",
+      "industry and HHS. Also, throughout",
       "last year, the Task Group was hard at work finalizing",
       "an Enterprise Risk Management (ERM) publication",
       "dedicated to incorporating cyber into ERM operations.",
       "",
-      "I also want to give a shout out to the 405(d) Task Group",
+      "I also want to give a shout out to the HHS Task Group",
       "Ambassadors who spoke at 35+ conferences, webinars,",
       "and special meetings providing attendees an overview",
-      "of the 405(d) Program and the resources we provide",
+      "of HHS and the resources we provide",
       "to the sector. In addition, the Ambassadors developed",
       "a survey to obtain a better understanding of Health",
       "Sector Coordinating Council (HSCC) awareness of the",
@@ -635,7 +635,7 @@
       "statistics have been highlighted on the right.",
       "",
       "There are several take aways from the metrics, but I want",
-      "to highlight two things that stand out. The new 405(d)",
+      "to highlight two things that stand out. The new HHS",
       "website, which was released in early 2022, received",
       "over 1 million hits in its very first year! Additionally, in",
       "the first year we were able to gather download data, the",
@@ -664,7 +664,7 @@
       "all sizes of healthcare organizations to apply the",
       "practices mentioned in HICP as part of their overall",
       "security practices**. This new law instructs OCR to",
-      "consider the adoption of NIST or 405(d) practices in",
+      "consider the adoption of NIST or HHS practices in",
       "their enforcement actions, as long as those “recognized",
       "security practices” have been in place for the last 12",
       "months. OCR provides guidance and examples of how",
@@ -672,21 +672,21 @@
       "of this new law in a [video presentation](https://www.youtube.com/watch?v=e2wG7jUiRjE) released on",
       "October 31.",
       "",
-      "## 405(d) Website Refresh",
-      "Throughout 2022, the 405(d) Program has been working",
+      "## HHS Website Refresh",
+      "Throughout 2022, HHS has been working",
       "on **a complete website refresh** to provide the healthcare",
       "sector with simple, one-click navigation access to",
       "hundreds of free resources. The updated website will",
       "provide greater search functionality by topic, key words,",
       "and organization size. The program’s cornerstone",
       "publication, HICP, will have dedicated pages for all three",
-      "of the HICP publications for easy access. The 405(d)",
-      "Program is excited to share the new site that will be",
+      "of the HICP publications for easy access. HHS",
+      "is excited to share the new site that will be",
       "launched in early 2023.",
       "",
       "## A Look to 2023",
       "**2023 is poised to be another groundbreaking year,",
-      "with HICP 2023 just released, 405(d) Knowledge",
+      "with HICP 2023 just released, HHS Knowledge",
       "on Demand now live, and the forthcoming ERM and",
       "OCCI**. The Task Group is already looking beyond 2023",
       "and thinking about how we can support the sector by",
@@ -697,13 +697,13 @@
       "possible to spread the word that we are here to help.",
       "",
       "I also want to encourage anyone who would like to",
-      "become part of this conversation to join the 405(d) Task",
+      "become part of this conversation to join the HHS Task",
       "Group and contribute your voice to our mission. This is a",
       "group that produces actionable change to the healthcare",
       "sector, and we are always eager to add more voices as",
       "that is the backbone of our strength.",
       "",
-      "So again, congratulations to all 405(d) Task Group",
+      "So again, congratulations to all HHS Task Group",
       "Members on a stellar year, and I encourage you to keep",
       "up the good work in 2023!",
       "",
@@ -715,7 +715,7 @@
     "image": "post_xix_h1.png",
     "headerImage": "post_xix_h1.png",
     "category": "Task Group Articles",
-    "author": "Erik Decker, 405(d) Task Group member"
+    "author": "Erik Decker, HHS Task Group member"
   },
   {
     "id": "3fbde1d4-0bad-43f0-bd2c-92e667d5daf9",
@@ -738,7 +738,7 @@
     "link": "https://405d.hhs.gov/Documents/405d-Newsletter-January-2020-R.pdf",
     "image": "post_eps_1.png",
     "category": "HICP in the spotlight",
-    "author": "405(d) Team"
+    "author": "HHS Team"
   },
   {
     "id": "4cfc65e0-e56a-499f-b0ce-190f1a5c20a8",
@@ -850,7 +850,7 @@
       "Conduct a risk assessment of your organization against the HIPAA Security Rule using the ONC Security Risk Assessment tool, available [here](https://www.healthit.gov/topic/privacy-security-and-hipaa/security-risk-assessment-tool). If possible, have an outside firm complete this.",
       "",
       "Perform a gap analysis of the Risk Assessment results to determine areas for improvement. Develop a plan to address the discovered issues, starting with the highest ones. Ensure that issues are assigned to projects, tracked, and monitored for progress and completion.",
-      "Align the projects against the 405(d) Health Industry Cybersecurity Practices (HICP). These resources, which are available at [405d.hhs.gov](https://405d.hhs.gov), discuss ten types of practices that organizations can tailor to their needs:",
+      "Align the projects against the HHS Health Industry Cybersecurity Practices (HICP). These resources, which are available at [405d.hhs.gov](https://405d.hhs.gov), discuss ten types of practices that organizations can tailor to their needs:",
       "1. Email Protection Systems/Security to avoid phishing, malware, and social engineering attacks",
       "2. Endpoint Protection Systems",
       "3. Access Management",
@@ -874,7 +874,7 @@
       "- **Privileged Access Management**: No user needs administrative access by default. Require two-factor authentication to access these critical credentials and cycle the passwords when complete. For more information, see Cybersecurity Practice 3: Access Management in the [HICP Technical Volumes](https://405d.hhs.gov/resources).",
       "- **Email Protection Systems**: Email security measures to avoid phishing, malware and social engineering attacks. For more information, see Cybersecurity Practice 1: Email Management in the [HICP Technical Volumes](https://405d.hhs.gov/resources).",
       "",
-      "The ransomware epidemic means that the insurance underwriters are going to do whatever they can to avoid becoming the next AIG due to it. This means that instead of just writing a check, companies need to proactively demonstrate compliance with best practices and requirements. The 405(d) Program, ONC, and HSCC have provided excellent resources. Leverage them as part of a plan to show the insurance companies that issuing a policy to your company presents less risk than a CDO did in 2008.",
+      "The ransomware epidemic means that the insurance underwriters are going to do whatever they can to avoid becoming the next AIG due to it. This means that instead of just writing a check, companies need to proactively demonstrate compliance with best practices and requirements. The HHS, ONC, and HSCC have provided excellent resources. Leverage them as part of a plan to show the insurance companies that issuing a policy to your company presents less risk than a CDO did in 2008.",
       "",
       "----",
       "[^1]: Corporate Finance Institute. “Risk Transfer.” https://",
@@ -892,30 +892,30 @@
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may.pdf",
     "image": "p_cyberinsurance.jpg",
-    "category": "405(d) Chronicles",
-    "author": "Traci Lamb and Mitch Parker, 405(d) Task Group Members"
+    "category": "HHS Chronicles",
+    "author": "Traci Lamb and Mitch Parker, HHS Task Group Members"
   },
   {
     "id": "6b120e71-9666-4b3a-98a9-4168f48309b2",
     "published": true,
-    "title": "405(d) in Your Organization",
+    "title": "HHS in Your Organization",
     "date": "2020-05-01T04:00:00.000Z",
     "descr": "Cyber safety is patient safety, and your organization is only as secure as its weakest link. What can you do to build a culture of cyber hygiene at your organization?",
     "tags": "resources, cyber, awareness",
     "content": [
-      "In the past year the 405(d) Program has grown its reach and continues to pursue its mission of Aligning Healthcare Industry Security Approaches. The 405(d) program is now able to assist in many of your cybersecurity needs. Whether it’s instituting a cybersecurity risk management structure using HICP, or educating your staff on cybersecurity, we are here for you! Check out the list below of the many different ways you can utilize the 405(d) Program and its available resources!",
+      "In the past year HHS has grown its reach and continues to pursue its mission of Aligning Healthcare Industry Security Approaches. HHS is now able to assist in many of your cybersecurity needs. Whether it’s instituting a cybersecurity risk management structure using HICP, or educating your staff on cybersecurity, we are here for you! Check out the list below of the many different ways you can utilize HHS and its available resources!",
       "",
-      "## 405(d) Awareness Materials",
-      "Need cybersecurity awareness posters for your organization? We’ve got you covered! The 405(d) Program creates cyber awareness products year round in the hopes we can provide you with a rotating assortment of cybersecurity tips and best practices that you can share with your staff. Our uniquely crafted cybersecurity awareness posters and materials are designed with you in mind and can be used as posters, email blasts, or print outs. Check out the examples above!",
+      "## HHS Awareness Materials",
+      "Need cybersecurity awareness posters for your organization? We’ve got you covered! The HHS creates cyber awareness products year round in the hopes we can provide you with a rotating assortment of cybersecurity tips and best practices that you can share with your staff. Our uniquely crafted cybersecurity awareness posters and materials are designed with you in mind and can be used as posters, email blasts, or print outs. Check out the examples above!",
       "",
-      "## 405(d) Guest Webinars",
-      "Does your organization have a standing webinar series that is missing a cybersecurity element? The 405(d) Program will come to you! The 405(d) Program will curate a webinar specifically for your organization’s cybersecurity needs and invite other federal partners where appropriate to help educate and inform your workforce on cybersecurity issues.",
+      "## HHS Guest Webinars",
+      "Does your organization have a standing webinar series that is missing a cybersecurity element? The HHS will come to you! The HHS will curate a webinar specifically for your organization’s cybersecurity needs and invite other federal partners where appropriate to help educate and inform your workforce on cybersecurity issues.",
       "",
-      "## 405(d) Social Media",
-      "Looking for ways to stay up to date on the latest 405(d) cybersecurity topics and products? We are now active on Instagram, Facebook, and Twitter at @ask405d! Our Social Media accounts highlight new 405(d) awareness products and also provide cybersecurity best practices and tips that you can use in your organization. To stay connected have your organization follow us and re-share our content with your employees!",
+      "## HHS Social Media",
+      "Looking for ways to stay up to date on the latest HHS cybersecurity topics and products? We are now active on Instagram, Facebook, and Twitter at @ask405d! Our Social Media accounts highlight new HHS awareness products and also provide cybersecurity best practices and tips that you can use in your organization. To stay connected have your organization follow us and re-share our content with your employees!",
       "",
-      "## 405(d) Spotlight Webinar",
-      "Interested in learning more from industry about cybersecurity? The 405(d) Spotlight Webinar spotlights a new topic and Task Group Member each time and they produce content based on",
+      "## HHS Spotlight Webinar",
+      "Interested in learning more from industry about cybersecurity? The HHS Spotlight Webinar spotlights a new topic and Task Group Member each time and they produce content based on",
       "insight on how their organizations have used the HICP publication, real-world scenarios and lessons learned, industry cybersecurity best practices, proven cybersecurity procedures and techniques, and other topics involving cybersecurity in the healthcare industry."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-V-May-R.pdf",
@@ -1015,7 +1015,7 @@
       "Protecting our patients from cyber threats even in these uncertain times is paramount to keeping our healthcare systems running smoothly and securely. For more information on network segmentation and other ways to protect your organization from cyber threats check out the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients publication."
     ],
     "category": "HICP in the spotlight",
-    "author": "405(d) Team"
+    "author": "HHS Team"
   },
   {
     "id": "78c414c8-2ed9-434c-bf36-2bd382ff8518",
@@ -1024,7 +1024,7 @@
     "date": "2023-06-29T04:00:00.000Z",
     "descr": "Donna Grindle and Gerry Blass discuss how to navigate long-term outages, including key components, training, and more!",
     "content": [
-      "*The 405(d) Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from",
+      "*The HHS Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from",
       "cybersecurity professionals in the field today*.",
       "",
       "Investing in disaster recovery, incident response and business continuity plans is a wise investment for organizations that will ensure great returns through resiliency and risk mitigation. These three plans working side-by-side provide the optimal conditions to foster organizational resilience. Ensuring uninterrupted operations in healthcare organizations is crucial, particularly as they can significantly impact patient care and safety. Additionally, such events can result in severe economic losses, such as revenue reduction, data corruption, and reputational harm. As the duration of the disruption increases, it becomes increasingly vital to have a comprehensive plan that covers various outage scenarios. By investing in incident response and business continuity planning that considers long term effects, organizations can mitigate the impact of disruptions and demonstrate their capability to provide consistent services regardless of circumstances.",
@@ -1090,7 +1090,7 @@
       "",
       "### Resources to help in your planning process",
       "",
-      "**HICP** - [405(d)](https://405d.hhs.gov) - sign up for emails letting you know when additional assistance is released.",
+      "**HICP** - [HHS](https://405d.hhs.gov) - sign up for emails letting you know when additional assistance is released.",
       "",
       "**HC3** - [Health Sector Cybersecurity Coordination Center (HC3) | HHS.gov](https://www.hhs.gov/about/agencies/asa/ocio/hc3/index.html)",
       "",
@@ -1104,8 +1104,8 @@
       "**CISA** - [CISA Tabletop Exercise Packages](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages)"
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxx-2023-june.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Donna Grindle and Gerry Blass, 405(d) Task Group Members"
+    "category": "HHS Chronicles",
+    "author": "Donna Grindle and Gerry Blass, HHS Task Group Members"
   },
   {
     "id": "7b8e9e58-80cb-4c24-8084-71e26859e8a8",
@@ -1114,19 +1114,19 @@
     "date": "2023-12-19T16:18:22.662Z",
     "descr": "Kendra Siler explores the question “How do you incorporate digital security in your programs and efforts – particularly those that build the HPH sector workfore in rural, underserved, and other remote areas?”",
     "content": [
-      "Since 2017, the HHS 405(d) Program has helped raise awareness and strengthened the health and public health (HPH) sector’s cybersecurity posture for organizations of all sizes by providing valuable approaches and resources.",
+      "Since 2017, HHS has helped raise awareness and strengthened the health and public health (HPH) sector’s cybersecurity posture for organizations of all sizes by providing valuable approaches and resources.",
       "",
-      "The resources are designed for all professionals at your health organization — not just those explicitly responsible for technology or compliance. The 405(d) Program supports your organization in building a culture of cyber hygiene that helps protect your business and patients.",
+      "The resources are designed for all professionals at your health organization — not just those explicitly responsible for technology or compliance. The HHS supports your organization in building a culture of cyber hygiene that helps protect your business and patients.",
       "",
-      "Recently, the HHS 405(d) Task Group asked member organization CommunityHealth",
+      "Recently, the HHS Task Group asked member organization CommunityHealth",
       "IT, Inc. (CommHIT) this question:",
       "",
       "> “How do you incorporate digital security in your programs and efforts — particularly those that build the HPH sector workforce in rural, underserved, and other remote areas?”",
       "",
       "There is no easy answer or “silver bullet.” CommHIT is addressing this challenge in a variety of ways with a goal of inspiring health organizations, professional associations, community-based health-related organizations, institutes of higher education/training",
-      "programs, health workforce development entities, and public health agencies to find ways to infuse 405(d) approaches and resources into their daily practice.",
+      "programs, health workforce development entities, and public health agencies to find ways to infuse HHS approaches and resources into their daily practice.",
       "",
-      "Below are examples of how CommHIT has been strategically incorporating HHS 405(d) approaches and resources into key projects involving health and health technology workforce development in Florida, the U.S. Virgin Islands (USVI), and nationally.",
+      "Below are examples of how CommHIT has been strategically incorporating HHS approaches and resources into key projects involving health and health technology workforce development in Florida, the U.S. Virgin Islands (USVI), and nationally.",
       "",
       "# Florida Example",
       "<img src=\"{{RESOURCE_URL}}p-xxii-2.png\" alt=\"Florida\" width=\"40%\" style=\"object-fit:contain ;\" />",
@@ -1154,7 +1154,7 @@
       "",
       "## C3w+",
       "Through this grant, CommHIT provides education",
-      "on HHS 405(d) Program approaches and resources",
+      "on HHS approaches and resources",
       "to better protect Florida’s critical access hospitals",
       "(CAHs), Emergency Medical Services (EMS)",
       "agencies, and communities from cyber attacks in",
@@ -1172,7 +1172,7 @@
       "partnered with Kardon Group to train and certify",
       "Florida MSPs serving rural health organizations",
       "in “HIPAA for MSPs.” This training takes a",
-      "deep technical dive into 405(d) approaches",
+      "deep technical dive into HHS approaches",
       "and standardizes the knowledge base for the",
       "MSPs that work with Florida safety net facilities.",
       "Ensuring that the MSPs subcontracted by rural",
@@ -1189,7 +1189,7 @@
       "economic health because it typically provides",
       "the most jobs and must be protected.",
       "",
-      "- **HHS 405(d) Knowledge on Demand (KOD)**",
+      "- **HHS Knowledge on Demand (KOD)**",
       "> All C3w+ participants and their entire workforce",
       "are expected to complete KOD. KOD uses five",
       "short videos to increase awareness of the five",
@@ -1221,11 +1221,11 @@
       "to bolster the cybersecurity workforce within",
       "HPH sector businesses.",
       "",
-      "- **HHS 405(d) In-person**",
+      "- **HHS In-person**",
       "When CommHIT has events at its Kennedy",
       "Space Center Headquarters, it includes HHS",
-      "405(d) speakers and exhibitors. Events ensure",
-      "that 405(d) information is widely disseminated,",
+      "HHS speakers and exhibitors. Events ensure",
+      "that HHS information is widely disseminated,",
       "with the added benefit of valuable in-person",
       "networking and mentoring.",
       "",
@@ -1238,8 +1238,8 @@
       "public health emergencies. Occupations targeted",
       "include nurses, paramedics, and Community",
       "Health Workers (CHWs). With KOD and other",
-      "405(d) resources, nurses and paramedics are",
-      "being trained on HHS 405(d) at their employer",
+      "HHS resources, nurses and paramedics are",
+      "being trained on HHS at their employer",
       "health organization, and KOD is baked into the CHW",
       "training. In response to the COVID pandemic, the",
       "Florida CHW Coalition (FCHWC) asked CommHIT to",
@@ -1259,7 +1259,7 @@
       "to developing sustainable work for CHWs that",
       "improve community health,” says FCHWC",
       "President Lisa Osborne-Schueler, PhD.",
-      "“Incorporating 405(d) as our organizations",
+      "“Incorporating HHS as our organizations",
       "connect underrepresented groups, women,",
       "and other underutilized talent pools to",
       "the community health workforce makes",
@@ -1269,7 +1269,7 @@
       "",
       "",
       "# US Virgin Islands (USVI) Example",
-      "In the USVI, 405(d) approaches and resources were incorporated into the following three activities:",
+      "In the USVI, HHS approaches and resources were incorporated into the following three activities:",
       "<img src=\"{{RESOURCE_URL}}p-xxii-3.png\" alt=\"US Virgin Islands\" width=\"40%\"  style=\"object-fit:contain ;\" />",
       "",
       "1. **CommHIT trains the USVI tech workforce",
@@ -1279,7 +1279,7 @@
       "apprenticeship program provides a practical",
       "and affordable way for USVI health organizations",
       "to train technical professionals to understand",
-      "and effectively implement 405(d) approaches",
+      "and effectively implement HHS approaches",
       "and tools.",
       "",
       "2. **CommHIT completed the USVI’s first Digital",
@@ -1289,19 +1289,19 @@
       "Exchange (HIE) and other advanced health",
       "technologies, CommHIT recommended how to",
       "develop workforce and digital security using",
-      "405(d) approaches.",
+      "HHS approaches.",
       "",
       "3. **CommHIT provided the USVI HPH sector",
       "(including the USVI Department of",
       "Health) its own instance of the Population",
       "Health Information Sharing and Analysis",
       "Center (PH-ISAC)**.",
-      "> The PH-ISAC is referenced in the 405(d)",
+      "> The PH-ISAC is referenced in the",
       "Health Industry Cybersecurity Practices (HICP)",
       "publication and is a valuable resource offered",
       "at no cost that allows participating health",
       "organizations to better monitor cyber threats",
-      "and improve their cyber postures using 405(d)",
+      "and improve their cyber postures using HHS",
       "approaches.",
       "",
       "# National Example",
@@ -1317,13 +1317,13 @@
       "Certified Manager – Physician Practice) credential.",
       "This training is specific to HIT, and over 25% of the",
       "training and exam is focused on the importance",
-      "and use of HHS 405(d) Program approaches and",
+      "and use of HHS approaches and",
       "resources. CommHIT and PAHCOM have reached",
       "practice administrators in 48 states, DC, and four",
       "of the five major U.S. Territories. The emphasis has",
       "been on channeling more women into the tech",
       "workforce with credentialed knowledge about the",
-      "405(d) Program (95:1 female to male participation",
+      "HHS program (95:1 female to male participation",
       "rate in the program).",
       "",
       "> **“Partnering with CommHIT to deliver technology",
@@ -1335,21 +1335,20 @@
       "professionals must know how to protect",
       "all aspects of patient safety. Prioritizing",
       "practice manager certification as part of their",
-      "compliance programs and the efforts of the",
-      "HHS 405(d) Program help get us there.”**",
+      "compliance programs, and HHS can help get us there.”**",
       "",
-      "> **“The 405(d) Program emphasizes the",
+      "> **“HHS emphasizes the",
       "importance of cybersecurity to the safety of the",
       "nation’s healthcare system, the economies it",
       "supports, and especially the patients it serves,”",
       "says CommHIT Chief Medical Information Officer",
       "David C. Willis, MD. “Cyber hygiene is everyone’s",
-      "responsibility, and the 405(d) approaches are",
+      "responsibility, and HHS approaches are",
       "sensible, practical, and effective in benefiting",
       "all of us in healthcare.”**",
       "",
       "For these reasons, CommHIT implores you to",
-      "deliberately incorporate HHS 405(d) approaches",
+      "deliberately incorporate HHS approaches",
       "into your organization’s cyber practices, share it",
       "with your subcontractors and vendors, and include",
       "it—where feasible—in your workforce development",
@@ -1359,7 +1358,7 @@
     "image": "post_xxii_a1t.png",
     "headerImage": "p-xxii-1.png",
     "category": "Task Group Articles",
-    "author": "Kendra Siler- HHS 405(d) Task Group Wave Lead"
+    "author": "Kendra Siler- HHS Task Group Wave Lead"
   },
   {
     "id": "7efa04e4-a55b-4eb9-bf98-fce1b869ae1d",
@@ -1604,8 +1603,8 @@
       "",
       "The websites below contain a wealth of good (and free!) resources that you can use to improve your cybersecurity posture or find funding opportunities.",
       "",
-      "[**405(d) Program Website**](https://405d.hhs.gov) features a plethora of resources including access to the latest industry tested best practices as noted in the Health Industry",
-      "Cybersecurity Practices (HICP) 2023 Edition. This website also offers a brand-new training platform called [Knowledge on Demand](https://405d.hhs.gov/knowledgeondemand) that offers free end-user awareness training for the top five cyber threats facing the healthcare industry. There is also a searchable database of free resources, including infographics, newsletters like this one, webinars with slides, awareness posters and more!![405(d) knowledge on demand]({{RESOURCE_URL}}post_XX_1_kod.png)",
+      "[**HHS Website**](https://405d.hhs.gov) features a plethora of resources including access to the latest industry tested best practices as noted in the Health Industry",
+      "Cybersecurity Practices (HICP) 2023 Edition. This website also offers a brand-new training platform called [Knowledge on Demand](https://405d.hhs.gov/knowledgeondemand) that offers free end-user awareness training for the top five cyber threats facing the healthcare industry. There is also a searchable database of free resources, including infographics, newsletters like this one, webinars with slides, awareness posters and more!![HHS knowledge on demand]({{RESOURCE_URL}}post_XX_1_kod.png)",
       "",
       "",
       "**Health Sector Coordinating Council Cyber Working",
@@ -1662,14 +1661,14 @@
       "*Kate has had over 21 years of experience in healthcare with specific experience in small, rural, and not-for-profit healthcare",
       "organizations. She is very familiar with the continuous struggles within these facilities to do more with less. Kate was the CIO",
       "and CISO for a Critical Access Hospital & Health Center, and developed the security program from scratch, including governance",
-      "model, strategic planning, security control selection, and implementation. Kate has been working with HSCC and 405(d) to",
+      "model, strategic planning, security control selection, and implementation. Kate has been working with HSCC and HHS to",
       "further the cause of cybersecurity in healthcare. She is a champion for federal and state funding for cybersecurity in small, rural, and non-for-profit organizations.*"
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxx-2023-june.pdf",
     "image": "post_XX_1_m.png",
     "headerImage": "post_XX_1_bg.png",
     "category": "Task Group Articles",
-    "author": "Kate Pierce, 405(d) Task Group member"
+    "author": "Kate Pierce, HHS Task Group member"
   },
   {
     "id": "ac4a5b61-2335-4768-b83b-40763bd6fef6",
@@ -1678,7 +1677,7 @@
     "date": "2024-07-09T04:00:00.000Z",
     "descr": "Read on how telehealth services has revolutionized the healthcare industry.",
     "content": [
-      "The rise of telehealth services has revolutionized the healthcare industry, providing critical access to medical care for underserved communities and enhancing the overall reach of healthcare providers. The ability to conduct remote consultations, monitor patients via connected devices, and manage health records online has been a game-changer, especially in rural and underserved areas. However, while these advancements bring substantial benefits, they also introduce significant risks to cloud security. As healthcare organizations increasingly rely on cloud-based systems to store and manage sensitive patient data, the potential for cyber threats and data breaches has escalated, necessitating robust security measures to safeguard this vital information. HICP Chronicles",
+      "The rise of telehealth services has revolutionized the healthcare industry, providing critical access to medical care for underserved communities and enhancing the overall reach of healthcare providers. The ability to conduct remote consultations, monitor patients via connected devices, and manage health records online has been a game-changer, especially in rural and underserved areas. However, while these advancements bring substantial benefits, they also introduce significant risks to cloud security. As healthcare organizations increasingly rely on cloud-based systems to store and manage sensitive patient data, the potential for cyber threats and data breaches has escalated, necessitating robust security measures to safeguard this vital information.",
       "",
       "## Risks Associated with Cloud and Telehealth",
       "",
@@ -1737,7 +1736,7 @@
     "link": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf",
     "image": "p-xxv-3_tn.png",
     "headerImage": "p-xxv-3_tn.png",
-    "category": "405(d) Chronicles"
+    "category": "HHS Chronicles"
   },
   {
     "id": "b746f740-b9c1-443d-adea-5cc660ee9a2a",
@@ -1805,17 +1804,17 @@
     "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-VI-July-R.pdf",
     "image": "r_a_06.png",
     "category": "Task Group Articles",
-    "author": "Karen Greenhalgh, HCISPP, CHPC, CHC, 405(d) Task Group Member"
+    "author": "Karen Greenhalgh, HCISPP, CHPC, CHC, HHS Task Group Member"
   },
   {
     "id": "b8756c82-9cbb-4309-a0d1-eb80be9a1e58",
     "published": true,
     "title": "Meet the New HICP 2023 Edition",
     "date": "2023-04-17T19:54:50.000Z",
-    "descr": "The HHS 405(d) Program is proud to announce the release of the Health Industry Cybersecurity Practices 2023 Edition that continues the 405(d) mission and vision of providing the HPH sector with cost-effective, industry tested best practices to fight the top 5 threats facing the sector.",
+    "descr": "HHS is proud to announce the release of the Health Industry Cybersecurity Practices 2023 Edition that continues its mission and vision of providing the HPH sector with cost-effective, industry tested best practices to fight the top 5 threats facing the sector.",
     "content": [
-      "The HHS 405(d) Program is proud to announce the release of the Health Industry Cybersecurity Practices",
-      "2023 Edition that continues the 405(d) mission and vision of providing the HPH sector with cost-effective,",
+      "HHS is proud to announce the release of the Health Industry Cybersecurity Practices",
+      "2023 Edition that continues its mission and vision of providing the HPH sector with cost-effective,",
       "industry tested best practices to fight the top 5 threats facing the sector.",
       "",
       "## Not new to HICP? Here’s why you should read the 2023 Edition:",
@@ -1885,7 +1884,7 @@
       "ensure your organization is incorporating industry-tested",
       "best practices that can fight the cyber threats of today.",
       "",
-      "For an overview of what’s new in HICP Edition, download the new [HICP one pager](https://405d.hha.gov/Document/405d-hicp-onepager.pdf)!",
+      "For an overview of what’s new in HICP Edition, download the new [HICP one pager](https://405d.hhs.gov/Document/405d-hicp-onepager.pdf)!",
       "",
       "<table border=\"0\"><tr><td style=\"vertical-align:top; width:50%\">",
       "",
@@ -1949,7 +1948,7 @@
     ],
     "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may.pdf",
     "category": "HICP in the spotlight",
-    "author": "405(d) Team"
+    "author": "HHS Team"
   },
   {
     "id": "c2a2851f-931f-4df1-8724-1151765dc94d",
@@ -1965,7 +1964,7 @@
       "",
       "Two-factor authentication, or multifactor authentication (MFA), is the process of verifying a user’s identity using more than one credential. ***This is one of the most effective controls to protect your organization’s data***. The most common method is to leverage a soft token in addition to a password. A soft token is a second credential that can be delivered through a second device (i.e., mobile phone or tablet). The soft token could be, for example, a text message containing a code or an application installed on the user’s mobile phone that provides the code and/or asks for independent verification after a successful password entry. Implementing MFA on a remote-access email platform mitigates the risk of a compromised credential and would decrease the likelihood of being hacked due to compromised credentials while working from a remote location. With MFA, a hacker needs to obtain the user’s password and soft token, which significantly reduces the likelihood of a successful attack.",
       "",
-      "To learn more about MFA and other practices used to prevent email phishing attacks, visit the 405(d) website and the full [HICP Publication](https://www.phe.gov/Preparedness/planning/405d/Pages/hic-practices.aspx)."
+      "To learn more about MFA and other practices used to prevent email phishing attacks, visit the HHS website and the full [HICP Publication](https://www.phe.gov/Preparedness/planning/405d/Pages/hic-practices.aspx)."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Newsletter-September.pdf",
     "image": "post_tfa_1.png",
@@ -2064,7 +2063,7 @@
       "- **Incident response plan**: A documented incident response plan (IRP) can serve as a strong foundation for more effective response and mitigation in the face of a ",
       "cyber-attack. As HICP suggests, an IRP should incorporate leading guidance, be tested regularly, and updated based on lessons learned (which may be particularly ",
       "important later, should an organization suffer a series of similar cyber-attacks). This is one of the focus areas highlighted in the CISA “Shields Up” guidance ",
-      "launched in early 2022 and is included as a priority in the HHS 405(d) Technical Volume 1 and 2 guidance. Potentially useful references include",
+      "launched in early 2022 and is included as a priority in the HHS Technical Volume 1 and 2 guidance. Potentially useful references include",
       "[NIST Special Publication 800-61](https://csrc.nist.gov/publications/detail/sp/800-61/rev-2/final) or ",
       "[Health Sector Coordinating Council (HSCC) Operational Continuity – Cyber Incident](https://healthsectorcouncil.org/occi/).",
       "- **Use of a cybersecurity framework**: There are various cybersecurity frameworks organizations can align their approach to. These frameworks can provide a more ",
@@ -2082,7 +2081,7 @@
       "party’s cyber-attack), such as: limitation of liability, indemnification, audit rights, and representations to comply with various cybersecurity and privacy ",
       "requirements. Associated diligence and oversight of third parties, as part of a third-party risk management program, can also help mitigate risk in this regard. ",
       "HSCC has published Model Contract Language specific to medtech cybersecurity that can serve as a reference (subject to customization and your counsel’s advice).",
-      "- **Cyber insurance**: As discussed in the May 2022 405(d) Post, cyber insurance provides an opportunity to transfer some monetary risk from a cyber-attack.",
+      "- **Cyber insurance**: As discussed in the May 2022 HHS Post, cyber insurance provides an opportunity to transfer some monetary risk from a cyber-attack.",
       "- **Law enforcement relationships and cooperation**: By building a proactive relationship with law enforcement, entities can be better prepared to coordinate with ",
       "them in the event of a cyber-attack; cooperation with law enforcement can be a factor in various legal considerations.",
       "- **Cyber Hygiene**: In addition to guidance such as the HICP practices for small health care organizations and medium to large organizations, CISA offers a number ",
@@ -2106,8 +2105,8 @@
     "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-september-2022.pdf",
     "image": "post_xvii_h1.png",
     "headerImage": "post_xvii_h1.png",
-    "category": "405(d) Chronicles",
-    "author": "Paul Otto, Cindi Bassford, and Dan Ongaro, 405(d) Task Group members"
+    "category": "HHS Chronicles",
+    "author": "Paul Otto, Cindi Bassford, and Dan Ongaro, HHS Task Group members"
   },
   {
     "id": "c4e9eea9-2187-4f04-acbf-ad46d2a33d3a",
@@ -2134,32 +2133,32 @@
       "- Can data be wiped technically from any mobile devices with PHI at a moment’s notice?",
       "- Can you provide a current inventory/asset list of all hardware and software?",
       "- Do you know who your downstream business partner(s) are, how they handle the data you entrust to them, and whether or not they conduct ongoing risk analysis to safeguard the PHI?",
-      "- Is there a process to constantly stay current with standards and best practice recommendations such as the NIST Cybersecurity recommendations or the [405(d) Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) document?",
+      "- Is there a process to constantly stay current with standards and best practice recommendations such as the NIST Cybersecurity recommendations or the [HHS Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) document?",
       "",
       "## Know what is required versus Recommended as a Best Practice",
       "",
       "Organizations subject to regulatory requirements, such as the HIPAA Rules, must implement minimum standards to safeguard their data.",
       "",
-      "![image1]({{RESOURCE_URL}}t_a_1.png) Organizations may want to consider implementing additional measures and industry best practices including the 405(d) [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) document which outlines the five major threats facing the healthcare industry and ten practices that can be used to mitigate them. NIST or other Standards Development Organizations, which offer educational materials on privacy and security topics, can also be used to supplement regulations.",
+      "![image1]({{RESOURCE_URL}}t_a_1.png) Organizations may want to consider implementing additional measures and industry best practices including the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) document which outlines the five major threats facing the healthcare industry and ten practices that can be used to mitigate them. NIST or other Standards Development Organizations, which offer educational materials on privacy and security topics, can also be used to supplement regulations.",
       "",
       "When considering whether to implement these best practice recommendations, staff must balance the risk of not implementing the best practice against the cost and/or complexity of implementing it for your organization. There are many factors to consider for every organization, including risk tolerance and exposure, scale, data and PHI flow, business partners etc. Be sure to document the rationale as to why a standard or best practice is or is not applicable to include in your policies and implementation practices. This type of information is important to include in your risk analysis to assure reconsideration in the future as your organization evolves and/or technology changes. Cybersecurity risks are enterprise risks. These risks can affect every aspect of your organization including your reputation. The most important risk is **patient safety**, which is the corner stone of every organization. Determining the appropriate balance between which best practices to implement and what are required by regulation for the data you handle is an important aspect of the cybersecurity assessment and implementation process. The criticality of properly assessing needs, requirements, applicable standards, need for third party services, and which cybersecurity best practices to employ are all factors in determining your strategy and tactics for your organization."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Newsletter-November.pdf",
     "category": "Task Group Articles",
-    "author": "Lee Barrett, 405(d) Task Group Member"
+    "author": "Lee Barrett, HHS Task Group Member"
   },
   {
     "id": "c840201e-c552-4f9a-9684-6bbe687fea1b",
     "published": true,
     "title": "The Health Sector Coordinating Council Cybersecurity Working Group Releases the Health Industry Cybersecurity Strategic Plan",
     "date": "2024-04-30T18:34:27.000Z",
-    "descr": "The April 2024 issue of the 405(d) Post includes information on the Health Industry Cybersecurity Strategic Plan written by Greg Garcia, Executive Director, Health Sector Coordinating Council.",
+    "descr": "The April 2024 issue of the HHS Post includes information on the Health Industry Cybersecurity Strategic Plan written by Greg Garcia, Executive Director, Health Sector Coordinating Council.",
     "content": [
       "In the face of evolving cyber threats, the healthcare sector stands at a pivotal juncture.",
       "The crafting of the Health Industry Cybersecurity Strategic Plan (2024-2029) marked",
       "a concerted effort to not only anticipate future challenges but to lay down a robust",
       "framework that ensures the resilience and security of healthcare delivery systems. Myself",
-      "and many 405(d) Task Group members contributed to this monumental plan, and we’ve",
+      "and many HHS Task Group members contributed to this monumental plan, and we’ve",
       "witnessed firsthand the complexities and the urgent need for a unified approach to secure",
       "the healthcare ecosystem against increasingly sophisticated cyber-attacks.",
       "",
@@ -2257,9 +2256,9 @@
     "title": "A Simple Model to Discuss Cyber Risks with Executives",
     "date": "2019-09-01T04:00:00.000Z",
     "content": [
-      "Welcome to the first issue of the 405(d) Post. I hope this article won’t be yet another ‘big think, high concept, and no meat’ piece. How many conferences, dinner events, or seminars have you attended, and how many articles have you read that have an enticing headline but leave you wanting?",
+      "Welcome to the first issue of the HHS Post. I hope this article won’t be yet another ‘big think, high concept, and no meat’ piece. How many conferences, dinner events, or seminars have you attended, and how many articles have you read that have an enticing headline but leave you wanting?",
       "",
-      "First, a little bit about me. I have the privilege of serving as the Chief Information Security Officer and the Chief Privacy Officer for a large academic healthcare institution. I also have the honor of serving as the industry lead of the Cybersecurity Act of 2015 405(d) Task Group, with my government counterpart, Julie Chua, of the U.S. Department of Health and Human Services.![Figure 1]({{RESOURCE_URL}}r_a_01.png)",
+      "First, a little bit about me. I have the privilege of serving as the Chief Information Security Officer and the Chief Privacy Officer for a large academic healthcare institution. I also have the honor of serving as the industry lead of the Cybersecurity Act of 2015 HHS Task Group, with my government counterpart, Julie Chua, of the U.S. Department of Health and Human Services.![Figure 1]({{RESOURCE_URL}}r_a_01.png)",
       "",
       "So now that I have your attention, I think you’re ready for the model, right? Let’s get right down to it.",
       "",
@@ -2343,7 +2342,7 @@
     "date": "2021-09-01T04:00:00.000Z",
     "descr": "Tom Carey discusses the value of providing cybersecurity awareness training to your employees and emphasizing the importance of incorporating cyber security habits in your company's culture.",
     "content": [
-      "*The 405(d) Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
+      "*The HHS Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
       " ",
       "## Background ",
       "According to security researchers at IBM and the Cyber Security Intelligence Index, 95% of data breaches are caused by humans. With this in mind it is important that organizations invest in security awareness training to help manage human error risk. ",
@@ -2369,8 +2368,8 @@
       "- Further reduce susceptibility to cyber threats"
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-XII.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Tom Carey, 405(d) Task Group Member"
+    "category": "HHS Chronicles",
+    "author": "Tom Carey, HHS Task Group Member"
   },
   {
     "id": "dec6f515-3620-4235-8c14-0f160465a3c4",
@@ -2405,11 +2404,11 @@
       "Use of organization-authorized cloud-based collaboration tools, such as video conferencing, call, chat, white board, emails, word processing software, project management tools and timesheet etc., help organizations mitigate the risks and threats related to vulnerabilities.",
       "",
       "## Conclusion",
-      "Cybercriminals are seeking to exploit this COVID-19 situation to target organizations and employees. It is important for organizations to perform a comprehensive risk assessment for their employees that work from home or other remote locations and mitigate the risks to protect patient data. To this, the HICP publication is a great place to start. If you have questions you can reach out to the 405(d) Team at cisa405d@hhs.gov"
+      "Cybercriminals are seeking to exploit this COVID-19 situation to target organizations and employees. It is important for organizations to perform a comprehensive risk assessment for their employees that work from home or other remote locations and mitigate the risks to protect patient data. To this, the HICP publication is a great place to start. If you have questions you can reach out to the HHS Team at cisa405d@hhs.gov"
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-V-May-R.pdf",
     "category": "Task Group Articles",
-    "author": "Sekar Thanigaimani, 405(d) Task Group Member"
+    "author": "Sekar Thanigaimani, HHS Task Group Member"
   },
   {
     "id": "e6f19c03-7996-4f73-8297-e4d38c9691b4",
@@ -2452,7 +2451,7 @@
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-2011-November2020.pdf",
     "category": "HICP in the spotlight",
-    "author": "405(d) Team"
+    "author": "HHS Team"
   },
   {
     "id": "ee48c497-c923-4c7d-bd62-2cf32bb35f8e",
@@ -2536,11 +2535,11 @@
   {
     "id": "f16a16c9-3736-4c6d-bb22-df45dedbba5d",
     "published": true,
-    "title": "405(d) Chronicles",
+    "title": "HHS Chronicles",
     "date": "2021-05-01T04:00:00.000Z",
     "descr": "Security and compliance issues remain a heightened concern, especially for small healthcare facilities.  This article will enlighten you on things to consider as you work with third party vendors to manage patient telehealth.",
     "content": [
-      "*The 405(d) Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
+      "*The HHS Chronicles is a platform for sharing firsthand insight, lessons learned, and perspectives from cybersecurity professionals in the field today*.",
       " ",
       "This past year has been challenging, and that is putting it nicely. While it’s easy to blame the pandemic for poor security and inadequate vendor choices, the reality is that the behaviors of small practices and the vendors they use were bordering on dangerous prior to the pandemic. Stress, fear, and uncertainty only exacerbated these behaviors. Just look at how people behaved with toilet paper! It’s no wonder they’ve made business decisions without considering the potential risks and consequences associated with those decisions.",
       "",
@@ -2557,8 +2556,8 @@
       "This is a tough job! It’s tempting to think about walking away from the small practices in favor of larger healthcare entities with larger budgets. Fortunately, there are those of us that specialize in these smaller practices to keep electronic protected health information (ePHI) safe on their behalf."
     ],
     "link": "https://405d.hhs.gov/Documents/405d-Post-May21.pdf",
-    "category": "405(d) Chronicles",
-    "author": "Amy Wood, 405(d) Task Group member"
+    "category": "HHS Chronicles",
+    "author": "Amy Wood, HHS Task Group member"
   },
   {
     "id": "ff17a318-99a6-4657-9c88-c65cac49540b",

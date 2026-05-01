@@ -5,7 +5,7 @@ block variables
   - var bodyClass = 'page-home'
   - var pageDescription = 'Cyber Safety is Patient Safety — HHS Cyber Gateway resources, tools, and education for the Healthcare and Public Health (HPH) sector.'
   - var isSafeHttpUrl = function(url) { return typeof url === 'string' && /^https?:\/\//i.test(url.trim()); }
-  - var isSafeInternalUrl = function(url) { return typeof url === 'string' && /^[./#]/.test(url.trim()); }
+  - var isSafeInternalUrl = function(url) { var u = (url || '').trim(); return typeof url === 'string' && (/^[./#]/.test(u) || /\.pug$/i.test(u)); }
 
 block content
   section.home-intro
@@ -32,75 +32,78 @@ block content
       #notices-banner
       script#notices-data(type="application/json")!= JSON.stringify(notices)
 
-  //- Phase 4 — main links grid (6 cards from home-page-content.json with Bootstrap
-  //- accordion behavior). Each card opens a sub-link panel below the grid.
+  //- Phase 4 — main links grid: optional direct-link cards + accordion cards with panels.
   section.home-main-links
     .container-xl
       #main-links-accordion.main-links-grid
+        - var accordionIdx = 0
         each card, idx in homePageContent.mainLinks
           - var iconPair = homeLinkIconMap[card.icon] || { light: card.icon + '.png', dark: card.icon + '-dark.png' }
-          .main-links__card
-            button.main-links__button(
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target=`#main-link-${idx}`
-              aria-expanded=(idx === 0 ? 'true' : 'false')
-              aria-controls=`main-link-${idx}`
-              class=(idx === 0 ? '' : 'collapsed')
-            )
-              img.main-links__icon.main-links__icon--light(src=`images/home-icons/${iconPair.light}` alt="")
-              img.main-links__icon.main-links__icon--dark(src=`images/home-icons/${iconPair.dark}` alt="")
-              h3.main-links__title= card.title
-              p.main-links__descr= card.descr
+          - var isAccordion = card.links && card.links.length
+          if isAccordion
+            - var isFirstAccordion = accordionIdx === 0
+            .main-links__card
+              button.main-links__button(
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target=`#main-link-${accordionIdx}`
+                aria-expanded=(isFirstAccordion ? 'true' : 'false')
+                aria-controls=`main-link-${accordionIdx}`
+                class=(isFirstAccordion ? '' : 'collapsed')
+              )
+                img.main-links__icon.main-links__icon--light(src=`images/home-icons/${iconPair.light}` alt="")
+                img.main-links__icon.main-links__icon--dark(src=`images/home-icons/${iconPair.dark}` alt="")
+                h3.main-links__title= card.title
+                p.main-links__descr= card.descr
+            - accordionIdx++
+          else if card.url
+            - var cardInternal = !!card.internal && isSafeInternalUrl(card.url)
+            - var cardExternal = !card.internal && isSafeHttpUrl(card.url)
+            - var cardHref = cardInternal || cardExternal ? card.url : '#'
+            .main-links__card
+              a.main-links__direct(
+                href=cardHref
+                target=(cardExternal ? '_blank' : null)
+                rel=(cardExternal ? 'noopener noreferrer' : null)
+              )
+                img.main-links__icon.main-links__icon--light(src=`images/home-icons/${iconPair.light}` alt="")
+                img.main-links__icon.main-links__icon--dark(src=`images/home-icons/${iconPair.dark}` alt="")
+                h3.main-links__title= card.title
+                p.main-links__descr= card.descr
       .main-links-panels
-        each card, idx in homePageContent.mainLinks
-          .collapse.main-links__panel(
-            id=`main-link-${idx}`
-            class=(idx === 0 ? 'show' : '')
-            data-bs-parent="#main-links-accordion"
-          )
-            .main-links__panel-inner
-              .row.g-3
-                each link in card.links
-                  - var safeInternal = !!link.internal && isSafeInternalUrl(link.url)
-                  - var safeExternal = !link.internal && isSafeHttpUrl(link.url)
-                  - var safeUrl = safeInternal || safeExternal ? link.url : '#'
-                  - var colMobile = 'col-6'
-                  - var colDesktop = 'col-md-3'
-                  if link.size === 'full'
-                    - colMobile = 'col-12'
-                    - colDesktop = 'col-md-12'
-                  else if link.size === 'double'
-                    - colDesktop = 'col-md-6'
-                  div(class=`${colMobile} ${colDesktop}`)
-                    a.main-links__sublink(
-                      href=safeUrl
-                      target=(safeExternal ? '_blank' : null)
-                      rel=(safeExternal ? 'noopener noreferrer' : null)
-                      class=(link.isNew ? 'main-links__sublink--new' : '')
-                    )
-                      span.main-links__sublink-title= link.title
-                      if link.isNew
-                        span.main-links__sublink-badge NEW
-
-  //- Phase 4 — animated stats counters (scroll-spy via src/js/stats.js)
-  section.home-stats
-    .container-xl
-      h2.home-stats__heading The scale of cyber threats in healthcare
-      .home-stats__grid
-        each stat in homePageContent.stats
-          .stat-counter
-            .stat-counter__value(
-              data-end-value=stat.value
-              style=`color: ${stat.color}`
-            ) 0
-            h3.stat-counter__title= stat.title
-            if stat.descr
-              p.stat-counter__descr= stat.descr
-            if stat.link && isSafeHttpUrl(stat.link)
-              a.stat-counter__link(href=stat.link target="_blank" rel="noopener noreferrer")
-                = stat.linkText || 'Source'
-                span.material-icons(aria-hidden="true") launch
+        - var panelIdx = 0
+        each card in homePageContent.mainLinks
+          if card.links && card.links.length
+            - var isFirstPanel = panelIdx === 0
+            .collapse.main-links__panel(
+              id=`main-link-${panelIdx}`
+              class=(isFirstPanel ? 'show' : '')
+              data-bs-parent="#main-links-accordion"
+            )
+              .main-links__panel-inner
+                .row.g-3
+                  each link in card.links
+                    - var safeInternal = !!link.internal && isSafeInternalUrl(link.url)
+                    - var safeExternal = !link.internal && isSafeHttpUrl(link.url)
+                    - var safeUrl = safeInternal || safeExternal ? link.url : '#'
+                    - var colMobile = 'col-6'
+                    - var colDesktop = 'col-md-3'
+                    if link.size === 'full'
+                      - colMobile = 'col-12'
+                      - colDesktop = 'col-md-12'
+                    else if link.size === 'double'
+                      - colDesktop = 'col-md-6'
+                    div(class=`${colMobile} ${colDesktop}`)
+                      a.main-links__sublink(
+                        href=safeUrl
+                        target=(safeExternal ? '_blank' : null)
+                        rel=(safeExternal ? 'noopener noreferrer' : null)
+                        class=(link.isNew ? 'main-links__sublink--new' : '')
+                      )
+                        span.main-links__sublink-title= link.title
+                        if link.isNew
+                          span.main-links__sublink-badge NEW
+            - panelIdx++
 
   section.home-newsletter(data-animate)
     .container-xl

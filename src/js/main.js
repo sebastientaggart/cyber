@@ -28,10 +28,10 @@ if (has('#posts-data')) {
   import('./post-detail.js');
 }
 
-if (has('.stat-counter__value')) {
-  import('./stats.js');
-}
-
 if (has('#notices-data')) {
   import('./notices.js');
+}
+
+if (document.body.classList.contains('page-cybersecurity-performance-goals')) {
+  import('./cpg-page.js');
 }
