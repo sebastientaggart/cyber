@@ -6,7 +6,7 @@
 - var tagCounts = {};
 - resources.forEach(function(r) { (r.tags || '').split(',').map(function(t){return t.trim();}).filter(Boolean).forEach(function(t) { tagCounts[t] = (tagCounts[t] || 0) + 1; }); });
 - var sortedTags = Object.entries(tagCounts).sort(function(a, b) { return b[1] - a[1]; }).slice(0, 30);
-- var isSafeHttpUrl = function(url) { return typeof url === 'string' && /^https?:\/\//i.test(url.trim()); };
+- var isResourceLink = function(url) { var s = (url || '').trim(); return /^https?:\/\//i.test(s) || s.startsWith('/') || /\.pug/i.test(s); };
 
 - var __defaultCategory = (typeof defaultCategory === 'undefined') ? '' : defaultCategory
 section.resources-page(data-default-category=__defaultCategory)
@@ -70,8 +70,8 @@ section.resources-page(data-default-category=__defaultCategory)
               data-title-lower=r.title.toLowerCase()
               data-date=r.date
             )
-              - var resourceImage = isSafeHttpUrl(`${resourceImageBase}/${r.image}`) ? `${resourceImageBase}/${r.image}` : ''
-              - var resourceLink = isSafeHttpUrl(r.link) ? r.link : ''
+              - var resourceImage = isResourceLink(`${resourceImageBase}/${r.image}`) ? `${resourceImageBase}/${r.image}` : ''
+              - var resourceLink = isResourceLink(r.link) ? r.link : ''
               .resource-card__media
                 img(
                   src=resourceImage

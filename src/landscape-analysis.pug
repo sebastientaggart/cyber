@@ -6,7 +6,6 @@ block variables
   - var pageDescription = 'Hospital Cyber Resiliency Landscape Analysis — investigative study of cyber threats to U.S. hospitals.'
 
 block content
-  - var docBase = 'https://405d.hhs.gov/Documents'
   - var la = pageContents.landscapeAnalysis
 
   section.landscape-page
@@ -15,7 +14,7 @@ block content
         h1 Hospital Resiliency
         h2 Landscape Analysis
         p= la.top
-        a.landscape-page__cta(href=`${docBase}/405d-hospital-resiliency-analysis.pdf` target="_blank" rel="noopener")
+        a.landscape-page__cta(href=(documentsBase + '/HICP/HHS-hospital-resiliency-analysis.pdf') target="_blank" rel="noopener")
           | Download Landscape Analysis (PDF)
           span.material-icons(aria-hidden="true") download
 
@@ -109,13 +108,13 @@ block content
           h3 Adoption
           p Hospitals that adopted HICP demonstrated meaningful improvements in their cybersecurity posture. The HICP publications provide actionable practices that organizations can implement at any size.
           .landscape-page__thumbs
-            a(href=`${docBase}/HICP-Main-508.pdf` target="_blank" rel="noopener")
+            a(href=(documentsBase + '/HICP/HICP-Main-508.pdf') target="_blank" rel="noopener")
               img(src="images/hicp/hicp-main-thumb.png" alt="HICP Main")
-            a(href=`${docBase}/tech-vol1-508.pdf` target="_blank" rel="noopener")
+            a(href=(documentsBase + '/HICP/tech-vol1-508.pdf') target="_blank" rel="noopener")
               img(src="images/hicp/hicp-tech1-thumb.png" alt="HICP Technical Volume 1")
-            a(href=`${docBase}/tech-vol2-508.pdf` target="_blank" rel="noopener")
+            a(href=(documentsBase + '/HICP/tech-vol2-508.pdf') target="_blank" rel="noopener")
               img(src="images/hicp/hicp-tech2-thumb.png" alt="HICP Technical Volume 2")
-            a(href=`${docBase}/405d-hospital-resiliency-analysis.pdf` target="_blank" rel="noopener")
+            a(href=(documentsBase + '/HICP/HHS-hospital-resiliency-analysis.pdf') target="_blank" rel="noopener")
               img(src="images/hicp/landscape-thumb.png" alt="Landscape Analysis")
 
         .landscape-page__panel

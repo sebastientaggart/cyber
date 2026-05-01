@@ -162,11 +162,11 @@
     },
     {
       "title": "Step 3",
-      "detail": "Pick the practice your organization is going to impliment and appoint a person in your organization that will help to communicate it to your staff. This may be your HIPAA security officer or persons deemed appropriate. Learn more by reading the [HICP Main Document](https://405d.hhs.gov/information), **Technical Volumes 1 and 2** for [recognized cybersecurity practices](https://www.youtube.com/watch?v=e2wG7jUiRjE)"
+      "detail": "Pick the practice your organization is going to impliment and appoint a person in your organization that will help to communicate it to your staff. This may be your HIPAA security officer or persons deemed appropriate. Learn more by reading the [HICP Main Document](cornerstone-hicp.pug), **Technical Volumes 1 and 2** for [recognized cybersecurity practices](https://www.youtube.com/watch?v=e2wG7jUiRjE)"
     },
     {
       "title": "Step 4",
-      "detail": "Have your employees participate in the [Knowledge on Demand (KOD)](https://405d.hhs.gov/knowledgeondemand) videos and review the job aids to gain a stronger awareness about the top 5 threats affecting healthcare."
+      "detail": "Have your employees participate in the [Knowledge on Demand (KOD)](kod-five-threats.pug) videos and review the job aids to gain a stronger awareness about the top 5 threats affecting healthcare."
     },
     {
       "title": "Step 5",
@@ -178,7 +178,7 @@
     },
     {
       "title": "Step 7",
-      "detail": "Join our Distribution List or become a Task Group Member at our [Contact Us](https://405d.hhs.gov/contactus) page, so you don’t miss out on all the great healthcare focused cybersecurity products we share and develop."
+      "detail": "Join our Distribution List or become a Task Group Member at our [Contact Us](contactus.pug) page, so you don’t miss out on all the great healthcare focused cybersecurity products we share and develop."
     },
     {
       "title": "Step 8",

@@ -6,11 +6,9 @@ block variables
   - var pageDescription = 'Archived HHS Cyber Gateway resources from prior years.'
 
 block content
-  - var docBase = 'https://405d.hhs.gov/Documents'
-
   section.resources-page
     .container-xl
-      .resources-page__intro(data-animate)
+      .resources-page__intro.page-intro-box(data-animate)
         h1 Resource Archive
         p= pageContents.resources.archiveDescr
 
@@ -18,6 +16,6 @@ block content
         each item in archivedResources
           if !item.skipInResources
             li.archive-list__item
-              a(href=`${docBase}/${item.fileName}` target="_blank" rel="noopener")
+              a(href=`${documentsBase}/${item.fileName}` target="_blank" rel="noopener")
                 span= item.name
                 span.material-icons(aria-hidden="true") arrow_forward

@@ -20,7 +20,7 @@
       "",
       "Protecting our patients from cyber threats even in these uncertain times is paramount to keeping our healthcare systems running smoothly and securely. For more information on network segmentation and other ways to protect your organization from cyber threats check out the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients publication."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-July-VolumeXI.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-July-VolumeXI.pdf",
     "category": "HICP in the spotlight"
   },
   {
@@ -33,7 +33,7 @@
       "![Spotlight Webinar]({{RESOURCE_URL}}post_xxiii_5.png) Last month during the HHS Spotlight Webinar, CISA joined HHS and shared information on CISA’s Priority",
       "Telecommunication Services. See below for an overview and if you would like to watch",
       "the webinar watch [HERE](https://www.youtube.com/watch?v=GG7Jhyzq1x8) or download the",
-      "slides from our website [HERE](https://405d.hhs.gov/Documents/405d-webinar-2024-0327-cisa-telcom-svc.pdf).",
+      "slides from our website [HERE](https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-webinar-2024-0327-cisa-telcom-svc.pdf).",
       "",
       "## Ensuring Uninterrupted Communication with CISA’s Priority Telecommunications Services",
       "In today’s hyper-connected world, the ability to maintain communication during crises is not just advantageous —",
@@ -87,7 +87,7 @@
       "services are not just about maintaining communication; they’re about securing the continuity of operations",
       "when it matters most."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxiii-april-2024.pdf",
     "category": "HHS Chronicles"
   },
   {
@@ -119,7 +119,7 @@
       "Chief Information Security Officer\\",
       "U.S. Department of Health and Human Services"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-March-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-March-R.pdf",
     "category": "HICP in the spotlight"
   },
   {
@@ -158,7 +158,7 @@
       "",
       "Throughout this national crisis one thing is for certain more than ever before, we must never forget that the job of those of us on the technology side of healthcare is to provide support and aid to those who actually provide care to patients. They need us to have the technology available and functioning in a manner that helps them efficiently care for patients while keeping them and their information safe at the same time."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-March-Volume-IX-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-March-Volume-IX-R.pdf",
     "category": "HHS Chronicles",
     "author": "Donna Grindle, HHS Task Group Member"
   },
@@ -224,7 +224,7 @@
       " ",
       "Of course, those are five long and complicated steps; and when you finish working your way through them, you’ll likely have more devices to integrate into the process and an evolved threat landscape to factor into your risk profiling. Cybersecurity is neither quick nor simple, but it is vital if hospitals are to continue delivering care safely, securely, and reliably in modern world. To that point, better use of MDS2 information can be a key enabler for healthcare excellence — across IT, IS, HTM, and compliance teams. Through smart system and process based integration, MDS2 can and must be better leveraged by hospitals and medical centers."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-March-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-March-R.pdf",
     "category": "Task Group Articles",
     "author": "Ido Geffen and Priyanka Upendra, HHS Task Group Members"
   },
@@ -265,7 +265,7 @@
       "",
       "It takes everyone in a practice working together to ward off the \"bad actors\". Practice Owners set the stage for effectiveness. When you become the champion, everyone else will come along. You don't have to spend a fortune to get there.",
       "",
-      "You now have the FREE resources necessary to get started: \"[**Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients**](https://405d.hhs.gov/Documents/HICP-Main-508.pdf)\". It's available to you at: https://405d.hhs.gov",
+      "You now have the FREE resources necessary to get started: \"[**Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients**](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf)\". It's available to you at: https://hhscyber.hhs.gov",
       "",
       "After you make a quick read through the first ten pages, you will see that there are cost-effective practices that you and your staff can implement in any size practice. You won't get it done in a day, but why not get started?",
       "",
@@ -273,7 +273,7 @@
       "",
       "This is just another way we work together to protect the health of our nation - as you protect the health of your practice. Get started. There's no better time than today."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Newsletter-January-2020-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Newsletter-January-2020-R.pdf",
     "category": "Task Group Articles",
     "author": "Philip A. Smith, MD, FAAFP, HHS Task Group Member"
   },
@@ -294,7 +294,7 @@
       "- The HHS Health Industry Cybersecurity Practices (HICP)",
       "",
       "Findings from this landmark Study also served as one of the primary sources of data included in the recently",
-      "published [HHS Hospital Cyber Resiliency Initiative: Landscape Analysis](https://405d.hhs.gov/Documents/405d-hospital-resiliency-analysis.pdf).",
+      "published [HHS Hospital Cyber Resiliency Initiative: Landscape Analysis](https://hhscyber.hhs.gov/Documents/HICP/HHS-hospital-resiliency-analysis.pdf).",
       "",
       "",
       "## Here are 5 key insights from the first wave of the Study (which included 48 healthcare delivery organizations):",
@@ -331,7 +331,7 @@
       "",
       "### 4. While Email Protections Are Largely In Place, There’s Still A Long Way to Go on Medical Device Security",
       "",
-      "The Study found wide disparity in the [Health Industry Cybersecurity Practices Publication (HICP])(https://405d.hhs.gov/information)",
+      "The Study found wide disparity in the [Health Industry Cybersecurity Practices Publication (HICP])(cornerstone-hicp.pug)",
       "adoption across the ten best practice areas, with email protections ranking highest in adoption and medical device security ranking",
       "last in coverage across HDOs with just over 50% coverage. With 10 -15 network connected medical devices per bed,",
       "and the market for Internet-of-Medical-Things (IoMT) growing rapidly, this will certainly be a key focus area for both",
@@ -358,7 +358,7 @@
       "gaps in security exist today, prioritize allocation of scarce resources, and help justify future investment in",
       "cybersecurity to their Boards to make the overall enterprise more resilient -- and safer for patients."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxi-2023-september.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxi-2023-september.pdf",
     "image": "post_xxi_1_2.png",
     "headerImage": "post_xxi_1_bg.png",
     "category": "Task Group Articles",
@@ -446,7 +446,7 @@
       "",
       "[^8]:  “Guidance on risk analysis requirements under the HIPAA[^apps] Security Rule.” OCR/HHS. July 14, 2010. Accessed January 3, 2022. https://www.hhs.gov/sites/default/files/ ocr/privacy/hipaa/administrative/securityrule/rafinalguidancepdf.pdf"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-2022-01-January.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-2022-01-January.pdf",
     "category": "HHS Chronicles",
     "author": "Bob Chaput, MA, CISSP, HCISPP, CRISC, CIPP/US, C|EH, NACD CERT, HHS Task Group Member"
   },
@@ -466,9 +466,9 @@
       "",
       "These are just two real life examples of people trusting IT professionals without verifying the information and that information being wrong. Cybersecurity education and training are critical to any small, medium, and large business. Training should include creating best practice protocols. This is important not only to be proactive, but also for vetting a vendor who promises to help you with your security needs. What good is buying a firewall if it is not configured properly? You don’t have to know about IT to ask about IT. You owe it to your patients who trust you with their data to be informed about cybersecurity.",
       "",
-      "There are many resources to help all sizes of businesses. HHS is the best place to start if you’re looking for a place to begin learning about cybersecurity for your healthcare organization. [The Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP)](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) publication lays out the top five threats facing healthcare and the ten practices to mitigate those threats. HHS also helps with cyber hygiene for offices with posters, an active social media presence and campaigns such as Patient Safety Awareness Week and Cybersecurity Awareness Month. Awareness products and resources can be found at [405d.hhs.gov](https://405d.hhs.gov)."
+      "There are many resources to help all sizes of businesses. HHS is the best place to start if you’re looking for a place to begin learning about cybersecurity for your healthcare organization. [The Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP)](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf) publication lays out the top five threats facing healthcare and the ten practices to mitigate those threats. HHS also helps with cyber hygiene for offices with posters, an active social media presence and campaigns such as Patient Safety Awareness Week and Cybersecurity Awareness Month. Awareness products and resources can be found at [hhscyber.hhs.gov](https://hhscyber.hhs.gov)."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-2022-march-volxv.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-2022-march-volxv.pdf",
     "category": "HHS Chronicles",
     "author": "Bijan Anvar, HHS Task Group Member"
   },
@@ -485,9 +485,9 @@
       "",
       "The thirst for good data can only be quenched by having robust, valid, and reliable databases, common terminology, and the agreement to share. In our current environment, this can only safely occur if data and communications are secure. We have already seen nation states attempt to steal vaccine intellectual property. They could have injected malware to slow or halt vaccine research or production. Unaltered and safe data is required by clinicians to determine the best clinical guidelines. This reinforces the need for all of healthcare to be constantly vigilant and practice cyber-hygiene.",
       "",
-      "It is everyone’s responsibility to be a guardian of our data. It’s important to remember to upgrade your operating systems, apply and test security patches as quickly as possible, use secure passwords and change regularly, and beware of phishing hooks. Look before you click. Also, for a more in-depth knowledge on keeping data secure, I suggest every physician and administration staff read the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) main document to learn more about your role in the effort to keep our data safe."
+      "It is everyone’s responsibility to be a guardian of our data. It’s important to remember to upgrade your operating systems, apply and test security patches as quickly as possible, use secure passwords and change regularly, and beware of phishing hooks. Look before you click. Also, for a more in-depth knowledge on keeping data secure, I suggest every physician and administration staff read the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf) main document to learn more about your role in the effort to keep our data safe."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-March-Volume-IX-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-March-Volume-IX-R.pdf",
     "category": "HHS Chronicles",
     "author": "Mark Jarrett, MD, MBA, MS- HHS Task Group Member"
   },
@@ -509,11 +509,11 @@
       "</table>",
       "",
       "For more information on Incident response plans check out the full [Health Industry Cybersecurity ",
-      " Practices Publication (HICP)](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) and [HICP Technical ",
+      " Practices Publication (HICP)](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf) and [HICP Technical ",
       "Volume 1: Cybersecurity Practices for Small Healthcare ",
-      " Organizations](https://405d.hhs.gov/Documents/tech-vol1-508.pdf)  at [405d.hhs.gov](https://405d.hhs.gov/)."
+      " Organizations](https://hhscyber.hhs.gov/Documents/HICP/tech-vol1-508.pdf)  at [hhscyber.hhs.gov](https://hhscyber.hhs.gov/)."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxvi-2022-may.pdf",
     "category": "HHS Chronicles"
   },
   {
@@ -579,7 +579,7 @@
       "",
       "When we hear terms like “Copernican revolution” used in reference to the transformative impact AI will have on healthcare, it certainly captures the magnitude of change we anticipate. We should not allow our enthusiasm to overshadow the ultimate goal of improving patient safety and care through the secure and safe use of these new technologies. All of our actions, or inactions, in this moment can have lasting consequences to real people. Building a strategic plan now will allow organizations to embrace the moment but also remember such a paradigm shift always comes with risks that must be addressed along the way."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxv-july-2024.pdf",
     "category": "Task Group Articles",
     "author": "Donna Grindle, HHS Task Group Ambassador Lead"
   },
@@ -711,7 +711,7 @@
       "",
       "*Erik Decker*"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxix-2023-april.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxix-2023-april.pdf",
     "image": "post_xix_h1.png",
     "headerImage": "post_xix_h1.png",
     "category": "Task Group Articles",
@@ -735,7 +735,7 @@
       "",
       "To check out more tips for Endpoint Protection access ***Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients here***!"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Newsletter-January-2020-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Newsletter-January-2020-R.pdf",
     "image": "post_eps_1.png",
     "category": "HICP in the spotlight",
     "author": "HHS Team"
@@ -781,7 +781,7 @@
       "healthcare organization includes applying an access",
       "and identity management solution. (This practice can be",
       "found in Cybersecurity Practice #3: Access Management",
-      "located in [Technical Volumes 1](https://405d.hhs.gov/Documents/tech-vol1-508.pdf) and [2](https://405d.hhs.gov/Documents/tech-vol2-508.pdf).) Applying a least",
+      "located in [Technical Volumes 1](https://hhscyber.hhs.gov/Documents/HICP/tech-vol1-508.pdf) and [2](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf).) Applying a least",
       "privilege access process creates additional security",
       "controls by only allowing users access to applications",
       "they need to do their work. For example, a front desk",
@@ -801,9 +801,9 @@
       "The Health Industry Cybersecurity Practices 2023",
       "Edition can help you implement this strategy in your",
       "organization. For more information, checkout our website",
-      "at [405d.hhs.gov](https://405d.hhs.gov)*."
+      "at [hhscyber.hhs.gov](https://hhscyber.hhs.gov)*."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxx-2023-june.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxx-2023-june.pdf",
     "category": "HICP in the spotlight"
   },
   {
@@ -850,7 +850,7 @@
       "Conduct a risk assessment of your organization against the HIPAA Security Rule using the ONC Security Risk Assessment tool, available [here](https://www.healthit.gov/topic/privacy-security-and-hipaa/security-risk-assessment-tool). If possible, have an outside firm complete this.",
       "",
       "Perform a gap analysis of the Risk Assessment results to determine areas for improvement. Develop a plan to address the discovered issues, starting with the highest ones. Ensure that issues are assigned to projects, tracked, and monitored for progress and completion.",
-      "Align the projects against the HHS Health Industry Cybersecurity Practices (HICP). These resources, which are available at [405d.hhs.gov](https://405d.hhs.gov), discuss ten types of practices that organizations can tailor to their needs:",
+      "Align the projects against the HHS Health Industry Cybersecurity Practices (HICP). These resources, which are available at [hhscyber.hhs.gov](https://hhscyber.hhs.gov), discuss ten types of practices that organizations can tailor to their needs:",
       "1. Email Protection Systems/Security to avoid phishing, malware, and social engineering attacks",
       "2. Endpoint Protection Systems",
       "3. Access Management",
@@ -867,12 +867,12 @@
       "In addition to those areas, organizations need to address the following:",
       "",
       "- **Tabletop Exercises**: Conduct tabletop exercises at least annually to determine readiness and gaps in it in case of a cyber-attack.",
-      "- **Downtime Procedures**: Work with clinical and administrative departments, especially Health Information Management (HIM), Revenue Cycle, Laboratory Services, and Radiology, to understand process flows and what to do in case computer systems no longer work. Update this at least annually if not more. For more information, see Cybersecurity Practice 10: Cybersecurity Policies in the [HICP Technical Volumes](https://405d.hhs.gov/resources).",
-      "- **Physical Security**: Conduct a physical security risk assessment and address findings and concerns. For more information, see Cybersecurity Practice 2: Endpoint Protection Systems in the [HICP Technical Volumes](https://405d.hhs.gov/resources).",
+      "- **Downtime Procedures**: Work with clinical and administrative departments, especially Health Information Management (HIM), Revenue Cycle, Laboratory Services, and Radiology, to understand process flows and what to do in case computer systems no longer work. Update this at least annually if not more. For more information, see Cybersecurity Practice 10: Cybersecurity Policies in the [HICP Technical Volumes](resources.pug).",
+      "- **Physical Security**: Conduct a physical security risk assessment and address findings and concerns. For more information, see Cybersecurity Practice 2: Endpoint Protection Systems in the [HICP Technical Volumes](resources.pug).",
       "- **Contract Language**: The Health Sector Coordinating Council (HSCC) has published Model Contract Language for Medtech Cybersecurity (MC2). This is available [here](https://healthsectorcouncil.org/model-contract-language-for-medtech-cybersecurity-mc2/).",
       "- **PCI-DSS Compliance**: This is required to process credit cards by the credit card brands. If resources allow, get an Attestation of Compliance done by a Qualified Service Assessor (QSA).",
-      "- **Privileged Access Management**: No user needs administrative access by default. Require two-factor authentication to access these critical credentials and cycle the passwords when complete. For more information, see Cybersecurity Practice 3: Access Management in the [HICP Technical Volumes](https://405d.hhs.gov/resources).",
-      "- **Email Protection Systems**: Email security measures to avoid phishing, malware and social engineering attacks. For more information, see Cybersecurity Practice 1: Email Management in the [HICP Technical Volumes](https://405d.hhs.gov/resources).",
+      "- **Privileged Access Management**: No user needs administrative access by default. Require two-factor authentication to access these critical credentials and cycle the passwords when complete. For more information, see Cybersecurity Practice 3: Access Management in the [HICP Technical Volumes](resources.pug).",
+      "- **Email Protection Systems**: Email security measures to avoid phishing, malware and social engineering attacks. For more information, see Cybersecurity Practice 1: Email Management in the [HICP Technical Volumes](resources.pug).",
       "",
       "The ransomware epidemic means that the insurance underwriters are going to do whatever they can to avoid becoming the next AIG due to it. This means that instead of just writing a check, companies need to proactively demonstrate compliance with best practices and requirements. The HHS, ONC, and HSCC have provided excellent resources. Leverage them as part of a plan to show the insurance companies that issuing a policy to your company presents less risk than a CDO did in 2008.",
       "",
@@ -890,7 +890,7 @@
       "[^6]: Robert McDonald and Anna Paulson. “AIG in Hindsight.” Federal Reserve Bank of Chicago. October 2014. https://www.chicagofed.org/~/media/publications/working-papers/2014/wp2014-07-pdf.pdf.",
       "[^7]: Chris Dunker. “Regents approve adding cyberattack losses to self-insurance policy.” Lincoln Journal Star. April 8, 2022. https://journalstar.com/news/local/education/regents-approve-adding-cyberattack-losses-to-self-insurance-policy/article_24c6be3b-1843-5df2-a9e2-9673edbad678.html."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxvi-2022-may.pdf",
     "image": "p_cyberinsurance.jpg",
     "category": "HHS Chronicles",
     "author": "Traci Lamb and Mitch Parker, HHS Task Group Members"
@@ -918,7 +918,7 @@
       "Interested in learning more from industry about cybersecurity? The HHS Spotlight Webinar spotlights a new topic and Task Group Member each time and they produce content based on",
       "insight on how their organizations have used the HICP publication, real-world scenarios and lessons learned, industry cybersecurity best practices, proven cybersecurity procedures and techniques, and other topics involving cybersecurity in the healthcare industry."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-V-May-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-Volume-V-May-R.pdf",
     "image": "post_dyo.png",
     "category": "HICP in the spotlight"
   },
@@ -961,7 +961,7 @@
       "",
       "![Image]({{RESOURCE_URL}}post_xxi_6.png)*Review your application closely and answer any questions about your business to the best of your ability. Seek the advice of your insurance broker or legal counsel for assistance with questions about the scope or meaning of the questions and how they relate to your cybersecurity practices.*"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxi-2023-september.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxi-2023-september.pdf",
     "image": "post_xxi_6.png",
     "category": "HICP in the spotlight"
   },
@@ -990,7 +990,7 @@
       "",
       "**SOURCE**: https://www.nist.gov/itl/smallbusinesscyber/guidance-topic/multi-factor-authentication"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-have-you-heard-mfa.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-have-you-heard-mfa.pdf",
     "image": "p_MFA.jpg",
     "category": "HICP in the spotlight"
   },
@@ -1090,7 +1090,7 @@
       "",
       "### Resources to help in your planning process",
       "",
-      "**HICP** - [HHS](https://405d.hhs.gov) - sign up for emails letting you know when additional assistance is released.",
+      "**HICP** - [HHS](https://hhscyber.hhs.gov) - sign up for emails letting you know when additional assistance is released.",
       "",
       "**HC3** - [Health Sector Cybersecurity Coordination Center (HC3) | HHS.gov](https://www.hhs.gov/about/agencies/asa/ocio/hc3/index.html)",
       "",
@@ -1103,7 +1103,7 @@
       "",
       "**CISA** - [CISA Tabletop Exercise Packages](https://www.cisa.gov/resources-tools/services/cisa-tabletop-exercise-packages)"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxx-2023-june.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxx-2023-june.pdf",
     "category": "HHS Chronicles",
     "author": "Donna Grindle and Gerry Blass, HHS Task Group Members"
   },
@@ -1354,7 +1354,7 @@
       "it—where feasible—in your workforce development",
       "endeavors."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxii-2023-december.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxii-2023-december.pdf",
     "image": "post_xxii_a1t.png",
     "headerImage": "p-xxii-1.png",
     "category": "Task Group Articles",
@@ -1398,48 +1398,48 @@
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i4.png#left\" alt=\"Asset Management and Inventory\"/>",
       "",
-      "[Asset Management and Inventory](https://405d.hhs.gov/Documents/d): Maintain a detailed inventory of all medical devices, including their make, model, software versions, and network connectivity. Automated asset discovery tools can help track devices and monitor their status continuously.",
+      "[Asset Management and Inventory](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Maintain a detailed inventory of all medical devices, including their make, model, software versions, and network connectivity. Automated asset discovery tools can help track devices and monitor their status continuously.",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i5.png#left\" alt=\"Baseline Network Traffic and Behavior\"/>",
       "",
-      "[Baseline Network Traffic and Behavior](https://405d.hhs.gov/Documents/d): Establish baseline behaviors for medical devices to detect anomalies. Understanding normal communication patterns helps in identifying suspicious activities that could indicate a cyber attack.",
+      "[Baseline Network Traffic and Behavior](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Establish baseline behaviors for medical devices to detect anomalies. Understanding normal communication patterns helps in identifying suspicious activities that could indicate a cyber attack.",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i6.png#left\" alt=\"Segmentation and Isolation\"/>",
       "",
-      "[Segmentation and Isolation](https://405d.hhs.gov/Documents/d): Implement network segmentation to isolate medical devices from other critical parts of the healthcare network. This limits the spread of malware and protects sensitive data from unauthorized access. Use VLANs and firewalls to restrict communication to only necessary devices and services.",
+      "[Segmentation and Isolation](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Implement network segmentation to isolate medical devices from other critical parts of the healthcare network. This limits the spread of malware and protects sensitive data from unauthorized access. Use VLANs and firewalls to restrict communication to only necessary devices and services.",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i7.png#left\" alt=\"Regular Software Updates and Patching\"/>",
       "",
-      "[Regular Software Updates and Patching](https://405d.hhs.gov/Documents/d): Ensure that all medical devices are regularly updated with the latest security patches and firmware updates provided by manufacturers. Vulnerability management practices should include timely patching to mitigate known risks .",
+      "[Regular Software Updates and Patching](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Ensure that all medical devices are regularly updated with the latest security patches and firmware updates provided by manufacturers. Vulnerability management practices should include timely patching to mitigate known risks .",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i8.png#left\" alt=\"Strong Access Controls\"/>",
       "",
-      "[Strong Access Controls](https://405d.hhs.gov/Documents/d): Implement robust identity and access management (IAM) practices. Use multi-factor authentication (MFA) for device access and ensure that only authorized personnel can configure or use medical devices .",
+      "[Strong Access Controls](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Implement robust identity and access management (IAM) practices. Use multi-factor authentication (MFA) for device access and ensure that only authorized personnel can configure or use medical devices .",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i9.png#left\" alt=\"Encryption and Data Protection\"/>",
       "",
-      "[Encryption and Data Protection](https://405d.hhs.gov/Documents/d): Encrypt data stored on and transmitted by medical devices to protect against unauthorized access. Ensure that devices comply with data protection regulations and standards to safeguard PHI and PII .",
+      "[Encryption and Data Protection](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Encrypt data stored on and transmitted by medical devices to protect against unauthorized access. Ensure that devices comply with data protection regulations and standards to safeguard PHI and PII .",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i10.png#left\" alt=\"Incident Response and Monitoring\"/>",
       "",
-      "[Incident Response and Monitoring](https://405d.hhs.gov/Documents/d): Develop a comprehensive incident response plan that includes procedures for addressing cybersecurity incidents involving medical devices. Continuous monitoring and real-time alerts can help detect and respond to threats promptly.",
+      "[Incident Response and Monitoring](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Develop a comprehensive incident response plan that includes procedures for addressing cybersecurity incidents involving medical devices. Continuous monitoring and real-time alerts can help detect and respond to threats promptly.",
       "",
       "<div style=\"clear:both;\"></div>",
       "<img style=\"height:75px;\" src=\"{{RESOURCE_URL}}p-xxv-2_i11.png#left\" alt=\"Collaboration with Manufacturers\"/>",
       "",
-      "[Collaboration with Manufacturers](https://405d.hhs.gov/Documents/d): Work closely with device manufacturers to ensure they provide timely updates and support for cybersecurity measures. Request detailed security information, such as Manufacturer Disclosure Statements for Medical Device Security (MDS2) and Software Bills of Materials (SBOMs) .",
+      "[Collaboration with Manufacturers](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf): Work closely with device manufacturers to ensure they provide timely updates and support for cybersecurity measures. Request detailed security information, such as Manufacturer Disclosure Statements for Medical Device Security (MDS2) and Software Bills of Materials (SBOMs) .",
       "",
       "## Conclusion",
       "",
-      "The integration of network-connected medical devices in healthcare has revolutionized patient care but also introduced significant cybersecurity challenges. Protecting these devices requires a multi-faceted approach that includes asset management, behavior monitoring, network segmentation, regular updates, strong access controls, encryption, and robust incident response plans. By implementing these practices, healthcare organizations can mitigate the risks posed by cyber threats and ensure the safety and privacy of their patients. For more detailed information on how to protect Network Connected Medical Devices check out HICP Technical Volume 2 [HERE](https://405d.hhs.gov/Documents/tech-vol2-508.pdf)!"
+      "The integration of network-connected medical devices in healthcare has revolutionized patient care but also introduced significant cybersecurity challenges. Protecting these devices requires a multi-faceted approach that includes asset management, behavior monitoring, network segmentation, regular updates, strong access controls, encryption, and robust incident response plans. By implementing these practices, healthcare organizations can mitigate the risks posed by cyber threats and ensure the safety and privacy of their patients. For more detailed information on how to protect Network Connected Medical Devices check out HICP Technical Volume 2 [HERE](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf)!"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxv-july-2024.pdf",
     "image": "p-xxv-2_1.png",
     "category": "HICP in the spotlight"
   },
@@ -1562,9 +1562,9 @@
       "size categories and utilizing the specified volume tailored for your needs, you can significantly enhance",
       "your defenses against cyber threats. This strategic approach not only protects patient data but also",
       "ensures the continuity and reliability of healthcare services in the face of rising cyber challenges.",
-      "For more information, check out the full publication at [405d.hhs.gov](https://405d.hhs.gov/cornerstone/hicp)"
+      "For more information, check out the full publication at [HHS Cyber Gateway — HICP](cornerstone-hicp.pug)"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxiii-april-2024.pdf",
     "category": "HICP in the spotlight"
   },
   {
@@ -1603,8 +1603,8 @@
       "",
       "The websites below contain a wealth of good (and free!) resources that you can use to improve your cybersecurity posture or find funding opportunities.",
       "",
-      "[**HHS Website**](https://405d.hhs.gov) features a plethora of resources including access to the latest industry tested best practices as noted in the Health Industry",
-      "Cybersecurity Practices (HICP) 2023 Edition. This website also offers a brand-new training platform called [Knowledge on Demand](https://405d.hhs.gov/knowledgeondemand) that offers free end-user awareness training for the top five cyber threats facing the healthcare industry. There is also a searchable database of free resources, including infographics, newsletters like this one, webinars with slides, awareness posters and more!![HHS knowledge on demand]({{RESOURCE_URL}}post_XX_1_kod.png)",
+      "[**HHS Website**](https://hhscyber.hhs.gov) features a plethora of resources including access to the latest industry tested best practices as noted in the Health Industry",
+      "Cybersecurity Practices (HICP) 2023 Edition. This website also offers a brand-new training platform called [Knowledge on Demand](kod-five-threats.pug) that offers free end-user awareness training for the top five cyber threats facing the healthcare industry. There is also a searchable database of free resources, including infographics, newsletters like this one, webinars with slides, awareness posters and more!![HHS knowledge on demand]({{RESOURCE_URL}}post_XX_1_kod.png)",
       "",
       "",
       "**Health Sector Coordinating Council Cyber Working",
@@ -1664,7 +1664,7 @@
       "model, strategic planning, security control selection, and implementation. Kate has been working with HSCC and HHS to",
       "further the cause of cybersecurity in healthcare. She is a champion for federal and state funding for cybersecurity in small, rural, and non-for-profit organizations.*"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxx-2023-june.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxx-2023-june.pdf",
     "image": "post_XX_1_m.png",
     "headerImage": "post_XX_1_bg.png",
     "category": "Task Group Articles",
@@ -1697,7 +1697,7 @@
       "",
       "## Best Practices for Securing Cloud and Telehealth Systems",
       "![Technical Volume 2]({{RESOURCE_URL}}p-xxv-2_1.png#left)",
-      "To mitigate these risks, healthcare organizations should implement robust cybersecurity practices. The following best practices, drawn from the [HICP Technical Volume 2](https://405d.hhs.gov/Documents/tech-vol2-508.pdf) publication can assist in securing cloud environments:",
+      "To mitigate these risks, healthcare organizations should implement robust cybersecurity practices. The following best practices, drawn from the [HICP Technical Volume 2](https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf) publication can assist in securing cloud environments:",
       "",
       "### Implement Strong Access Controls",
       "",
@@ -1733,7 +1733,7 @@
       "",
       "In conclusion, while cloud and telehealth technologies offer significant benefits to healthcare, they also introduce new security challenges. Proactive measures and robust cybersecurity practices are essential to safeguard healthcare data in this continuously evolving digital landscape."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxv-july-2024.pdf",
     "image": "p-xxv-3_tn.png",
     "headerImage": "p-xxv-3_tn.png",
     "category": "HHS Chronicles"
@@ -1801,7 +1801,7 @@
       "",
       "If you would like to learn how HICP maps to other frameworks like the NIST Cybersecurity framework click below to check out our new Threat Mitigation Matrix!"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-VI-July-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-Volume-VI-July-R.pdf",
     "image": "r_a_06.png",
     "category": "Task Group Articles",
     "author": "Karen Greenhalgh, HCISPP, CHPC, CHC, HHS Task Group Member"
@@ -1884,7 +1884,7 @@
       "ensure your organization is incorporating industry-tested",
       "best practices that can fight the cyber threats of today.",
       "",
-      "For an overview of what’s new in HICP Edition, download the new [HICP one pager](https://405d.hhs.gov/Document/405d-hicp-onepager.pdf)!",
+      "For an overview of what’s new in HICP Edition, download the new [HICP one pager](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf)!",
       "",
       "<table border=\"0\"><tr><td style=\"vertical-align:top; width:50%\">",
       "",
@@ -1915,7 +1915,7 @@
       "10. **Cybersecurity Oversight and Governance**",
       "</td></tr></table>"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxix-2023-april.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxix-2023-april.pdf",
     "image": "post_xix_hicp.png",
     "category": "HICP in the spotlight"
   },
@@ -1944,9 +1944,9 @@
       "  <li>Identify malware that might have been installed on computers, and remediate appropriately if present</li></ul>",
       "</td></tr>",
       "</tbody></table>",
-      "For more information on Incident response plans check out the full Health Industry Cybersecurity  Practices Publication (HICP) and HICP Technical Volume 1: Cybersecurity Practices for Small Healthcare  Organizations at 405d.hhs.gov."
+      "For more information on Incident response plans check out the full Health Industry Cybersecurity  Practices Publication (HICP) and HICP Technical Volume 1: Cybersecurity Practices for Small Healthcare  Organizations at hhscyber.hhs.gov."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxvi-2022-may.pdf",
     "category": "HICP in the spotlight",
     "author": "HHS Team"
   },
@@ -1966,7 +1966,7 @@
       "",
       "To learn more about MFA and other practices used to prevent email phishing attacks, visit the HHS website and the full [HICP Publication](https://www.phe.gov/Preparedness/planning/405d/Pages/hic-practices.aspx)."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Newsletter-September.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Newsletter-September.pdf",
     "image": "post_tfa_1.png",
     "category": "HICP in the spotlight"
   },
@@ -2070,7 +2070,7 @@
       "comprehensive approach to cybersecurity and to pinpoint opportunities for improvement. Use of these frameworks can alter legal considerations. For example, the ",
       "U.S. Department of Health and Human Services (HHS) recently [requested information](https://www.hhs.gov/hipaa/for-professionals/regulatory-initiatives/hitech-rfi/index.html) ",
       "regarding recognized security practices, including under the [NIST Cybersecurity Framework](https://www.nist.gov/cyberframework/framework) and ",
-      "[405(d) of the Cybersecurity Act of 2015](https://405d.hhs.gov/) to influence HHS’s decisions regarding fines, audits, and remedies to resolve potential violations ",
+      "[405(d) of the Cybersecurity Act of 2015](https://hhscyber.hhs.gov/) to influence HHS’s decisions regarding fines, audits, and remedies to resolve potential violations ",
       "of HIPAA. And a small number of states have adopted “safe harbor” laws against litigation following cyber-attacks where the organization can show use of a recognized",
       "cybersecurity framework.",
       "- **Encryption**: Effective encryption can cause an otherwise reportable data breach stemming from a cyber-attack to fall outside the law’s various requirements ",
@@ -2094,7 +2094,7 @@
       "cyber-attack, and any follow-up obligations.",
       "",
       "**For more information on the legal implications of a cyber-attack, join our September Spotlight Webinar on September 21st at 1PM EDT to hear from Dan, Cindi and ",
-      "Paul do a further deep dive. Register on the main page of our website: [405d.hhs.gov](https://405d.hhs.gov).**",
+      "Paul do a further deep dive. Register on the main page of our website: [hhscyber.hhs.gov](https://hhscyber.hhs.gov).**",
       "[^cost]: IBM, Cost of a Data Breach Report 2021 (July 2021), https://www.ibm.com/downloads/cas/OJDVQGRY#. Not all cyber-attacks result in data breaches (which have specific triggers under the applicable laws), and not all data breaches involve cyberattacks; the statistics regarding data breaches are thus used as a close proxy for purposes of this discussion.",
       "[^hccost]: Id.",
       "[^rca]: FBI, Internet Crime Report 2021, https://www.ic3.gov/Media/PDF/AnnualReport/2021_IC3Report.pdf",
@@ -2102,7 +2102,7 @@
       "[^cybattack]: Common law causes of action for plaintiffs include: negligence, negligence per se, and breach of (implied) contract.",
       "[^6]: Encrypted backups, to make them more resilient for recovery in the event of a ransomware event, also can be the difference from a quick recovery and prolonged downtime."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-september-2022.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-september-2022.pdf",
     "image": "post_xvii_h1.png",
     "headerImage": "post_xvii_h1.png",
     "category": "HHS Chronicles",
@@ -2133,17 +2133,17 @@
       "- Can data be wiped technically from any mobile devices with PHI at a moment’s notice?",
       "- Can you provide a current inventory/asset list of all hardware and software?",
       "- Do you know who your downstream business partner(s) are, how they handle the data you entrust to them, and whether or not they conduct ongoing risk analysis to safeguard the PHI?",
-      "- Is there a process to constantly stay current with standards and best practice recommendations such as the NIST Cybersecurity recommendations or the [HHS Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) document?",
+      "- Is there a process to constantly stay current with standards and best practice recommendations such as the NIST Cybersecurity recommendations or the [HHS Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf) document?",
       "",
       "## Know what is required versus Recommended as a Best Practice",
       "",
       "Organizations subject to regulatory requirements, such as the HIPAA Rules, must implement minimum standards to safeguard their data.",
       "",
-      "![image1]({{RESOURCE_URL}}t_a_1.png) Organizations may want to consider implementing additional measures and industry best practices including the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf) document which outlines the five major threats facing the healthcare industry and ten practices that can be used to mitigate them. NIST or other Standards Development Organizations, which offer educational materials on privacy and security topics, can also be used to supplement regulations.",
+      "![image1]({{RESOURCE_URL}}t_a_1.png) Organizations may want to consider implementing additional measures and industry best practices including the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf) document which outlines the five major threats facing the healthcare industry and ten practices that can be used to mitigate them. NIST or other Standards Development Organizations, which offer educational materials on privacy and security topics, can also be used to supplement regulations.",
       "",
       "When considering whether to implement these best practice recommendations, staff must balance the risk of not implementing the best practice against the cost and/or complexity of implementing it for your organization. There are many factors to consider for every organization, including risk tolerance and exposure, scale, data and PHI flow, business partners etc. Be sure to document the rationale as to why a standard or best practice is or is not applicable to include in your policies and implementation practices. This type of information is important to include in your risk analysis to assure reconsideration in the future as your organization evolves and/or technology changes. Cybersecurity risks are enterprise risks. These risks can affect every aspect of your organization including your reputation. The most important risk is **patient safety**, which is the corner stone of every organization. Determining the appropriate balance between which best practices to implement and what are required by regulation for the data you handle is an important aspect of the cybersecurity assessment and implementation process. The criticality of properly assessing needs, requirements, applicable standards, need for third party services, and which cybersecurity best practices to employ are all factors in determining your strategy and tactics for your organization."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Newsletter-November.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Newsletter-November.pdf",
     "category": "Task Group Articles",
     "author": "Lee Barrett, HHS Task Group Member"
   },
@@ -2244,7 +2244,7 @@
       "this plan, translating strategy into action for a more",
       "secure and resilient healthcare future."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxiii-april-2024.pdf",
     "image": "post_xxiii_1.png",
     "headerImage": "p-xxii-1.png",
     "category": "Task Group Articles",
@@ -2288,7 +2288,7 @@
       "",
       "**Threat Actor**: Nation State; **Threat Action**: Targeted; **Motivation**: Political",
       " ",
-      "To see some of the common tactics these threat actors use to conduct their threat actions, take a look at the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://405d.hhs.gov/Documents/HICP-Main-508.pdf). The document outlines five common threat tactics that plague the health industry.",
+      "To see some of the common tactics these threat actors use to conduct their threat actions, take a look at the [Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients](https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf). The document outlines five common threat tactics that plague the health industry.",
       "",
       "As you can see, these two scenarios are quite different from one another, but ultimately relate back to the same systems and organization. Additionally, the methods you would choose to protect against these types of attacks are quite different. So how do you do it?",
       "",
@@ -2331,7 +2331,7 @@
       "",
       "As I mentioned at the start, I left out the Risk Analysis process and the Roadmap process. Suffice it to say, once you’ve classified your threats, determined how they influence your risks, and selected your framework for managing it, you’re well on your journey towards building your plan. By keeping these discussions simple and modeling only a handful of threats and risks, you’ll see that understanding come together with your executives."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Newsletter-September.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Newsletter-September.pdf",
     "category": "Task Group Articles",
     "author": "A Simple Model to Discuss Cyber Risks with Executives"
   },
@@ -2367,7 +2367,7 @@
       "- Further reinforce good cyber security habits into company culture ",
       "- Further reduce susceptibility to cyber threats"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-XII.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-Volume-XII.pdf",
     "category": "HHS Chronicles",
     "author": "Tom Carey, HHS Task Group Member"
   },
@@ -2406,7 +2406,7 @@
       "## Conclusion",
       "Cybercriminals are seeking to exploit this COVID-19 situation to target organizations and employees. It is important for organizations to perform a comprehensive risk assessment for their employees that work from home or other remote locations and mitigate the risks to protect patient data. To this, the HICP publication is a great place to start. If you have questions you can reach out to the HHS Team at cisa405d@hhs.gov"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-Volume-V-May-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-Volume-V-May-R.pdf",
     "category": "Task Group Articles",
     "author": "Sekar Thanigaimani, HHS Task Group Member"
   },
@@ -2423,9 +2423,9 @@
       "",
       "One practice for ITAM process is keeping an updated, accurate inventory. A complete and accurate inventory of your organization’s IT assets facilitates the implementation of optimal security controls. This inventory can be conducted and maintained using a well-designed spreadsheet. Following inventory, an appropriate procurement and decommissioning process are also important to maintain accurate asset accounts. Following processes for each of these steps will ensure you always maintain an up to date field inventory.",
       "",
-      "Protecting our patients from cyber threats, even in these uncertain times, is key to keeping our healthcare systems running smoothly and securely. For more information on Asset Management, and other ways to protect your organization from cyber threats, check out the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients publication at 405d.hhs.gov."
+      "Protecting our patients from cyber threats, even in these uncertain times, is key to keeping our healthcare systems running smoothly and securely. For more information on Asset Management, and other ways to protect your organization from cyber threats, check out the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients publication at hhscyber.hhs.gov."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-March-Volume-IX-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-March-Volume-IX-R.pdf",
     "category": "HICP in the spotlight"
   },
   {
@@ -2449,7 +2449,7 @@
       "",
       "Protecting our patients from cyber threats even during these uncertain times is paramount to keeping our healthcare systems running smoothly and securely. For more information on network segmentation and other ways to protect your organization from cyber threats, check out the Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients publication."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-2011-November2020.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-2011-November2020.pdf",
     "category": "HICP in the spotlight",
     "author": "HHS Team"
   },
@@ -2476,7 +2476,7 @@
       "following the proper steps required to maintain security, they will be better prepared.",
       "",
       "The table below suggests effective Policies to Mitigate the Risk of Cyber Attacks.",
-      "For more information, check out the full publication at [405d.hhs.gov](https://405d.hhs.gov).",
+      "For more information, check out the full publication at [hhscyber.hhs.gov](https://hhscyber.hhs.gov).",
       "",
       "### Table 8. Effective Policies to Mitigate the Risk of Cyber-Attacks",
       "<table><thead><tr style=\"background-color:#005286;color:#ffffff;\">",
@@ -2529,7 +2529,7 @@
       "",
       "</tbody></table>"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxii-2023-december.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxii-2023-december.pdf",
     "category": "HICP in the spotlight"
   },
   {
@@ -2555,7 +2555,7 @@
       "",
       "This is a tough job! It’s tempting to think about walking away from the small practices in favor of larger healthcare entities with larger budgets. Fortunately, there are those of us that specialize in these smaller practices to keep electronic protected health information (ePHI) safe on their behalf."
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Post-May21.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Post-May21.pdf",
     "category": "HHS Chronicles",
     "author": "Amy Wood, HHS Task Group member"
   },
@@ -2583,7 +2583,7 @@
       "",
       "Also check out more resources HHS offers for Ransomware in the HHS Resources Section!"
     ],
-    "link": "https://405d.hhs.gov/Documents/405d-Newsletter-November.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-Newsletter-November.pdf",
     "image": "post_rns_1.png",
     "category": "HICP in the spotlight"
   }

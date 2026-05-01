@@ -1,6 +1,5 @@
 {
-  "descr": "The Top 5 threats outlined in HICP include: Social Engineering, Ransomware, Loss or Theft of Equipment, Insider, Accidental, or Intentional Data Loss, and Attacks Against Network Connected Medical Devices. HICP also provides best practices to combat these threats for organizations of all sizes. Below each threat you can find helpful resources, including: threat flyer, webinar slides, and awareness posters that provide information on the threat itself and how to prepare and fight against to protect patients.",
-
+  "descr": "The Top 5 threats outlined in HICP include: Social Engineering, Ransomware, Loss or Theft of Equipment, Insider, Accidental, or Intentional Data Loss, and Attacks Against Network Connected Medical Devices. HICP also provides best practices to combat these threats for organizations of all sizes. Below each threat you can find helpful resources, including threat flyers and awareness posters that provide information on the threat itself and how to prepare and fight against threats to protect patients.",
   "social": {
     "title": "Social Engineering",
     "link": "social-engineering",
@@ -9,11 +8,10 @@
     "imageFileName": "EmailPhishing",
     "imageDescription": "A lady sitting at her desk realizing she has just been the victim of a phishing attack",
     "realWorldScenarioContent": "Your employees receive a fraudulent email from a cyber-attacker disguised as an IT support person from your patient billing company. The email instructs your employees to click on a link to change their billing software passwords. An employee who clicks the link is directed to a fake login page, which collects that employee's login credentials and transmits this information to the attackers. The attacker then uses the employee's login credentials to access your organization's financial and patient data.",
-    "flyer": "405d-five-threats-social-engineering-flyer.pdf",
-    "slides": "1-Email-Phishing-Attack-Powerpoint-Updated-R.pdf",
-    "poster": "405d-five-threats-email-phishing-poster.pdf",
-    "video": "405d-social-engineering-threat.mp4",
-    "videoTranscript": "405d-social-engineering-threat.pdf"
+    "flyer": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-social-engineering-flyer.pdf",
+    "poster": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-email-phishing-poster.pdf",
+    "video": "HHS-social-engineering-threat.mp4",
+    "videoTranscript": "HHS-social-engineering-threat.pdf"
   },
   "ransomware": {
     "title": "Ransomware",
@@ -23,11 +21,10 @@
     "imageFileName": "Ransomware",
     "imageDescription": "A doctor standing next to her patient in bed while holding a laptop that has been attacked by ransomware",
     "realWorldScenarioContent": "Through an email that appears to have originated from a credit card company, a user is directed to a fake website and tricked into downloading a security update. The so-called security update is actually a malicious program designed to find and encrypt data, rendering them inaccessible. The program then instructs the user to pay a ransom to unlock or unencrypt the data.",
-    "flyer": "405d-five-threats-ransomware-flyer.pdf",
-    "slides": "2-Ransomeware-Attack-Powerpoint-Updated-R.pdf",
-    "poster": "405d-five-threats-ransomware-poster.pdf",
-    "video": "405d-ransomware-threat.mp4",
-    "videoTranscript": "405d-ransomware-threat.pdf"
+    "flyer": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-ransomware-flyer.pdf",
+    "poster": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-ransomware-poster.pdf",
+    "video": "HHS-ransomware-threat.mp4",
+    "videoTranscript": "HHS-ransomware-threat.pdf"
   },
   "theft": {
     "title": "Loss or Theft of Equipment or Data",
@@ -37,11 +34,10 @@
     "imageFileName": "LossTheftEquipment",
     "imageDescription": "A lady stealing the laptop of someone ordering coffee away from his table",
     "realWorldScenarioContent": "A physician stops at a coffee shop for a coffee and to use the public Wi-Fi to review radiology reports. As the physician leaves the table momentarily to pick up his coffee, a thief steals the laptop. The doctor return to the table to find the laptop is gone.",
-    "flyer": "405d-five-threats-loss-theft-equipment-flyer.pdf",
-    "slides": "3-Loss-or-Theft-of-Equipment-or-Data-Powerpoint-Updated-R.pdf",
-    "poster": "405d-five-threats-loss-theft-equipment-poster.pdf",
-    "video": "405d-loss-or-theft-threat.mp4",
-    "videoTranscript": "405d-loss-or-theft-threat.pdf"
+    "flyer": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-loss-theft-equipment-flyer.pdf",
+    "poster": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-loss-theft-equipment-poster.pdf",
+    "video": "HHS-loss-or-theft-threat.mp4",
+    "videoTranscript": "HHS-loss-or-theft-threat.pdf"
   },
   "dataloss": {
     "title": "Insider, Accidental or Malicious Data Loss",
@@ -51,11 +47,10 @@
     "imageFileName": "DataLoss",
     "imageDescription": "Patient in a wheelchair being admitted for care by a family member",
     "realWorldScenarioContent": "An attacker impersonating a staff member of a physical therapy center contacts a hospital employee and asks to verify patient data. Pretending to be hospital staff, the imposter acquires the entire patient health record.",
-    "flyer": "405d-five-threats-insider-accidental-malicious-data-loss-flyer.pdf",
-    "slides": "4-Insider-Accidental-or-Intentional-Data-Loss-Powerpoint-Updated-R.pdf",
-    "poster": "405d-five-threats-insider-accidental-intentional-data-loss-poster.pdf",
-    "video": "405d-malicious-data-loss.mp4",
-    "videoTranscript": "405d-malicious-data-loss.pdf"
+    "flyer": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-insider-accidental-malicious-data-loss-flyer.pdf",
+    "poster": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-insider-accidental-intentional-data-loss-poster.pdf",
+    "video": "HHS-malicious-data-loss.mp4",
+    "videoTranscript": "HHS-malicious-data-loss.pdf"
   },
   "attack": {
     "title": "Attacks Against Network Connected Medical Devices",
@@ -65,10 +60,9 @@
     "imageFileName": "AttacksAgainstMedicalDevices",
     "imageDescription": "Two doctors about to perform surgery on a patient in the operation theater",
     "realWorldScenarioContent": "A cyber attacker gains access to a care provider's computer network through an email phishing attack and takes command of a file server to which a heart monitor is attached. While scanning the network for devices, the attacker takes control (e.g., power off, continuously reboot) of all heart monitors in the ICU, putting multiple patients at risk.",
-    "flyer": "405d-five-threats-attacks-against-connected-devices-flyer.pdf",
-    "slides": "5-Attacks-Against-Connected-Medical-Devices-Powerpoint-Updated-R.pdf",
-    "poster": "405d-five-threats-attacks-against-connected-devices-poster.pdf",
-    "video": "405d-attack-against-devices.mp4",
-    "videoTranscript": "405d-attack-against-devices.pdf"
+    "flyer": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-attacks-against-connected-devices-flyer.pdf",
+    "poster": "https://hhscyber.hhs.gov/Documents/Top_five_threats/HHS-five-threats-attacks-against-connected-devices-poster.pdf",
+    "video": "HHS-attack-against-devices.mp4",
+    "videoTranscript": "HHS-attack-against-devices.pdf"
   }
 }

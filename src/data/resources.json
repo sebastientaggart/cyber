@@ -6,7 +6,7 @@
     "date": "2023-10-16T04:00:00.000Z",
     "descr": "2023 Cybersecurity Awareness Month, Week 3 Key Behavior - Software updates provide security protection",
     "tags": "Cybersecurity Awareness,Software Update",
-    "link": "https://405d.hhs.gov/Documents/405d-cam2023-software-updates-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cam2023-software-updates-poster_R.pdf",
     "image": "cams23-swupd.png",
     "category": "Poster"
   },
@@ -26,7 +26,7 @@
     "date": "2024-04-04T04:00:00.000Z",
     "descr": "This cyber hygiene poster highlights that threats exist at every level of your organization. Be aware of the threats that face your organization in order to protect PHI.",
     "tags": "Patient Protection,Threats",
-    "link": "https://405d.hhs.gov/Documents/405d-castle-threat-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-castle-threat-poster_R.pdf",
     "image": "cstl-thrt.png",
     "category": "Poster"
   },
@@ -37,7 +37,7 @@
     "date": "2024-03-27T04:00:00.000Z",
     "descr": "Bruce Belt & Larry Clutts from the Cybersecurity Infrastructure and Security Agency discuss why priority communications is crucial to continuity of operations during adverse conditions such as weather events, cyber-attacks, or human error.",
     "tags": "CISA,Communication,cybersecurity",
-    "link": "https://405d.hhs.gov/Documents/405d-webinar-2024-0327-cisa-telcom-svc.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-webinar-2024-0327-cisa-telcom-svc.pdf",
     "image": "wbnr2403.png",
     "category": "Webinars"
   },
@@ -48,7 +48,7 @@
     "date": "2023-12-14T05:00:00.000Z",
     "descr": "This “how to” gives your organization information and background on cyber insurance as well as implementation tips for your medium and large organization to start working on now!",
     "tags": "Cyber Safety,How-To,Insurance",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-midlarge_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyber-insurance-midlarge_R.pdf",
     "image": "p-cybrins-l.png",
     "category": "Poster"
   },
@@ -59,7 +59,7 @@
     "date": "2023-05-04T04:00:00.000Z",
     "descr": "Discussion on the three new 405(d) Resources - HICP 2023, Cyber Resiliency Landscape Analysis, and Knowledge on Demand",
     "tags": "HICP,KOD,Patient Protection",
-    "link": "https://405d.hhs.gov/Documents/405d-webinar-hicp-2023-0504.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-webinar-hicp-2023-0504.pdf",
     "image": "webinar_230504.png",
     "category": "Webinars"
   },
@@ -70,7 +70,7 @@
     "date": "2021-12-17T05:00:00.000Z",
     "descr": "Learn more about the Log4j SBAR of 2021 to provide situational background and recommendation on the threat.",
     "tags": "Cyber Attack,Cyber Threats",
-    "link": "https://405d.hhs.gov/Documents/405d-sbar-log4j_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-sbar-log4j_R.pdf",
     "image": "sbar-log4j.png",
     "category": "SBARs"
   },
@@ -81,7 +81,7 @@
     "date": "2023-04-24T12:55:20.000Z",
     "descr": "This is a working document of all the HICP updates that have been implemented in the 2023 Edition. Feel free to review for all of our new content and cybersecurity topics.",
     "tags": "cyber,cybersecurity,Executive Summary,HICP",
-    "link": "https://405d.hhs.gov/Documents/405d-exec-summary-tech-updates_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-exec-summary-tech-updates_R.pdf",
     "category": "Publications"
   },
   {
@@ -91,7 +91,7 @@
     "date": "2023-11-16T05:00:00.000Z",
     "descr": "This Healthy Cyber Habits Poster is a helpful reminder of best practices your Medical Practitioner can use in your organization!",
     "tags": "Best Practices,Cyber Hygiene,Practitioner",
-    "link": "https://405d.hhs.gov/Documents/405d-medical-practitioner-cyber-hygiene-2_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-medical-practitioner-cyber-hygiene-2_R.pdf",
     "image": "mp-chgp2.png",
     "category": "Poster"
   },
@@ -102,7 +102,7 @@
     "date": "2023-11-16T05:00:00.000Z",
     "descr": "This Healthy Cyber Habits poster is a helpful reminder of best practices your Practice Administrator and IT Professional can use in your organization.",
     "tags": "Adminstrator,Best Practices,Cyber Hygiene",
-    "link": "https://405d.hhs.gov/Documents/405d-medical-practitioner-cyber-hygiene_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-medical-practitioner-cyber-hygiene_R.pdf",
     "image": "mp-chgp.png",
     "category": "Poster"
   },
@@ -113,7 +113,7 @@
     "date": "2022-06-01T04:00:00.000Z",
     "descr": "Check out this infographic to learn more about Multi-factor authentication (MFA), or two-factor authentication (2FA).",
     "tags": "Best Practices,MFA,Multi-factor Authentication",
-    "link": "https://405d.hhs.gov/Documents/405d-have-you-heard-mfa_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-have-you-heard-mfa_R.pdf",
     "image": "hyh-mfa.png",
     "category": "Infographics"
   },
@@ -124,7 +124,7 @@
     "date": "2023-10-16T04:00:00.000Z",
     "descr": "2023 Cybersecurity Awareness Month, Week 3 Key Behavior - Enable MFA on all appropriate accounts",
     "tags": "Cybersecurity Awareness,MFA,Multi-factor Authentication",
-    "link": "https://405d.hhs.gov/Documents/405d-cam2023-multi-factor-auth-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cam2023-multi-factor-auth-poster_R.pdf",
     "image": "cams23-mfa.png",
     "category": "Poster"
   },
@@ -135,7 +135,7 @@
     "date": "2022-09-16T04:00:00.000Z",
     "descr": "This “how to” gives your organization information and background on patching as well as implementation tips for your small organization to start working on now!",
     "tags": "Best Practices,Small Organization,Software Update,Vulnerability Management",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-patching-small_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-small_R.pdf",
     "image": "PatchingSmall.png",
     "category": "Infographics"
   },
@@ -146,7 +146,7 @@
     "date": "2023-04-17T04:00:00.000Z",
     "descr": "The HICP 2023 edition outlines the top threats facing the HPH Sector. Developed with every stakeholder in mind, organizations from small to large can benefit from the resources and best practices provided in the main document and additional two technical volumes.",
     "tags": "Cyber Practices,Cybersecurity Awareness,HICP",
-    "link": "https://405d.hhs.gov/Documents/HICP-Main-508.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf",
     "image": "hicp-main.png",
     "category": "Publications"
   },
@@ -157,7 +157,7 @@
     "date": "2022-11-09T21:49:04.772Z",
     "descr": "This resource provides organizations with the know how for implementing data security in a large organization. Your team or organization can use this infographic for new information as well as a refresher of information to keep patients safe.",
     "tags": "Data Security,Large Organizations",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-large_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-large_R.pdf",
     "image": "HowToDataSmall.png",
     "category": "Infographics"
   },
@@ -168,7 +168,7 @@
     "date": "2024-05-14T04:00:00.000Z",
     "descr": "This video helps users identify and be aware of the threat of botnet by understanding what it is and how it works. Use this video in your organization or share with others that may or may not know the term botnet, or the threat that looms.",
     "tags": "Cyber Defense,Cyber Safety,Cybersecurity Training,KOD,Quick Shots,Video",
-    "link": "https://405d.hhs.gov/kod/quick-shots#botnet",
+    "link": "kod-quick-shots.pug#botnet",
     "image": "quick-shots-icon.png",
     "category": "Publications"
   },
@@ -178,7 +178,7 @@
     "title": "HHS Cybersecurity Program One Pager",
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this infographic to learn more on the HHS Cybersecurity Porgram.",
-    "link": "https://405d.hhs.gov/Documents/HC3-405D-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HC3-HHS-R.pdf",
     "image": "hc3405d.png",
     "category": "Infographics"
   },
@@ -189,7 +189,7 @@
     "date": "2023-09-28T04:00:00.000Z",
     "descr": "Celebrate and download these posters next month in your organization for awareness of key behaviors, including Multi-Factor Authentication (MFA), Software Updates, Phishing, and Strong Passwords!",
     "tags": "cybersecurity,MFA,Phishing,Social Engineering,Software Update",
-    "link": "https://405d.hhs.gov/Documents/405d-cam2023-key-behaviors-posters_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cam2023-key-behaviors-posters_R.pdf",
     "image": "cams23poster.png",
     "category": "Poster"
   },
@@ -200,7 +200,7 @@
     "date": "2024-11-07T05:00:00.000Z",
     "descr": "The Operational Continuity-Cyber Incident (OCCI) checklist serves as an action plan designed to assist operational staff and executive management in effectively responding to and recovering from an extended enterprise outage caused by a severe cyber-attack. This checklist, an integral component of your broader Incident Response Plan (IRP), is specifically tailored to address the critical first 12 hours following a cyber event.",
     "tags": "Best Practices,Checklist,Cyber Attack,Data Security,Device Security,Email Protection,Endpoint protection,Incident Response,OCCI",
-    "link": "https://405d.hhs.gov/Documents/405d-occi-checklist-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/HICP/HHS-occi-checklist-2024.pdf",
     "image": "occi-chkl24.png",
     "category": "Publications"
   },
@@ -211,7 +211,7 @@
     "date": "2023-04-18T04:00:00.000Z",
     "descr": "One page overview of 2023 HICP Publication",
     "tags": "Cyber Practices,Cybersecurity Awareness,HICP",
-    "link": "http://405d.hhs.gov/Documents/405d-hicp-highlight_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/HICP/HHS-hicp-highlight_R.pdf",
     "image": "hicp-onepager.png",
     "category": "Newsletter"
   },
@@ -222,7 +222,7 @@
     "date": "2023-08-29T04:00:00.000Z",
     "descr": "This Healthy Cyber Habits poster is a reminder for everyone in an organization that Cybersecurity is a shared responsibility along with actions at every role to keep patients safe.",
     "tags": "cyber,Cyber Hygiene,Cyber Safety",
-    "link": "https://405d.hhs.gov/Documents/405d-healthy-cyber-habits_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-healthy-cyber-habits_R.pdf",
     "image": "cyberHabitsP.png",
     "category": "Poster"
   },
@@ -233,7 +233,7 @@
     "date": "2024-10-03T04:00:00.000Z",
     "descr": "2024 National Cybersecurity Awareness Month: Cyber Safety is Everyone's Responsibility Poster. Download and use this poster in your organization as a reminder that keeping everyone can do something to strengthen your organization's cyber posture.",
     "tags": "Cyber Hygiene,Cyber Safety,Cybersecurity Awareness",
-    "link": "https://405d.hhs.gov/Documents/405d-cyber-hygiene-poster-2024_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cyber-hygiene-poster-2024_R.pdf",
     "image": "cyhgn24p.png",
     "category": "Poster"
   },
@@ -244,7 +244,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this infographic to learn more on cyber diligence and health crisis.",
     "tags": "COVID-19,Patient Safety,Telework",
-    "link": "https://405d.hhs.gov/Documents/COVID-19-Clinicians-and-Healthcare-Professionals-Poster-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/COVID-19-Clinicians-and-Healthcare-Professionals-Poster-R.pdf",
     "image": "c19chp_p.png",
     "category": "Poster"
   },
@@ -255,7 +255,7 @@
     "date": "2024-06-06T04:00:00.000Z",
     "descr": "Be wary of this type of malware with quick tips and mitigation practices to protect your organization with this poster.",
     "tags": "Cyber Attack,Ransomware",
-    "link": "https://405d.hhs.gov/Documents/405d-infection-series-ransomware-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-infection-series-ransomware-poster_R.pdf",
     "image": "ifx-ransmwre.png",
     "category": "Poster"
   },
@@ -265,7 +265,7 @@
     "title": "405(d) Program Presents: 2021 Cyber Threat Review (December)",
     "date": "2021-12-01T05:00:00.000Z",
     "descr": "Check out this webinar to catch up on the December 2021 threat review conducted by the 405(d) Program.",
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-december2021.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-december2021.pdf",
     "image": "dec21_webinar.png",
     "category": "Webinars"
   },
@@ -275,7 +275,7 @@
     "title": "405(d) Program Presents: The Internet of Medical Things: Making Them Secure",
     "date": "2021-06-13T04:00:00.000Z",
     "descr": "Check out this webinar to follow along with the 405(d) Program as they discuss The Internet of Medical Things: Making Them Secure.",
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-june2021_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-june2021_R.pdf",
     "image": "june21_webinar.png",
     "category": "Webinars"
   },
@@ -286,7 +286,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this Have You Heard on Telehealth Security with great information and statistics on cybersecurity implications.",
     "tags": "Telehealth,Telework",
-    "link": "https://405d.hhs.gov/Documents/405d-HaveYouHeard-Telehealth-210505-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-HaveYouHeard-Telehealth-210505-R.pdf",
     "image": "hyh_ths.png",
     "category": "Infographics"
   },
@@ -297,7 +297,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Download the 2022 Patient Safety Awareness Week Toolkit for small organizations that you can use!",
     "tags": "Cyber Hygiene,Cyber Safety,Patient Safety,Safety",
-    "link": "https://405d.hhs.gov/Documents/2022psaw-final-small.zip",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/2022psaw-final-small.zip",
     "category": "Toolkits"
   },
   {
@@ -307,7 +307,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out these 12 tips for safe teleworking recommendations from HICP!",
     "tags": "Telehealth,Telework",
-    "link": "https://405d.hhs.gov/Documents/Teleworking-Tips-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Teleworking-Tips-R.pdf",
     "image": "twktip.png",
     "category": "Poster"
   },
@@ -317,7 +317,7 @@
     "title": "405(d) SBAR - Kaseya VSA Supply Chain Ransomware Attack",
     "date": "2021-07-29T04:00:00.000Z",
     "descr": "Learn more about the Kaseya VSA Supply Chain Ransomware Attack Update SBAR of 2021 to provide situational background and recommendation on the threat.",
-    "link": "https://405d.hhs.gov/Documents/405d-sbar-kaseya_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-sbar-kaseya_R.pdf",
     "image": "sbar-kaseys.png",
     "category": "SBARs"
   },
@@ -327,7 +327,7 @@
     "title": "How-To: Data Security (Medium)",
     "date": "2022-06-01T04:00:00.000Z",
     "tags": "Data Loss,Data Protection,Data Security,Large Organizations",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-medium.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-medium.pdf",
     "image": "DataSecurityMedium.PNG",
     "category": "Infographics"
   },
@@ -338,7 +338,7 @@
     "date": "2023-09-14T04:00:00.000Z",
     "descr": "The September 2023 issue of the 405(d) Post provides information and insights from the Healthcare Cybersecurity Benchmarking Study. The information was written by Ed Gaudet, 405(d) Task Group member.",
     "tags": "Cybersecurity Awareness,Insurance,Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxi-2023-september_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxi-2023-september_R.pdf",
     "image": "post_xxi.png",
     "category": "*Post"
   },
@@ -349,7 +349,7 @@
     "date": "2022-11-09T21:52:36.911Z",
     "descr": "This resource provides organizations with the know how for implementing data security in a medium organization. Your team or organization can use this infographic for new information as well as a refresher of information to keep patients safe.",
     "tags": "Data Security,Medium Organization",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-medium_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-medium_R.pdf",
     "image": "HowToDataSmall.png",
     "category": "Infographics"
   },
@@ -360,7 +360,7 @@
     "date": "2022-09-01T04:00:00.000Z",
     "descr": "This “how to” gives your organization information and background on patching as well as implementation tips for your large organization to start working on now!",
     "tags": "Best Practices,Large Organizations,Software Update,Vulnerability Management",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-patching-large_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-large_R.pdf",
     "image": "Patchinglarge.png",
     "category": "Infographics"
   },
@@ -371,7 +371,7 @@
     "date": "2024-10-24T04:00:00.000Z",
     "descr": "2024 National Cybersecurity Awareness Month: Security Operations and Incident Response Poster. Download and use this poster in your organization as a helpful reminder of information relating to implementing a Security Operations Center (SOC) and effective Incident Response (IR).",
     "tags": "Cyber Hygiene,Incident Response,Security Operations Center",
-    "link": "https://405d.hhs.gov/Documents/405d-security-operation-center-and-incident-response-2024_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-security-operation-center-and-incident-response-2024_R.pdf",
     "image": "socir24p.png",
     "category": "Poster"
   },
@@ -382,7 +382,7 @@
     "date": "2024-10-31T04:00:00.000Z",
     "descr": "2024 National Cybersecurity Awareness Month. Download and use this poster in your organization as a helpful reminder of information relating to email phishing and the importance of securing your inbox.",
     "tags": "Cyber Hygiene,Email Protection",
-    "link": "https://405d.hhs.gov/Documents/405d-email-protection.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-email-protection.pdf",
     "image": "emp24p.png",
     "category": "Poster"
   },
@@ -393,7 +393,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Download the 2022 Patient Safety Awareness Week Toolkit for medium to large sized organizations that you can use!",
     "tags": "Cyber Hygiene,Cyber Safety,Patient Safety,Safety",
-    "link": "https://405d.hhs.gov/Documents/2022psaw-final-medlarge.zip",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/2022psaw-final-medlarge.zip",
     "category": "Toolkits"
   },
   {
@@ -403,7 +403,7 @@
     "date": "2020-01-01T05:00:00.000Z",
     "descr": "Check out the National Critical Infrastructure Security and Resilience Month Campaign of 2019!",
     "tags": "Critical Infrastructure,Cyber Attack,Cyber Hygiene",
-    "link": "https://405d.hhs.gov/Documents/NCISRM-Toolkit-2019.zip",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/NCISRM-Toolkit-2019.zip",
     "category": "Toolkits"
   },
   {
@@ -413,7 +413,7 @@
     "date": "2023-10-20T04:00:00.000Z",
     "descr": "2023 Cybersecurity Awareness Month, Week 4 Key Behavior - Be aware of Social Engineering/Phishing attacks",
     "tags": "Cybersecurity Awareness,Phishing,Social Engineering",
-    "link": "https://405d.hhs.gov/Documents/405d-cam2023-phishing-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cam2023-phishing-poster_R.pdf",
     "image": "cams23-phsg.png",
     "category": "Poster"
   },
@@ -424,7 +424,7 @@
     "date": "2023-07-26T04:00:00.000Z",
     "descr": "Ruirui Sun, PhD  Insights Manager  KLAS Research and Ed Gaudet, CEO of Censinet share the detailed findings of a healthcare benchmarking study and the value of peer benchmarking.",
     "tags": "Benchmarking,cybersecurity,Cybersecurity Awareness,Data,Large Organizations,Statistics",
-    "link": "https://405d.hhs.gov/Documents/405d-webinar-2023-0726-benchmarking_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-webinar-2023-0726-benchmarking_R.pdf",
     "image": "wbnr230726.png",
     "category": "Webinars"
   },
@@ -435,7 +435,7 @@
     "date": "2021-01-01T05:00:00.000Z",
     "descr": "Download information, helpful tips, and more for Patient Safety Awarenees Week of 2020!",
     "tags": "Cyber Hygiene,Cyber Safety,Patient Safety,Safety",
-    "link": "https://405d.hhs.gov/Documents/405d-PSAW.zip",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/HHS-PSAW.zip",
     "category": "Toolkits"
   },
   {
@@ -445,7 +445,7 @@
     "date": "2024-07-11T04:00:00.000Z",
     "descr": "This video helps users identify and be aware of the topic of Encryption by understanding what it is and how it works.",
     "tags": "Cyber Safety,Encryption,KOD",
-    "link": "https://405d.hhs.gov/kod/quick-shots#encryption",
+    "link": "kod-quick-shots.pug#encryption",
     "image": "quick-shots-icon.png",
     "category": "Publications"
   },
@@ -456,7 +456,7 @@
     "date": "2024-09-12T04:00:00.000Z",
     "descr": "This video helps users understand the importance of a VPN and how it works. Use this video in your organization or share with others that may or may not know the term VPN!",
     "tags": "Cyber Safety,KOD,Network,Network Management,VPN",
-    "link": "https://405d.hhs.gov/kod/quick-shots#vpn",
+    "link": "kod-quick-shots.pug#vpn",
     "image": "quick-shots-icon.png",
     "category": "Publications"
   },
@@ -467,7 +467,7 @@
     "date": "2023-07-06T04:00:00.000Z",
     "descr": "The June 2023 issue of the 405(d) Post features information on about how healthcare institutions are fortifying their technological assets and enhance their overall security posture. This information was written by the following task group members:  Kate Pierc,  Donna Grindle and Gerry Blass",
     "tags": "Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxx-2023-june_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxx-2023-june_R.pdf",
     "image": "post_XX.png",
     "category": "*Post"
   },
@@ -477,7 +477,7 @@
     "title": "THE 405(d) POST VOLUME XVI (May 2022)",
     "date": "2022-05-17T04:00:00.000Z",
     "descr": "The May 2022 issue of the 405(d) Post features information on Cyber Insurance – From Risk Transference to Organizational Assurance. This information was written by the following task group members: Traci Lamb and Mitch Parker.",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxvi-2022-may_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxvi-2022-may_R.pdf",
     "image": "post_xvi.png",
     "category": "*Post"
   },
@@ -488,7 +488,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Cyber workforce training is an effort to train your staff on the most common and pertinent cyber threats today. Check out this infographic to learn more for your small sized organization!",
     "tags": "Cybersecurity Training,Small Organization,Training,Workforce Development",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-cyberworkforcetraining-small_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-small_R.pdf",
     "image": "hti-cswts.png",
     "category": "Infographics"
   },
@@ -499,7 +499,7 @@
     "date": "2024-02-01T05:00:00.000Z",
     "descr": "Check out this one pager highlighting the Health and Human Services Cybersecurity Performance Goals!",
     "tags": "Cyber Safety",
-    "link": "https://405d.hhs.gov/Documents/405d-cpg-highlights-2024_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cpg-highlights-2024_R.pdf",
     "image": "cpg_hlgt24.png",
     "category": "Infographics"
   },
@@ -510,7 +510,7 @@
     "date": "2024-07-10T04:00:00.000Z",
     "descr": "The July 2024 issue of the 405(d) Post provides information on emerging cyber topics impacting patient cyber safety.",
     "tags": "Cyber Safety,Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxv-july-2024.pdf",
     "image": "p-xxv-tn.png",
     "category": "*Post"
   },
@@ -521,7 +521,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Cyber workforce training is an effort to train your staff on the most common and pertinent cyber threats today. Check out this infographic to learn more for your medium sized organization!",
     "tags": "Cybersecurity Training,Medium Organization,Training,Workforce Development",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-cyberworkforcetraining-medium_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-medium_R.pdf",
     "image": "hti-cswtm.png",
     "category": "Infographics"
   },
@@ -532,7 +532,7 @@
     "date": "2024-06-12T04:00:00.000Z",
     "descr": "This video helps users identify and be aware of the topic of Access Management by understanding what it is and how it works. Use this video in your organization or share with others that may or may not know the term access management, or the threat that looms.",
     "tags": "Access Management,Cyber Safety,KOD",
-    "link": "https://405d.hhs.gov/kod/quick-shots#access-management",
+    "link": "kod-quick-shots.pug#access-management",
     "image": "quick-shots-icon.png",
     "category": "Publications"
   },
@@ -543,7 +543,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Find out what is in (and what needs to be in) your cybersecurity toolkit to protect patients from cybersecurity threats.",
     "tags": "Best Practices,Cyber Hygiene",
-    "link": "https://405d.hhs.gov/Documents/Cybersecurity-Toolkit-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Cybersecurity-Toolkit-R.pdf",
     "image": "cysktlk.png",
     "category": "Poster"
   },
@@ -554,7 +554,7 @@
     "date": "2024-03-26T04:00:00.000Z",
     "descr": "405(d) Task Group Member list current as of March 25th, 2024",
     "tags": "Members,Task Group",
-    "link": "https://405d.hhs.gov/Documents/405d-task-group-member-list.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/HHS-task-group-member-list.pdf",
     "category": "Publications"
   },
   {
@@ -564,7 +564,7 @@
     "date": "2024-05-09T04:00:00.000Z",
     "descr": "Check out this new poster on understanding where data resides, where it is accessed, and how it is shared!",
     "tags": "Data,How-To",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-data-classification-poster.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-data-classification-poster.pdf",
     "image": "p-ht-dtclx.png",
     "category": "Poster"
   },
@@ -585,7 +585,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Learn more about ransomware protection and recovery with this infographic!",
     "tags": "Cyber Attack,Ransomware,Recover",
-    "link": "https://405d.hhs.gov/Documents/405d-PrepareReactRecover-Ransomware.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-PrepareReactRecover-Ransomware.pdf",
     "image": "prrr_i.png",
     "category": "Infographics"
   },
@@ -596,7 +596,7 @@
     "date": "2022-01-02T05:00:00.000Z",
     "descr": "Learn more about your enterprise evolving and how to protect your patients better.",
     "tags": "Best Practices,Enterprise Risk Management,ERM",
-    "link": "https://405d.hhs.gov/Documents/405d-June-Poster-2-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-June-Poster-2-R.pdf",
     "image": "protectpatientposter.png",
     "category": "Poster"
   },
@@ -607,7 +607,7 @@
     "date": "2024-08-15T04:00:00.000Z",
     "descr": "This video helps users identify and be aware of the threat of malware by understanding what it is and how it works. Use this video in your organization or share with others that may or may not know the term malware, or the threat that looms.",
     "tags": "Cyber Safety,KOD,Malware",
-    "link": "https://405d.hhs.gov/kod/quick-shots#malware",
+    "link": "kod-quick-shots.pug#malware",
     "image": "quick-shots-icon.png",
     "category": "Publications"
   },
@@ -618,7 +618,7 @@
     "date": "2023-08-15T04:00:00.000Z",
     "descr": "The 405(d) Task Group has produced this series aligning with HICP’s 10 mitigation practices to give healthcare organizations a quick reference for maintaining cybersecurity readiness every day and will allow your organization to self-diagnose their cybersecurity posture from Healthy to Risky to Very Risky behaviors.",
     "tags": "Best Practices,Check Your Cyber Pulse,Cyber Defense",
-    "link": "https://405d.hhs.gov/Documents/405d-pulse-check-2023-all_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-pulse-check-2023-all_R.pdf",
     "image": "cyberpulse23.png",
     "category": "Infographics"
   },
@@ -629,7 +629,7 @@
     "date": "2020-01-01T05:00:00.000Z",
     "descr": "Learn more about the National Cybersecurity Awareness Month Campaign for helpful information and recommendations.",
     "tags": "Cybersecurity Awareness",
-    "link": "https://405d.hhs.gov/Documents/405d-NCSAM.zip",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/HHS-NCSAM.zip",
     "category": "Toolkits"
   },
   {
@@ -639,7 +639,7 @@
     "date": "2023-04-18T04:00:00.000Z",
     "descr": "One page overview of the Knowledge on Demand Platform",
     "tags": "Knowledge,KOD,Training",
-    "link": "https://405d.hhs.gov/Documents/405d-kod-highlights_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-kod-highlights_R.pdf",
     "image": "kod-onepager.png",
     "category": "Newsletter"
   },
@@ -650,7 +650,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out the 2022 Patient Safety Awareness Week poster! Patient Safety Awareness Week is an important time of year for healthcare organization members to reflect and learn new ways to protect patients, and this also includes cyber safety.",
     "tags": "Cyber Hygiene,Cyber Safety,Patient Safety,Safety",
-    "link": "https://405d.hhs.gov/Documents/405d-psaw-poster.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-psaw-poster.pdf",
     "image": "psaw22_p.png",
     "category": "Poster"
   },
@@ -661,7 +661,7 @@
     "date": "2022-09-23T04:00:00.000Z",
     "descr": "The September 2022 issue of the 405(d) Post features information on Legal Implications of a Cyber-Attack. The following task group members: Paul Otto, Cindi Bassford, and Dan Ongaro, provided a great bit of information on the legal side of a cyberattack that’s often forgotten.",
     "tags": "Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxvii-2022-september_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxvii-2022-september_R.pdf",
     "image": "post_xvii.png",
     "category": "*Post"
   },
@@ -672,7 +672,7 @@
     "date": "2023-12-19T05:00:00.000Z",
     "descr": "The December 2023 issue of the 405(d) Post provides information on Building Sustainable Health Services with Enhanced Cybersecurity Knowledge and Action. The information was written by Kendra Siler, 405(d) Task Group member.",
     "tags": "Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxii-2023-december_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxii-2023-december_R.pdf",
     "image": "p-xxii.png",
     "category": "*Post"
   },
@@ -683,7 +683,7 @@
     "date": "2023-10-20T04:00:00.000Z",
     "descr": "2023 Cybersecurity Awareness Month, Week 4 Key Behavior - Strong Password provide strong protection",
     "tags": "Cybersecurity Awareness,Password",
-    "link": "https://405d.hhs.gov/Documents/405d-cam2023-password-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cam2023-password-poster_R.pdf",
     "image": "cams23-paswd.png",
     "category": "Poster"
   },
@@ -694,7 +694,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this infographic to learn more on staying safe in cyber safe in healthcare.",
     "tags": "Cyber Defense,Cyber Practices,Patient Safety",
-    "link": "https://405d.hhs.gov/Documents/405d-infographic-iceberg_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-infographic-iceberg_R.pdf",
     "image": "hccbs_i.png",
     "category": "Infographics"
   },
@@ -705,7 +705,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this Have You Heard on Ransomware with great information and statistics on ransomware threats.",
     "tags": "Cyber Attack,Ransomware",
-    "link": "https://405d.hhs.gov/Documents/HYH-Ransomware-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HYH-Ransomware-R.pdf",
     "image": "hyh-rwr.png",
     "category": "Infographics"
   },
@@ -716,7 +716,7 @@
     "date": "2023-04-17T04:00:00.000Z",
     "descr": "This resource allows medium and large sized organizations to understand the benefits of HICP and how to use the guide to fit their organization!",
     "tags": "Executive Card,Large Organizations,Medium Organization",
-    "link": "https://405d.hhs.gov/Documents/405d-exec-card-mid-large_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-exec-card-mid-large_R.pdf",
     "image": "execrd-ml.png",
     "category": "Publications"
   },
@@ -726,7 +726,7 @@
     "title": "405(d) SBAR - Vmware Critical Patch Update",
     "date": "2021-08-08T04:00:00.000Z",
     "descr": "Learn more about the Vmware Critical Patch Update SBAR of 2021 to provide situational background and recommendation on the threat.",
-    "link": "https://405d.hhs.gov/Documents/405d-sbar-vmware_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-sbar-vmware_R.pdf",
     "image": "sbar_vmwcpu.png",
     "category": "SBARs"
   },
@@ -737,7 +737,7 @@
     "date": "2022-09-21T04:00:00.000Z",
     "descr": "Under the auspices of the Cybersecurity Act of 2015 (CSA), Section 405(d), the U.S. Department of Health and Human Services ( HHS ) convened the CSA 405(d) public/private task group to enhance cybersecurity and align industry security practices.",
     "tags": "Cyber Attack,Legal",
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-september-2022_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-september-2022_R.pdf",
     "image": "sep21_webinar.png",
     "category": "Webinars"
   },
@@ -748,7 +748,7 @@
     "date": "2024-10-10T04:00:00.000Z",
     "descr": "2024 National Cybersecurity Awareness Month: Protect Your Endpoints Poster. Download and use this poster in your organization as a reminder that keeping everyone can do something to strengthen your organization's cyber posture.",
     "tags": "Cyber Hygiene,Cybersecurity Awareness,Endpoint protection",
-    "link": "https://405d.hhs.gov/Documents/405d-endpoint-protection-poster-2024_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-endpoint-protection-poster-2024_R.pdf",
     "image": "epprot24p.png",
     "category": "Poster"
   },
@@ -759,7 +759,7 @@
     "date": "2022-09-28T04:00:00.000Z",
     "descr": "This toolkit is designed to help you promote cyber safety as patient safety during the month of October to your organization.  With this toolkit you will have the ability to highlight important cyber tips and information that can help your employees grow their cyber awareness and increase their ability to keep patients safe from cyber threats.",
     "tags": "cyber,Cyber Attack,Legal",
-    "link": "https://405d.hhs.gov/Documents/405d-cybersecurity-awareness-month-toolkit_R.docx",
+    "link": "https://hhscyber.hhs.gov/Documents/Archive/HHS-cybersecurity-awareness-month-toolkit_R.docx",
     "image": "cybersec_month_toolkit.jpg",
     "category": "Toolkits"
   },
@@ -769,7 +769,7 @@
     "title": "405(d) Program Presents: A Case Study of “Cancer Care in the Wake of a Cyber Attack”",
     "date": "2021-10-14T04:00:00.000Z",
     "descr": "Check out this webinar to follow along with the 405(d) Program as they discuss the case study of “Cancer Care in the Wake of a Cyber Attack.”",
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-october2021.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-october2021.pdf",
     "image": "oct21_webinar.png",
     "category": "Webinars"
   },
@@ -780,7 +780,7 @@
     "date": "2023-10-10T04:00:00.000Z",
     "descr": "This is a working document that aligns CISA CPGs to the HICP publication best practices",
     "tags": "Best Practices,CISA,HICP",
-    "link": "https://405d.hhs.gov/Documents/405d-cpg-hicp-crosswalk.xlsx",
+    "link": "https://hhscyber.hhs.gov/Documents/HICP/HHS-cpg-hicp-crosswalk.xlsx",
     "image": "file-logo-excel.png",
     "category": "Publications"
   },
@@ -790,7 +790,7 @@
     "title": "405(d) Program Presents: Healthcare’s Enterprise Cyber Risk Management",
     "date": "2021-08-12T04:00:00.000Z",
     "descr": "Check out this webinar to follow along with the 405(d) Program as they discuss Healthcare’s Enterprise Cyber Risk Management: How to engage the C-suite and Board in cyber risk management discussions.",
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-august2021_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-august2021_R.pdf",
     "image": "aug21_webinar.png",
     "category": "Webinars"
   },
@@ -801,7 +801,7 @@
     "date": "2023-04-17T04:00:00.000Z",
     "descr": "The Technical Volume 2 outlines healthcare cybersecurity best practices for medium-sized and large healthcare organizations. This volume is for the technical practitioner and contains technical details for implementing cybersecurity practices.",
     "tags": "cybersecurity,Cybersecurity Awareness,HICP",
-    "link": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf",
     "image": "hicp-vol2.png",
     "category": "Publications"
   },
@@ -811,7 +811,7 @@
     "title": "405(d) Post XXIII (April 2024)",
     "date": "2024-04-30T04:00:00.000Z",
     "tags": "Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxiii-april-2024.pdf",
     "image": "post_xxiii.png",
     "category": "*Post"
   },
@@ -822,7 +822,7 @@
     "date": "2024-10-17T04:00:00.000Z",
     "descr": "2024 National Cybersecurity Awareness Month: Identity and Access Management Poster. Download and use this poster in your organization as a reminder that keeping everyone can do something to strengthen your organization's cyber posture.",
     "tags": "Access Management,Cyber Hygiene,Identity",
-    "link": "https://405d.hhs.gov/Documents/405d-identity-access-management-poster-2024_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-identity-access-management-poster-2024_R.pdf",
     "image": "iam24p.png",
     "category": "Poster"
   },
@@ -832,7 +832,7 @@
     "title": "405(d) Post Volume XIX (April 2023)",
     "date": "2023-04-24T16:35:45.000Z",
     "tags": "Post",
-    "link": "https://405d.hhs.gov/Documents/405d-post-volxix-2023-april_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxix-2023-april_R.pdf",
     "image": "post_xix.png",
     "category": "*Post"
   },
@@ -843,7 +843,7 @@
     "date": "2023-04-17T04:00:00.000Z",
     "descr": "This resource allows small sized organizations to understand the benefits of HICP and how to use the guide to fit their organization!",
     "tags": "Executive Card,Small Practices",
-    "link": "https://405d.hhs.gov/Documents/405d-exec-card-small_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-exec-card-small_R.pdf",
     "image": "execrd-sm.png",
     "category": "Publications"
   },
@@ -854,7 +854,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this infographic for cyber hygiene tips for the healthcare and public health sector.",
     "tags": "Best Practices,Cyber Hygiene",
-    "link": "https://405d.hhs.gov/Documents/405d-infographic-staying-cyber-safe-in-hph_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-infographic-staying-cyber-safe-in-hph_R.pdf",
     "image": "scsphp_i.png",
     "category": "Infographics"
   },
@@ -865,7 +865,7 @@
     "date": "2023-05-25T04:00:00.000Z",
     "descr": "This poster is a cyber hygiene poster highlighting the top 5 threats in the healthcare sector and tips anyone can use to mitigate them.",
     "tags": "Cyber Safety,Cybersecurity Awareness",
-    "link": "https://405d.hhs.gov/Documents/405d-cyber-security-zone-poster-2023_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cyber-security-zone-poster-2023_R.pdf",
     "image": "cybrsftyzn23.png",
     "category": "Poster"
   },
@@ -875,7 +875,7 @@
     "title": "405(d) Program Presents: Monitoring and Responding to Cyber Threats: A Look into FDA’s role in monitoring threats and how one CISO is responding and protecting organizations",
     "date": "2021-04-15T04:00:00.000Z",
     "descr": "Check out this webinar to follow along with the 405(d) Program as they discuss Monitoring and Responding to Cyber Threats: A Look into FDA’s role in monitoring threats and how one CISO is responding and protecting organizations.",
-    "link": "https://405d.hhs.gov/Documents/405d-spotlight-webinar-april2021_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posts/HHS-spotlight-webinar-april2021_R.pdf",
     "image": "apr21_webinar.png",
     "category": "Webinars"
   },
@@ -886,7 +886,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this Have You Heard on Protecting EHRs with statistics and tips to support patients health records.",
     "tags": "EHR,Electronic Health Records,Patient Protection",
-    "link": "https://405d.hhs.gov/Documents/405d-have-you-heard-ehr_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-have-you-heard-ehr_R.pdf",
     "image": "hyh-ehr.png",
     "category": "Infographics"
   },
@@ -897,7 +897,7 @@
     "date": "2023-08-16T04:00:00.000Z",
     "descr": "Learn more about the Rhysida Ransomware Attack SBAR of 2023 to provide situational background and recommendation on the threat.",
     "tags": "Ransomware",
-    "link": "https://405d.hhs.gov/Documents/405d-sbar-rhysida-ransomware-20230816_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-sbar-rhysida-ransomware-20230816_R.pdf",
     "category": "SBARs"
   },
   {
@@ -907,7 +907,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Find out how to protect your patients from all cyber-threats with a balanced cybersecurity approach.",
     "tags": "Best Practices,Cyber Hygiene",
-    "link": "https://405d.hhs.gov/Documents/Cybersecurity-Diet-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Cybersecurity-Diet-R.pdf",
     "image": "cycskdt.png",
     "category": "Poster"
   },
@@ -918,7 +918,7 @@
     "date": "2023-12-14T05:00:00.000Z",
     "descr": "This “how to” gives your organization information and background on cyber insurance as well as implementation tips for your small organization to start working on now!",
     "tags": "Cyber Safety,How-To,Insurance",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-small.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyber-insurance-small.pdf",
     "image": "p-cybrins-s.png",
     "category": "Poster"
   },
@@ -929,7 +929,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Cyber workforce training is an effort to train your staff on the most common and pertinent cyber threats today. Check out this infographic to learn more for your large sized organization!",
     "tags": "Cybersecurity Training,Large Organizations,Training,Workforce Development",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-cyberworkforcetraining-large_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-large_R.pdf",
     "image": "hti-cswtl.png",
     "category": "Infographics"
   },
@@ -940,7 +940,7 @@
     "date": "2023-04-17T04:00:00.000Z",
     "descr": "The Technical Volume 1 outlines healthcare cybersecurity best practices for small healthcare organizations. For this volume, small organizations generally do not have dedicated information technology (IT) and security staff dedicated to implementing cybersecurity practices.",
     "tags": "Cyber Practices,Cybersecurity Awareness,HICP",
-    "link": "https://405d.hhs.gov/Documents/tech-vol1-508.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol1-508.pdf",
     "image": "hicp-vol1.png",
     "category": "Publications"
   },
@@ -951,7 +951,7 @@
     "date": "2024-04-25T04:00:00.000Z",
     "descr": "Beware of social engineering infections with quick tips and mitigation practices to protect your organization with this poster.",
     "tags": "Cyber Attack,Social Engineering",
-    "link": "https://405d.hhs.gov/Documents/405d-infection-series-social-engineering-poster_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-infection-series-social-engineering-poster_R.pdf",
     "image": "ifx-soceng.png",
     "category": "Poster"
   },
@@ -962,7 +962,7 @@
     "date": "2022-09-09T04:00:00.000Z",
     "descr": "This “how to” gives your organization information and background on patching as well as implementation tips for your medium organization to start working on now!",
     "tags": "Best Practices,Medium Organization,Software Update,Vulnerability Management",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-patching-medium_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-medium_R.pdf",
     "image": "patching-medium.png",
     "category": "Infographics"
   },
@@ -973,7 +973,7 @@
     "date": "2022-11-09T05:00:00.000Z",
     "descr": "This resource provides organizations with the know how for implementing data security in a small organization. Your team or organization can use this infographic for new information as well as a refresher of information to keep patients safe.",
     "tags": "Data Security,Small Organization",
-    "link": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-small_R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-small_R.pdf",
     "image": "HowToDataSmall.png",
     "category": "Infographics"
   },
@@ -984,7 +984,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Learn more on how to conduct a cybersecurity checkup on your organization daily!",
     "tags": "Best Practices,Cyber Hygiene",
-    "link": "https://405d.hhs.gov/Documents/Cybersecurity-Check-Up-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Cybersecurity-Check-Up-R.pdf",
     "image": "cyskchk.png",
     "category": "Poster"
   },
@@ -995,7 +995,7 @@
     "date": "2022-01-01T05:00:00.000Z",
     "descr": "Check out this infographic to learn more on new techniques criminals are using to threaten patients!",
     "tags": "Best Practices,Mitigation",
-    "link": "https://405d.hhs.gov/Documents/June-Poster-1-New-Techniques-R.pdf",
+    "link": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/June-Poster-1-New-Techniques-R.pdf",
     "image": "ccrmnt_i.png",
     "category": "Infographics"
   }

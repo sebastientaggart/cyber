@@ -11,9 +11,7 @@ const sanitizeHtml = require('sanitize-html');
 // `markdown-it-footnote` adds support for the `[^N]` syntax used in 3 of 41 posts.
 const md = new MarkdownIt({ html: true, linkify: false, typographer: false }).use(mdFootnote);
 
-// Migration note: this base points to legacy 405(d)-owned media that still lives
-// on 405d.hhs.gov. As ownership/content is moved to hhscyber.hhs.gov, replace
-// these references with the new canonical host and remove this compatibility path.
+// Post thumbnails for the resource library still load from the legacy blog CDN.
 const RESOURCE_URL_BASE = 'https://405d.hhs.gov/blog';
 const RESOURCE_URL_TOKEN_BASE = `${RESOURCE_URL_BASE}/`;
 
@@ -116,6 +114,14 @@ module.exports = {
       mailto:  'cisa405d@hhs.gov',
       version: '3.3.0',
     },
+
+    // Static PDFs/archives (copied to dist/ by scripts/copy-public-assets.mjs). Absolute URL
+    // avoids Parcel resolving root-relative /Documents/... paths as bundle dependencies.
+    documentsBase:    'https://hhscyber.hhs.gov/Documents',
+    threatsMediaBase: 'https://hhscyber.hhs.gov/threats',
+    videoMediaBase:   'https://hhscyber.hhs.gov/video',
+    /** KOD interactive story modules — still hosted on legacy until mirrored. */
+    storyVideoBase:   'https://405d.hhs.gov/kod-video',
 
     // Maps aboutUs.partners[].id → filename under src/images/logos/
     partnerLogoMap: {

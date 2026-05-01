@@ -6,7 +6,6 @@ block variables
   - var pageDescription = 'Knowledge on Demand: Quick Shots — short videos covering key cybersecurity terminology for the HPH sector.'
 
 block content
-  - var videoBase = 'https://405d.hhs.gov/video'
   - var imageBySlug = { typhoon: 'qs-typhoon.png', botnet: 'qs-botnet.png', 'access-management': 'qs-access-management.png', encryption: 'qs-encryption.png', malware: 'qs-malware.png', vpn: 'qs-vpn.png', patching: 'qs-patching.png' }
 
   section.kod-quick-shots
@@ -22,10 +21,11 @@ block content
           - var imgFile = imageBySlug[video.link] || 'qs-typhoon.png'
           button.kod-icon.kod-quick-shots__tile(
             type="button"
+            id=video.link
             class=(!hasVideo ? 'kod-icon--coming-soon' : '')
             disabled=(!hasVideo ? true : undefined)
             data-video-slug=video.link
-            data-video-url=(hasVideo ? `${videoBase}/${video.videoUrl}` : '')
+            data-video-url=(hasVideo ? (/^https?:/.test(video.videoUrl) ? video.videoUrl : `${videoMediaBase}/${video.videoUrl}`) : '')
             data-video-title=video.title
             aria-label=(hasVideo ? `Play ${video.title} video` : `${video.title} — coming soon`)
           )

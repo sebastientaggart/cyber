@@ -1,27 +1,60 @@
 {
   "guides": [
-    { "title": "Folleto sobre Knowledge on Demand", "url": "405d-knowledge-on-demand-flyer-es-US.pdf" },
-    { "title": "Tarjeta postal HICP", "url": "405d-hicp-postcard-es-US.pdf" },
-    { "title": "Folleto HICP", "url": "405d-hicp-flyer-es-US.pdf" }
+    {
+      "title": "Folleto sobre Knowledge on Demand",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-knowledge-on-demand-flyer-es-US.pdf"
+    },
+    {
+      "title": "Tarjeta postal HICP",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-hicp-postcard-es-US.pdf"
+    },
+    {
+      "title": "Folleto HICP",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-hicp-flyer-es-US.pdf"
+    }
   ],
   "posters": [
-    { "title": "Carteles sobre proveedores médicos", "url": "405d-medical-practitioners-posters-es-US.pdf" },
-    { "title": "Carteles sobre profesionales de TI", "url": "405d-it-practitioners-posters-es-US.pdf" },
-    { "title": "Carteles sobre hábitos saludables", "url": "405d-healthy-habits-posters-es-US.pdf" },
-    { "title": "Cartel sobre zona de seguridad cibernética", "url": "405d-cyber-safety-zone-poster-es-US.pdf" },
-    { "title": "Escalamiento de amenazas en la atención médica", "url": "405d-castle-threat-poster-es-US.pdf" }
+    {
+      "title": "Carteles sobre proveedores médicos",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-medical-practitioners-posters-es-US.pdf"
+    },
+    {
+      "title": "Carteles sobre profesionales de TI",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-it-practitioners-posters-es-US.pdf"
+    },
+    {
+      "title": "Carteles sobre hábitos saludables",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-healthy-habits-posters-es-US.pdf"
+    },
+    {
+      "title": "Cartel sobre zona de seguridad cibernética",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-cyber-safety-zone-poster-es-US.pdf"
+    },
+    {
+      "title": "Escalamiento de amenazas en la atención médica",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-castle-threat-poster-es-US.pdf"
+    }
   ],
   "jobAid": [
-    { "title": "Recurso sobre la ingeniería social", "url": "405d-social-engineering-job-aid-es-US.pdf" },
-    { "title": "Recurso sobre ransomware", "url": "405d-ransomware-job-aid-es-US.pdf" },
+    {
+      "title": "Recurso sobre la ingeniería social",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-social-engineering-job-aid-es-US.pdf"
+    },
+    {
+      "title": "Recurso sobre ransomware",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-ransomware-job-aid-es-US.pdf"
+    },
     {
       "title": "Recurso sobre la prevención de pérdida o robo de equipo",
-      "url": "405d-equipment-theft-job-aid-es-US.pdf"
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-equipment-theft-job-aid-es-US.pdf"
     },
     {
       "title": "Recurso sobre pérdida de datos por amenaza interna, accidental, o maliciosa",
-      "url": "405d-data-loss-job-aid-es-US.pdf"
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-data-loss-job-aid-es-US.pdf"
     },
-    { "title": "Recurso sobre dispositivos médicos", "url": "405d-attack-job-aid-es-US.pdf" }
+    {
+      "title": "Recurso sobre dispositivos médicos",
+      "url": "https://hhscyber.hhs.gov/Documents/Spanish/HHS-attack-job-aid-es-US.pdf"
+    }
   ]
 }

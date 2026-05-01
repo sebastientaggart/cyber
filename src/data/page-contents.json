@@ -3,26 +3,33 @@
     "whatWeDo": "Through the HHS Cyber Gateway, you will have access to the latest information, dedicated HPH cybersecurity resources and tools to bolster your organization's cybersecurity defenses. Whether you are a small clinic or a large healthcare system, we are committed to supporting you in your efforts to safeguard patient data and ensure the integrity and availability of critical healthcare services",
     "whoWeAre": "The increasing sophistication of cyber threats demands a united front from the HPH sector. As the Sector Risk Management Agency, we have launched The HHS Cyber Gateway in direct response to this imperative, providing a curated selection of resources tailored to meet the unique cybersecurity needs of healthcare organizations. By leveraging the collective expertise of federal agencies and collaborating with industry stakeholders, we believe this website will help empower HPH Sector members navigate the evolving threat landscape effectively.",
     "howCanWeHelpYou": "The HHS Cyber Gateway cornerstone publications provide your organizations with proven best practices to implement and use to mitigate the most prevalent and emerging cyber threats of today. We provide FREE cyber hygiene resources to educate small to large organizations on how to stay cyber aware and increase their cyber preparedness. Our vetted publications and supporting resources have one goal in mind, to keep patient safety a top priority - remember: “Cyber Safety is Patient Safety”! ",
-
     "engageWithUs": "HHS is continuously growing! In addition to products like HICP, HHS releases content through a variety of channels that offer best practices and tips for organizations small to large to implement to protect patients and organizations. Follow our newsletter and social channels to stay up to date on latest news and events."
   },
-
   "cornerstone": {
     "descr": "HHS develops consensus-based best practices and methodologies to strengthen the Healthcare & Public Health (HPH) sector’s cybersecurity posture against cyber threats. Through partnerships between government and industry, HHS has released TWO vetted landmark publications for the sector to utilize in their cybersecurity defense. HHS and the Task Group actively continue to develop new products to help further strengthen our sector.",
     "hicp": "Health Industry Cybersecurity Practices: Managing Threats and Protecting Patients (HICP 2023 Edition) outlines the top threats facing the HPH Sector. Developed with every stakeholder in mind, organizations ranging in size from small to large can benefit from the resources and best practices provided in the main document and additional two technical volumes. HICP aims to provide organizations with recommendations and best practices to prepare and fight against cybersecurity threats that can impact patient safety.",
     "occi": "The Operational Continuity-Cyber Incident (OCCI) checklist serves as an action plan designed to assist operational staff and executive management in effectively responding to and recovering from an extended enterprise outage caused by a severe cyber-attack. This checklist, an integral component of your broader Incident Response Plan (IRP), is specifically tailored to address the critical first 12 hours following a cyber event.",
     "landscape": "The Hospital Resiliency Landscape Analysis conducted a deeper investigative study into both methods that cyber adversaries are using to compromise US hospitals, disrupt operations and extort them for financial gain. It then benchmarked these results to specific practices in the Health Industry Cybersecurity Practices (HICP) in order to outline the most meaningful protections for these specific threats.",
-
     "carouselItems": [
-      { "code": "hicp", "title": "Health Industry Cybersecurity Practices", "description": "" },
-      { "code": "occi", "title": "Operational Continuity - Cyber Incident", "description": "" },
-      { "code": "landscape", "title": "Hospital Cyber Resiliency Initiative", "description": "" }
+      {
+        "code": "hicp",
+        "title": "Health Industry Cybersecurity Practices",
+        "description": ""
+      },
+      {
+        "code": "occi",
+        "title": "Operational Continuity - Cyber Incident",
+        "description": ""
+      },
+      {
+        "code": "landscape",
+        "title": "Hospital Cyber Resiliency Initiative",
+        "description": ""
+      }
     ]
   },
-
   "kod": {
     "descr": "Knowledge on Demand is our free cybersecurity education platform. It includes multiple levels of delivery methodologies designed to reach the varied size health care facilities across the country. Our platform includes cybersecurity awareness trainings that align with the top 5 cybersecurity threats outlined in the landmark Health Industry Cybersecurity Practices publication.",
-
     "carouselItems": [
       {
         "title": "Five Threats",
@@ -60,7 +67,6 @@
         "comingSoon": true
       }
     ],
-
     "fiveThreats": {
       "descr": "Knowledge on Demand (KOD) is a cybersecurity education platform that includes multiple delivery methodologies to reach the varied size health care facilities across the country. Five cybersecurity trainings that align with the top five cybersecurity threats outlined in HICP are featured for training your healthcare staff, security team, and any other department that is on the front lines for protecting patient safety. The best part about this resource? It’s FREE!",
       "jobAid": "These are single documents with key tips related to the topic. This format is meant to be used as an “on-the-job” resource tool. They can provide instructional steps if necessary to meet the training objectives.",
@@ -68,56 +74,54 @@
       "powerPoint": "These can be leveraged for in person or on-site presentations. These will include facilitator notes with slide specific content and knowledge checks to reinforce learning. Such presentations can be delivered in presentation mode or in a “Lunch n Learn” format at your location.",
       "lms": "Content intended for a Learning Management System (LMS) will be similar in look and experience to the previously discussed Interactive Training video. Content will be exported and saved to a file type compatible for import to an organization’s LMS platform."
     },
-
     "quickShots": {
       "descr": [
         "The Quick Shot video series are two to three minutes in length and share key cybersecurity terminology that impacts the Healthcare and Public Health  sector in a fun and engaging manner. These videos empower all HPH stakeholders to identify, protect against, and prevent cybersecurity threats. This series currently aligns to Health Industry Cybersecurity Practices and will expand to align with the other HHS Cornerstone publications.",
         "**Remember, a Quick Shot a day keeps the cybercriminal away!"
       ],
-
       "videos": [
         {
           "link": "typhoon",
           "title": "Typhoon",
           "imageID": "QS-TYPHOON",
-          "videoUrl": "405d-qs-typhoon.mp4",
+          "videoUrl": "HHS-qs-typhoon.mp4",
           "overlay": "New"
         },
         {
           "link": "botnet",
           "title": "Botnet",
           "imageID": "QS-BOT",
-          "videoUrl": "405d-qs-botnet.mp4"
+          "videoUrl": "HHS-qs-botnet.mp4"
         },
         {
           "link": "access-management",
           "title": "Access Management",
           "imageID": "QS-AXM",
-          "videoUrl": "405d-qs-access-management.mp4"
+          "videoUrl": "HHS-qs-access-management.mp4"
         },
         {
           "link": "encryption",
           "title": "Encryption",
           "imageID": "QS-ENC",
-          "videoUrl": "405d-qs-encryption.mp4"
+          "videoUrl": "HHS-qs-encryption.mp4"
         },
         {
           "link": "malware",
           "title": "Malware",
           "imageID": "QS-MLW",
-          "videoUrl": "405d-qs-malware.mp4"
+          "videoUrl": "HHS-qs-malware.mp4"
         },
         {
           "link": "vpn",
           "title": "Virtual Private Network",
           "imageID": "QS-VPN",
-          "videoUrl": "405d-qs-vpn.mp4"
+          "videoUrl": "HHS-qs-vpn.mp4"
         },
         {
           "link": "patching",
           "title": "Patching",
           "imageID": "QS-PCH",
-          "videoUrlZ": "405d-qs-patching.mp4",
+          "videoUrlZ": "HHS-qs-patching.mp4",
           "overlay": "Coming Soon"
         }
       ]
@@ -131,59 +135,74 @@
         {
           "title": "Email Protection Systems",
           "imageID": "CPR-01",
-          "videoUrl": "405d-cpr-email-protection-systems.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-email-protection-systems.mp4"
         },
         {
           "title": "Endpoint Protection Systems",
           "imageID": "CPR-02",
-          "videoUrl": "405d-cpr-endpoint-protection-systems.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-endpoint-protection-systems.mp4"
         },
         {
           "title": "Identity & Access Management",
           "imageID": "CPR-03",
-          "videoUrl": "405d-cpr-identity-access-management.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-identity-access-management.mp4"
         },
         {
           "title": "Data Protection & Loss Prevention",
           "imageID": "CPR-04",
-          "videoUrl": "405d-cpr-data-protection.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-data-protection.mp4"
         },
-        { "title": "IT Asset Management", "imageID": "CPR-05", "videoUrl": "405d-cpr-it-asset-management.mp4" },
-        { "title": "Network Management", "imageID": "CPR-06", "videoUrl": "405d-cpr-network-management.mp4" },
+        {
+          "title": "IT Asset Management",
+          "imageID": "CPR-05",
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-it-asset-management.mp4"
+        },
+        {
+          "title": "Network Management",
+          "imageID": "CPR-06",
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-network-management.mp4"
+        },
         {
           "title": "Vulnerability Management",
           "imageID": "CPR-07",
-          "videoUrl": "405d-cpr-vulnerability-management.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-vulnerability-management.mp4"
         },
         {
           "title": "Security Operations Center & Incident Response",
           "imageID": "CPR-08",
-          "videoUrl": "405d-cpr-security-operations-center.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-security-operations-center.mp4"
         },
         {
           "title": "Network Connected Medical Devices Security",
           "imageID": "CPR-09",
-          "videoUrl": "405d-cpr-connected-device-security.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-connected-device-security.mp4"
         },
         {
           "title": "Cybersecurity Oversight & Governance",
           "imageID": "CPR-10",
-          "videoUrl": "405d-cpr-oversight-governance.mp4"
+          "videoUrl": "https://405d.hhs.gov/video/405d-cpr-oversight-governance.mp4"
         }
       ]
     },
     "prescribedForYou": {
       "descr": "Prescribed for You will be role-based awareness trainings that focus on individual roles in the healthcare sector. These one-to-two hour interactive sessions will dive deeper into cybersecurity topics and how they relate to specific roles, which will highlight direct mitigation techniques and best practices.",
       "videos": [
-        { "title": "Access Management", "imageID": "QS-AXM", "videoUrl": "405d-social-engineering-threat.mp4" },
-        { "title": "Ransomware", "imageID": "KOD-RNS", "videoUrl": "405d-ransomware-threat.mp4" }
+        {
+          "title": "Access Management",
+          "imageID": "QS-AXM",
+          "videoUrl": "https://hhscyber.hhs.gov/threats/HHS-social-engineering-threat.mp4"
+        },
+        {
+          "title": "Ransomware",
+          "imageID": "KOD-RNS",
+          "videoUrl": "https://hhscyber.hhs.gov/threats/HHS-ransomware-threat.mp4"
+        }
       ]
     },
     "aed": {
       "descr": "The AED series will feature online instructor-led courses that span over the course of several weeks, length will depend on the complexity of the topic. These courses will be led by industry and federal leaders, and will provide our community an opportunity to stay at the forefront of cybersecurity education and knowledge. Two programs will be o¬ffered per year and will include topics such as a Cyber Leadership and Zero Trust Strategies."
     }
   },
-
   "post": {
     "descr": "Our bi-monthly newsletter strives to educate our stakeholders on new and emerging cybersecurity threats and technologies by highlighting the use of the HICP publication, how our Task Group members have used it in practical situations, and share news of upcoming cybersecurity and U.S. Department of Health and Human Services events."
   },
@@ -191,7 +210,6 @@
     "descr": "Our cybersecurity resources are free and can be used by organizations sized small to large. Search below to find the latest best practices, cyber hygiene resources, and more! Search and use the bank of resources HHS has to offer to find information and materials in one place!",
     "archiveDescr": "Find older HHS publications, hygiene tips, and resources to protect patients from cybersecurity threats in our archived resources that don’t contain the latest and updated content."
   },
-
   "landscapeAnalysis": {
     "top": "The HPH Sector has faced dramatic increases in cyber-attacks intended to cause disruption to the care continuum. In response to this growing threat, HHS in partnership with the Health Sector Coordinating Council Cybersecurity Working Group (HSCC CWG), and the HHS’ Centers for Medicare & Medicaid Services (CMS) conducted Landscape Analysis, which reviewed active threats attacking hospitals and the cybersecurity capabilities of hospitals operating in the United States.",
     "studyObjectives": {
@@ -204,14 +222,12 @@
         "To share the analysis and findings with the HSCC CWG for consideration as one of several inputs for informing prioritized cybersecurity practices for U.S. hospitals, as well as other considerations the U.S. government might undertake to improve U.S. hospitals’ cybersecurity resiliency"
       ]
     },
-
     "threatsIdentified": {
       "contents": "The Landscape Analysis included a review of active threats attacking hospitals and the cybersecurity capabilities of U.S. hospitals. Included within the Landscape Analysis are the results of investigations into:",
       "threats": [
         "The tactics and techniques that threat actors use to compromise hospitals",
         "The current state of participating hospital cybersecurity resiliency (using the Health Industry Cybersecurity Practices (HICP) as a framework)."
       ],
-
       "threatAnalysis": {
         "descr": "The assessment, based on the data sources used, identified numerous cybersecurity threats to U.S. hospitals such as:",
         "threats": [
@@ -228,7 +244,6 @@
         "Time to move off initial intrusion point is 1 hour 28 minutes (this is the lateral movement off the originally compromised host to another state to obfuscate)"
       ]
     },
-
     "keyObservations": {
       "descr": "The analysis from the two (2) quantitative studies combined with participating hospital conversations resulted in a series of 10 key observations:",
       "observations": [
@@ -302,9 +317,13 @@
         ]
       }
     ],
-
     "practiceAdoption": [
-      { "title": "No Action Required - Significant Progress Made", "list": ["E-mail protection systems"] },
+      {
+        "title": "No Action Required - Significant Progress Made",
+        "list": [
+          "E-mail protection systems"
+        ]
+      },
       {
         "title": "Urgent Improvement Needed",
         "list": [
@@ -323,10 +342,14 @@
           "Cybersecurity Oversight and Governance"
         ]
       },
-      { "title": "Further Attention Required (Not Urgent)", "list": ["Data Protection and Loss Prevention"] }
+      {
+        "title": "Further Attention Required (Not Urgent)",
+        "list": [
+          "Data Protection and Loss Prevention"
+        ]
+      }
     ]
   },
-
   "spanish": {
     "descr": "HHS ha dado el paso inicial específico para llegar a los usuarios finales en el Sector HPH que usan el español como lengua materna o se sienten más cómodos usando el español que el inglés. Los recursos específicos del programa se han traducido al español para comunicar la ciberhigiene en un entorno médico.",
     "items": [
@@ -356,7 +379,6 @@
       }
     ]
   },
-
   "OcciChecklist": {
     "top": "The intent of this OCCI Checklist is to provide organizations of all sizes with key actionable and vetted steps that can be put into place at the first sign of a large-scale cybersecurity incident. Whether you are a small organization or a larger integrated organization, the OCCI Checklist is organized from a role-based perspective. Each role aligns to tasks which an assigned staff member would be responsible for implementing in real time, within an HPH setting. In smaller health organizations, these critical roles may often be assigned as secondary functions, and the OCCI checklist is strategically designed to offer them comprehensive guidance on high-level responsibilities and actionable steps, should they find themselves assuming these roles during a cyber incident.",
     "roles": [
@@ -411,7 +433,6 @@
         "descr": "Provide technical response, continuity, and recovery recommendations; partner with cybersecurity to inform cyber incident response decisions and activities. Coordinates intelligence and investigation efforts.f"
       }
     ],
-
     "usingChecklist": [
       "This document is meant to recommend or inform action from the Command team for the first twelve hours of the cyber incident.",
       "The document was developed in alignment with the Hospital / Healthcare Incident Command System (HICS) and includes recommended actions",
@@ -441,11 +462,9 @@
       "in which opportunities and action items are identified to facilitate ongoing",
       "maturity and improvement of response processes and this plan."
     ],
-
     "howToUse": "The purpose of this document is to serve as a resource guide and support Incident Command Activation and response actions in the case of a Cybersecurity Incident resulting in an extended downtime event. Incident Command Activation, IRP for a cyber incident, refers to the process of formally initiating and organizing the response efforts when a cybersecurity incident occurs. This document is meant to recommend or inform action from the Command team for the first twelve hours of the cyber incident.",
     "tearaway": "This publication contains a “Tearaways” Section which aims to give the designated stakeholders quick and easy access to the vital information laid out in this publication. We have carefully delineated each role along with their corresponding actions and created a tearaway page for them to use during these cyber events. These pages are meant to be taken out of the larger publication for easy access during an event for Incident Command positions."
   },
-
   "information": {
     "howCanWeHelpYou": "HHS aims to develop consensus-based best practices and methodologies to strengthen the healthcare & public health (HPH) sector's cybersecurity posture against cyber threats. After significant analysis of the current cybersecurity issues facing the healthcare industry, the HHS Task Group developed Health Industry Cybersecurity Practice: Managing Threat and Protecting Patients, its first official Task Group product. HHS and the Task Group actively continue to develop new products to help further strengthen our sector.",
     "role-it": {
@@ -454,7 +473,7 @@
       "links": [
         {
           "title": "IT professionals Fact Sheet",
-          "doc": "IT-Professionals-Leave-Behind-Updated-R.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/IT-Professionals-Leave-Behind-Updated-R.pdf"
         }
       ]
     },
@@ -464,23 +483,23 @@
       "links": [
         {
           "title": "Practitioners Fact Sheet",
-          "doc": "Practitioners-Leave-Behind-Updated-R.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Practitioners-Leave-Behind-Updated-R.pdf"
         },
         {
           "title": "Staying Cyber Safe in the HPH Sector",
-          "doc": "405d-Infographic-StayingCyberSafeInHPH.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-Infographic-StayingCyberSafeInHPH.pdf"
         },
         {
           "title": "Have You Heard - Protecting Medical Devices",
-          "doc": "405d-have-you-heard-medical-devices.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-have-you-heard-medical-devices.pdf"
         },
         {
           "title": "Have You Heard - Protecting EHRs",
-          "doc": "405d-HaveYouHeard-EHR.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-HaveYouHeard-EHR.pdf"
         },
         {
           "title": "Prepare, React, Recover - Ransomware",
-          "doc": "405d-PrepareReactRecover-Ransomware.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-PrepareReactRecover-Ransomware.pdf"
         }
       ]
     },
@@ -490,7 +509,7 @@
       "links": [
         {
           "title": "Administration Specific",
-          "doc": "IT-Professionals-Leave-Behind-Updated-R.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/IT-Professionals-Leave-Behind-Updated-R.pdf"
         }
       ]
     },
@@ -500,30 +519,25 @@
       "links": [
         {
           "title": "HICP Tech Volume 1",
-          "doc": "tech-vol1-508.pdf"
-        },
-        {
-          "title": "Quick Start Guide",
-          "docZZZOLD": "405d-Quick-Start-Guides-for-Small-Practices-Official-Document-R.pdf",
-          "docZZZ": "405d-quick-start-guide-for-small-practices.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol1-508.pdf"
         },
         {
           "title": "Small Practices Executive Card",
-          "doc": "Exec-Card-Small-R.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Exec-Card-Small-R.pdf"
         }
       ],
       "guides": [
         {
           "title": "Patching",
-          "doc": "405d-howto-patching-small.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-small.pdf"
         },
         {
           "title": "Data Security",
-          "doc": "405d-howto-datasecurity-small.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-small.pdf"
         },
         {
           "title": "Cyber Workforce Development",
-          "doc": "405d-howto-cyberworkforcetraining-small.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-small.pdf"
         }
       ]
     },
@@ -533,30 +547,25 @@
       "links": [
         {
           "title": "HICP Tech Volume 2",
-          "doc": "tech-vol2-508.pdf"
-        },
-        {
-          "title": "Quick Start Guide",
-          "docZZZOLD": "405d-Quick-Start-Guides-for-Medium-to-Large-Organizations-Official-Document-R.pdf",
-          "docZZZ": "405d-quick-start-guide-for-medium-to-large-practices.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf"
         },
         {
           "title": "Medium Practices Executive Card",
-          "doc": "Exec-Card-Large-R.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Exec-Card-Large-R.pdf"
         }
       ],
       "guides": [
         {
           "title": "Patching",
-          "doc": "405d-howto-patching-medium.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-medium.pdf"
         },
         {
           "title": "Data Security",
-          "doc": "405d-howto-datasecurity-medium.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-medium.pdf"
         },
         {
           "title": "Cyber Workforce Development",
-          "doc": "405d-howto-cyberworkforcetraining-medium.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-medium.pdf"
         }
       ]
     },
@@ -566,30 +575,25 @@
       "links": [
         {
           "title": "HICP Tech Volume 2",
-          "doc": "tech-vol2-508.pdf"
-        },
-        {
-          "title": "Quick Start Guide",
-          "docZZZOLD": "405d-Quick-Start-Guides-for-Medium-to-Large-Organizations-Official-Document-R.pdf",
-          "docZZZ": "405d-quick-start-guide-for-medium-to-large-practices.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf"
         },
         {
           "title": "Large Practices Executive Card",
-          "doc": "Exec-Card-Large-R.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Exec-Card-Large-R.pdf"
         }
       ],
       "guides": [
         {
           "title": "Patching",
-          "doc": "405d-howto-patching-large.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-large.pdf"
         },
         {
           "title": "Data Security",
-          "doc": "405d-howto-datasecurity-large.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-large.pdf"
         },
         {
           "title": "Cyber Workforce Development",
-          "doc": "405d-howto-cyberworkforcetraining-large.pdf"
+          "doc": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-large.pdf"
         }
       ]
     },

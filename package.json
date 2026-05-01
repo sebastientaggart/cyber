@@ -14,9 +14,14 @@
   "scripts": {
     "clean": "rm -rf dist .parcel-cache",
     "start": "parcel --dist-dir dev-dist",
+    "copy-static": "node scripts/copy-public-assets.mjs dev-dist",
     "prebuild": "node scripts/build-search-index.mjs",
-    "build": "rm -rf dist .parcel-cache && parcel build --no-source-maps",
-    "fetch-content": "node scripts/fetch-content.mjs"
+    "build": "rm -rf dist .parcel-cache && parcel build --no-source-maps && node scripts/copy-public-assets.mjs dist",
+    "fetch-content": "node scripts/fetch-content.mjs",
+    "transcode-video": "node scripts/transcode-web-mp4.mjs",
+    "optimize-pdf": "node scripts/optimize-web-pdf.mjs",
+    "optimize-pdf-documents": "node scripts/optimize-web-pdf.mjs --dir src/Documents --quiet",
+    "verify-document-pdfs": "node scripts/verify-document-pdfs.mjs"
   },
   "license": "ISC",
   "devDependencies": {

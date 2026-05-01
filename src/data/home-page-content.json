@@ -12,27 +12,27 @@
       "descr": "Vetted cybersecurity best practices publications created by industry and government partnerships to strengthen the sector.",
       "icon": "publication",
       "links": [
-        { "title": "HICP Main Document", "url": "https://405d.hhs.gov/Documents/HICP-Main-508.pdf" },
-        { "title": "Whats New In HICP 2023", "url": "https://405d.hhs.gov/Documents/405d-hicp-highlight_R.pdf" },
+        { "title": "HICP Main Document", "url": "https://hhscyber.hhs.gov/Documents/HICP/HICP-Main-508.pdf" },
+        { "title": "Whats New In HICP 2023", "url": "https://hhscyber.hhs.gov/Documents/HICP/HHS-hicp-highlight_R.pdf" },
         {
           "title": "Hospital Resiliency Landscape Analysis",
-          "url": "https://405d.hhs.gov/Documents/405d-hospital-resiliency-analysis.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/HICP/HHS-hospital-resiliency-analysis.pdf",
           "size": "double"
         },
-        { "title": "HICP Technical Vol. 1", "url": "https://405d.hhs.gov/Documents/tech-vol1-508.pdf" },
+        { "title": "HICP Technical Vol. 1", "url": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol1-508.pdf" },
         {
           "title": "OCCI Checklist",
-          "url": "https://405d.hhs.gov/Documents/405d-occi-checklist-2024.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/HICP/HHS-occi-checklist-2024.pdf"
         },
         {
           "title": "HHS Post (April 2024)",
-          "url": "https://405d.hhs.gov/Documents/405d-post-volxxiii-april-2024.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxiii-april-2024.pdf"
         },
         {
           "title": "HHS Post XXV (July 2024)",
-          "url": "https://405d.hhs.gov/Documents/405d-post-volxxv-july-2024.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posts/HHS-post-volxxv-july-2024.pdf"
         },
-        { "title": "HICP Technical Vol. 2", "url": "https://405d.hhs.gov/Documents/tech-vol2-508.pdf", "size": "full" }
+        { "title": "HICP Technical Vol. 2", "url": "https://hhscyber.hhs.gov/Documents/HICP/tech-vol2-508.pdf", "size": "full" }
       ]
     },
     {
@@ -43,7 +43,7 @@
         { "title": "Knowledge on Demand", "url": "knowledgeondemand", "internal": true },
         {
           "title": "KOD Overview",
-          "url": "https://405d.hhs.gov/Documents/405d-kod-highlights_R.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-kod-highlights_R.pdf"
         },
         {
           "title": "Quick Shots: VPN",
@@ -77,20 +77,20 @@
         { "title": "Five Threats", "url": "/kod/five-threats", "internal": true },
         {
           "title": "Social Engineering Threat Training",
-          "url": "https://405d.hhs.gov/kod/social-engineering/story.html"
+          "url": "kod-social-engineering.pug"
         },
-        { "title": "Ransomware Threat Training", "url": "https://405d.hhs.gov/kod/ransomware/story.html" },
+        { "title": "Ransomware Threat Training", "url": "kod-ransomware.pug" },
         {
           "title": "Loss or Theft of Equipment or Data Threat Training",
-          "url": "https://405d.hhs.gov/kod/equipment-theft/story.html"
+          "url": "kod-equipment-theft.pug"
         },
         {
           "title": "Insider, Accidental or Malicious Data Loss Threat Training",
-          "url": "https://405d.hhs.gov/kod/data-loss/story.html"
+          "url": "kod-data-loss.pug"
         },
         {
           "title": "Attacks Against Network Connected Medical Devices Threat Training",
-          "url": "https://405d.hhs.gov/kod/attack/story.html",
+          "url": "kod-attack.pug",
           "sizex": "double"
         }
       ]
@@ -100,15 +100,15 @@
       "descr": "Cyber hygiene resources for the Healthcare Practitioner role to use or disseminate among staff.",
       "icon": "practitioner",
       "links": [
-        { "title": "Have You Heard - EHR", "url": "https://405d.hhs.gov/Documents/405d-HaveYouHeard-EHR.pdf" },
-        { "title": "Check your Cyber Pulse", "url": "https://405d.hhs.gov/Documents/405d-pulse-check-2023-all_R.pdf" },
+        { "title": "Have You Heard - EHR", "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-HaveYouHeard-EHR.pdf" },
+        { "title": "Check your Cyber Pulse", "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-pulse-check-2023-all_R.pdf" },
         {
           "title": "Have You Heard - Medical Devices",
-          "url": "https://405d.hhs.gov/Documents/405d-have-you-heard-medical-devices.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-have-you-heard-medical-devices.pdf"
         },
         {
           "title": "Medical Practitioners Cyber Hygiene Poster",
-          "url": "https://405d.hhs.gov/Documents/405d-medical-practitioner-cyber-hygiene-2.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-medical-practitioner-cyber-hygiene-2.pdf"
         }
       ]
     },
@@ -119,63 +119,63 @@
       "links": [
         {
           "title": " Secure Your Inbox, Protect Your Patients",
-          "url": "https://405d.hhs.gov/Documents/405d-email-protection-2024.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-email-protection.pdf",
           "size": "double",
           "hilightTill": "2024-11-07"
         },
         {
           "title": "Security Operation Center and Incident Response",
-          "url": "https://405d.hhs.gov/Documents/405d-security-operation-center-and-incident-response-2024_R.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-security-operation-center-and-incident-response-2024_R.pdf",
           "size": "double",
           "hilightTill": "2024-10-31"
         },
         {
           "title": "Identity and Access Management",
-          "url": "https://405d.hhs.gov/Documents/405d-identity-access-management-poster-2024_R.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-identity-access-management-poster-2024_R.pdf",
           "size": "double"
         },
         {
           "title": "Protect Your Endpoints",
-          "url": "https://405d.hhs.gov/Documents/405d-endpoint-protection-poster-2024_R.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-endpoint-protection-poster-2024_R.pdf"
         },
         {
           "title": "Cyber Hygiene Poster",
-          "url": "https://405d.hhs.gov/Documents/405d-cyber-hygiene-poster-2024_R.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cyber-hygiene-poster-2024_R.pdf",
           "hilightTill": "2024-10-10"
         },
         {
           "title": "Ransomware Infection Poster",
-          "url": "https://405d.hhs.gov/Documents/405d-infection-series-ransomware-poster.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-infection-series-ransomware-poster.pdf",
           "size": "double",
           "hilightTill": "2024-06-21"
         },
         {
           "title": "How to Implement Data Classification",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-data-classification-poster.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-data-classification-poster.pdf",
           "size": "double",
           "hilightTill": "2024-05-30"
         },
         {
           "title": "Healthcare Threat Identification Poster!",
-          "url": "https://405d.hhs.gov/Documents/405d-castle-threat-poster.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-castle-threat-poster.pdf",
           "size": "double"
         },
         {
           "title": "2023 Cybersecurity Awareness Month Key Behaviors",
-          "url": "https://405d.hhs.gov/Documents/405d-cam2023-key-behaviors-posters.pdf",
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cam2023-key-behaviors-posters.pdf",
           "size": "double"
         },
-        { "title": "Healthy Cyber Habits", "url": "https://405d.hhs.gov/Documents/405d-healthy-cyber-habits.pdf" },
+        { "title": "Healthy Cyber Habits", "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-healthy-cyber-habits.pdf" },
         {
           "title": "Staying Cyber Safe",
-          "url": "https://405d.hhs.gov/Documents/405d-Infographic-StayingCyberSafeInHPH.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-Infographic-StayingCyberSafeInHPH.pdf"
         },
         {
           "title": "Cyber Safety Zone",
-          "url": "https://405d.hhs.gov/Documents/405d-cyber-security-zone-poster-2023.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-cyber-security-zone-poster-2023.pdf"
         },
-        { "title": "Cybersecurity Checkup", "url": "https://405d.hhs.gov/Documents/Cybersecurity-Check-Up-R.pdf" },
-        { "title": "Teleworking Tips", "url": "https://405d.hhs.gov/Documents/Teleworking-Tips-R.pdf" }
+        { "title": "Cybersecurity Checkup", "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Cybersecurity-Check-Up-R.pdf" },
+        { "title": "Teleworking Tips", "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/Teleworking-Tips-R.pdf" }
       ]
     },
     {
@@ -185,36 +185,36 @@
       "links": [
         {
           "title": "Cyber Hygiene Poster",
-          "url": "https://405d.hhs.gov/Documents/405d-medical-practitioner-cyber-hygiene.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-medical-practitioner-cyber-hygiene.pdf"
         },
-        { "title": "Check your Cyber Pulse", "url": "https://405d.hhs.gov/Documents/405d-pulse-check-2023-all_R.pdf" },
+        { "title": "Check your Cyber Pulse", "url": "https://hhscyber.hhs.gov/Documents/Posters_and_awareness/HHS-pulse-check-2023-all_R.pdf" },
         {
           "title": "How to Implement Data Security (Small Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-small.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-small.pdf"
         },
         {
           "title": "How to Implement Data Security (Medium Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-medium.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-medium.pdf"
         },
         {
           "title": "How to Implement Data Security (Large Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-datasecurity-large.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-datasecurity-large.pdf"
         },
         {
           "title": "How to Implement Patching (Small Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-patching-small.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-patching-small.pdf"
         },
         {
           "title": "How to: Cyber Workforce Development (for Small Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-cyberworkforcetraining-small.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyberworkforcetraining-small.pdf"
         },
         {
           "title": "How to Implement Cyber Insurance (for Medium-Large Healthcare Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-small.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyber-insurance-small.pdf"
         },
         {
           "title": "How to Implement Cyber Insurance (for Small Healthcare Organizations)",
-          "url": "https://405d.hhs.gov/Documents/405d-howto-cyber-insurance-small.pdf"
+          "url": "https://hhscyber.hhs.gov/Documents/How-to_Guides/HHS-howto-cyber-insurance-small.pdf"
         }
       ]
     }

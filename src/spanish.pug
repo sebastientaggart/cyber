@@ -30,7 +30,7 @@ block content
               each pdf in spanishResources[listKey]
                 li
                   a(
-                    href=`https://405d.hhs.gov/Documents/${pdf.url}`
+                    href=pdf.url
                     target="_blank"
                     rel="noopener"
                   )= pdf.title

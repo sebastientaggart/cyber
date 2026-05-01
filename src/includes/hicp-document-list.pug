@@ -1,12 +1,11 @@
-//- Shared 3-button HICP PDF download list. Used by HICP and Landscape Analysis pages.
-//- All PDFs hot-link from 405d.hhs.gov/Documents per the locked decision.
+//- HICP core PDFs (hosted under /Documents/HICP on this site).
 .hicp-document-list
-  a.hicp-document-list__button(href="https://405d.hhs.gov/Documents/HICP-Main-508.pdf" target="_blank" rel="noopener")
+  a.hicp-document-list__button(href=(documentsBase + '/HICP/HICP-Main-508.pdf') target="_blank" rel="noopener")
     span.material-icons(aria-hidden="true") description
-    | HICP Main
-  a.hicp-document-list__button(href="https://405d.hhs.gov/Documents/tech-vol1-508.pdf" target="_blank" rel="noopener")
+    | HICP Main Document
+  a.hicp-document-list__button(href=(documentsBase + '/HICP/tech-vol1-508.pdf') target="_blank" rel="noopener")
     span.material-icons(aria-hidden="true") description
-    | Technical Volume 1
-  a.hicp-document-list__button(href="https://405d.hhs.gov/Documents/tech-vol2-508.pdf" target="_blank" rel="noopener")
+    | HICP Technical Volume 1
+  a.hicp-document-list__button(href=(documentsBase + '/HICP/tech-vol2-508.pdf') target="_blank" rel="noopener")
     span.material-icons(aria-hidden="true") description
-    | Technical Volume 2
+    | HICP Technical Volume 2

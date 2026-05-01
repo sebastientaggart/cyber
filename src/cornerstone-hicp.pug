@@ -6,8 +6,6 @@ block variables
   - var pageDescription = 'Health Industry Cybersecurity Practices (HICP): managing threats and protecting patients in the HPH sector.'
 
 block content
-  - var docBase = 'https://405d.hhs.gov/Documents'
-  - var threatsBase = 'https://405d.hhs.gov/threats'
   - var threatKeys = ['social', 'ransomware', 'theft', 'dataloss', 'attack']
   - var kodLinkByThreatKey = { social: 'kod-social-engineering.pug', ransomware: 'kod-ransomware.pug', theft: 'kod-equipment-theft.pug', dataloss: 'kod-data-loss.pug', attack: 'kod-attack.pug' }
 
@@ -62,10 +60,10 @@ block content
 
             .hicp-threats__video
               video(controls preload="metadata" playsinline)
-                source(src=`${threatsBase}/${threat.video}` type="video/mp4")
+                source(src=`${threatsMediaBase}/${threat.video}` type="video/mp4")
                 | Your browser does not support the video tag.
               div
-                a.hicp-threats__transcript(href=`${threatsBase}/${threat.videoTranscript}` target="_blank" rel="noopener")
+                a.hicp-threats__transcript(href=`${threatsMediaBase}/${threat.videoTranscript}` target="_blank" rel="noopener")
                   span.material-icons(aria-hidden="true") description
                   | Read video transcript (PDF)
 
@@ -73,10 +71,10 @@ block content
               a.hicp-threats__button.hicp-threats__button--accent(href=kodLinkByThreatKey[key])
                 span.material-icons(aria-hidden="true") school
                 | Knowledge on Demand
-              a.hicp-threats__button(href=`${docBase}/${threat.flyer}` target="_blank" rel="noopener")
+              a.hicp-threats__button(href=threat.flyer target="_blank" rel="noopener")
                 span.material-icons(aria-hidden="true") description
                 | Threat Flyer (PDF)
-              a.hicp-threats__button(href=`${docBase}/${threat.poster}` target="_blank" rel="noopener")
+              a.hicp-threats__button(href=threat.poster target="_blank" rel="noopener")
                 span.material-icons(aria-hidden="true") image
                 | Awareness Poster (PDF)
 
@@ -103,9 +101,9 @@ block content
               h3.hicp-practices__panel-title= practice.title
               p= practice.descr
               .hicp-practices__panel-buttons
-                a.hicp-threats__button(href=`${docBase}/${practice.download}` target="_blank" rel="noopener")
+                a.hicp-threats__button(href=practice.download target="_blank" rel="noopener")
                   span.material-icons(aria-hidden="true") image
                   | Awareness Poster (PDF)
-                a.hicp-threats__button.hicp-threats__button--accent(href=`${docBase}/${practice.pulse}` target="_blank" rel="noopener")
+                a.hicp-threats__button.hicp-threats__button--accent(href=practice.pulse target="_blank" rel="noopener")
                   span.material-icons(aria-hidden="true") favorite
                   | Check Your Cyber Pulse (PDF)
