@@ -11,6 +11,8 @@ Static site for HHS Cyber Gateway, built with Parcel, Pug templates, SCSS, and c
 
 ## Getting Started
 
+Node 24 is required (see `.nvmrc`). On Windows, install via [nvm-windows](https://github.com/coreybutler/nvm-windows) or download from nodejs.org. pnpm only warns on engine mismatch — it will not block install on the wrong version.
+
 1. Install dependencies:
    - `pnpm install`
 2. Start local dev server:
